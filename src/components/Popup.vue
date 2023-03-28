@@ -76,7 +76,6 @@
 
 <script>
 import {
-  getContentConnection,
   loadAllFromExtStorageTo,
   saveToExtStorageFrom, sendToAllContentScripts,
   sendToCurrentContentScript,
@@ -100,7 +99,7 @@ export default {
   },
 
   mounted() {
-    getContentConnection();
+    // Load all saved settings from extension storage to store
     loadAllFromExtStorageTo(this.store);
   },
 

@@ -30,6 +30,6 @@
     "default_top": 100,
     "default_left": 100
   },
-  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "permissions": ["activeTab", "scripting", "tabs", "storage", "clipboardWrite"],
   "options_page": "options/options.html"
 }

@@ -85,26 +85,38 @@ export async function getDataFromQuery(path, ...queryConstraints) {
 }
 
 //----------------------------------------------------------------
+// Firebase Realtime Database Helpers
+//----------------------------------------------------------------
 
+// Get a random id for user or session
 export function getRandId(length = 15) {
     return [...Array(length)].map(() => Math.random().toString(36)[2]).join("");
 }
 
+// Add new session to firebase
 export async function addNewSession(session = {id: getRandId()}) {
     // store.currentChat = chat;
     return {data: setData(session, `sessions`, session.id), id: session.id};
 }
 
+// Update user position in session in firebase
 export async function updatePosition(position = {mouseX: 0, mouseY: 0}, sessionId, userId) {
     return setData(position, `sessions`, sessionId, "users", userId);
 }
 
+// Add user to session in firebase
 export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, userId, sessionId) {
     return setData(position, `sessions`, sessionId, "users", userId);
 }
 
+// Delete session from firebase
 export async function deleteSession(sessionId) {
     return setData({}, `sessions`, sessionId);
+}
+
+// Delete user from session in firebase
+export async function deleteSessionUser(sessionId, userId) {
+    return setData({}, `sessions`, sessionId, "users", userId);
 }
 
 export async function getSession(sessionId) {

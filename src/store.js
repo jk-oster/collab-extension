@@ -1,21 +1,26 @@
 import {reactive} from "vue";
 
+// Import webextension-polyfill to allow for cross-browser compatibility
+// Wraps the chrome browser-API in a promise-based API
 const browser = require("webextension-polyfill");
 
+/**
+ * Store for all data that needs to be shared across components & synced with extension storage
+ */
 export const store = reactive({
-    users: [],
-    sessionId: "",
-    userId: "",
-    name: "",
     created: "",
+    cursorSize: 20,
     mouseX: 0,
     mouseY: 0,
-    url: "",
+    name: "",
     positionType: 'page',
-    cursorSize: 20,
+    sessionId: "",
     showSelf: false,
     syncOn: true,
     updateInterval: 500,
+    url: "",
+    userId: "",
+    users: [],
 });
 
 //----------------------------------------------------------------
@@ -35,6 +40,7 @@ export async function loadAllFromExtStorageTo(store) {
     });
 }
 
+// Save all store values to extension storage to persist them across sessions, pages & devices
 export async function saveToExtStorageFrom(store) {
     browser.storage.sync.set({
         sessionId: store.sessionId,
@@ -48,38 +54,43 @@ export async function saveToExtStorageFrom(store) {
     });
 }
 
+// Save a single value to extension storage to persist it across sessions, pages & devices
 export function saveToExtStorage(name, value) {
     browser.storage.sync.set({
         [name]: value,
     });
 }
 
-export function saveToExtStorageAnd(store, name, value) {
+// Save a single value to extension storage and additional store object to persist it across sessions, pages & devices
+export function saveToExtStorageAnd(store = {}, name, value) {
     store[name] = value;
     saveToExtStorage(name, value);
+    return store;
 }
 
-export async function loadFromExtStorage(name) {
-    return browser.storage.sync.get(name).then((result) => {
-        return result[name];
+// Load a single value from extension storage
+export async function loadFromExtStorage(propName) {
+    return browser.storage.sync.get(propName).then((result) => {
+        return result[propName];
     });
 }
 
-export function initStorageListeners(store) {
+// Initialize extension storage listeners to save changes to store
+export function initStorageListeners(store = {}) {
     setStorageListeners([saveExtStorageChangesTo(store)], [saveExtStorageChangesTo(store)]);
 }
 
-export const saveExtStorageChangesTo = (store) => (changes) => {
+// Save all changes from extension storage event to store
+export const saveExtStorageChangesTo = (store = {}) => (changes) => {
     for (const key in changes) {
         store[key] = changes[key].newValue;
     }
 }
 
+// Set listeners for extension storage changes
 export function setStorageListeners(
-    syncFunctions = [(changes) => {
-    }],
-    localFunctions = [(changes) => {
-    }]
+    syncFunctions = [(changes) => {}],
+    localFunctions = [(changes) => {}]
 ) {
     browser.storage.onChanged.addListener((changes, areaName) => {
         if (areaName === "sync") {
@@ -96,74 +107,38 @@ export function setStorageListeners(
 
 //----------------------------------------------------------------
 // Extension Messaging Service
-// TODO: Refactor to use browser instead of chrome to make it work in Firefox
-// BUG: messages through "browser" object are not received in Content Scripts
 //----------------------------------------------------------------
 
-function connectToContent() {
-    // browser.tabs.query({ currentWindow: true, active: true
-    // }).then((tabs) => {
-    //     browser.tabs.sendMessage(tabs[0].id, {greeting: "Activate Tab"});
-    // });
-
-    chrome.tabs.query({ currentWindow: true, active: true}, (tabs) => {
-        chrome.tabs.sendMessage(tabs[0].id, {greeting: "Activate Tab"});
-    });
-}
-export function getContentConnection() {
-    // browser.tabs.onActivated.addListener(connectToContent);
-    chrome.tabs.onActivated.addListener(connectToContent);
-}
-
+// Send a message to the current content script
 export async function sendToCurrentContentScript(message) {
-    chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
-        console.log('sending to tabs though chrome', tabs);
+    browser.tabs.query({active: true, currentWindow: true}).then((tabs) => {
+        console.log('sending to tabs though browser', tabs);
         return browser.tabs.sendMessage(tabs[0].id, message);
     });
-
-    // browser.tabs.query({active: true, currentWindow: true}).then((tabs) => {
-    //     console.log('sending to tabs though browser', tabs);
-    //     return browser.tabs.sendMessage(tabs[0].id, message);
-    // });
 }
 
-export async function sendToRuntime(message, callback = (result) => {} ) {
-    console.log('sending to runtime from chrome & browser', message);
-    chrome.runtime.sendMessage(message, callback);
-    // return browser.runtime.sendMessage(message);
+// Send a message to the background service
+export async function sendToRuntime(message) {
+    console.log('sending to runtime from browser', message);
+    return browser.runtime.sendMessage(message);
 }
 
-export function sendToAllContentScripts(message, responseCallback = (result) => {
-}) {
-    chrome.tabs.query({}, (tabs) => {
+// Send a message to all content scripts
+export function sendToAllContentScripts(message, responseCallback = (result) => {}) {
+    browser.tabs.query({}).then((tabs) => {
         for (const tab of tabs) {
-            console.log('sending to tabs though chrome', tab);
-            chrome.tabs.sendMessage(tab.id, message, responseCallback);
+            console.log('sending to tabs though browser', tab);
+            browser.tabs.sendMessage(tab.id, message).then(responseCallback);
         }
     });
-
-    // browser.tabs.query({}).then((tabs) => {
-    //     for (const tab of tabs) {
-    //         console.log('sending to tabs though browser', tab);
-    //         browser.tabs.sendMessage(tab.id, message).then(responseCallback);
-    //     }
-    // });
 }
 
-export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender, sendResponse = function () {}) => {}) {
-    chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-        // console.log('received runtime message from chrome', message);
+// Add a listener for messages from the extension runtime
+export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender) => {}) {
+    browser.runtime.onMessage.addListener(async (message, sender) => {
         if ('action' in message && message['action'] === action) {
-            console.log('received runtime message from chrome', message);
-            callbackFn(message, sender, sendResponse);
+            console.log('received runtime message from browser', message);
+            callbackFn(message, sender);
         }
     });
-
-    // browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
-    //     if (action in message && message['action'] === action) {
-    //         console.log('received runtime message from browser', message);
-    //         callbackFn(message, sender, sendResponse);
-    //     }
-    // });
-
 }

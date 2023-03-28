@@ -17,7 +17,7 @@
   <div class="col-ex-fixed ">
     <template v-for="user in usersToDisplay">
       <button class="col-ex-btn" @click="scrollToUser(user)">
-        Scroll to "{{ user.name }}"
+        Scroll to {{ user.name }}
       </button>
     </template>
   </div>
@@ -52,6 +52,7 @@ export default {
 
   data() {
     return {
+      // ID of the interval that updates the position of the user
       interval: 0,
     }
   },
@@ -62,6 +63,7 @@ export default {
     // Load all data from extension storage to store (settings, userId, sessionId, name)
     await loadAllFromExtStorageTo(store);
 
+    // Initialize storage listeners to update store when settings are changed from options page or popup
     initStorageListeners(store);
 
     // If no userId is set, generate a new one and save it
@@ -77,41 +79,25 @@ export default {
       store.url = window.location.href;
     });
 
-    // Add listeners for extension messages
-    addExtensionMessageListener('restart-interval', (message) => {
-      console.log('restart-interval', message);
-      this.restartInterval()
-    });
-    addExtensionMessageListener('join-session', (message) => {
-      console.log('join-session', message);
-      this.joinSession()
-    });
-    addExtensionMessageListener('create-session', (message) => {
-      console.log('create-session', message);
-      this.createSession()
-    });
-    addExtensionMessageListener('leave-session', (message) => {
-      if (message) console.log('leave-session', message);
-      this.deleteCurrentSession(message)
-    });
+    // Add listeners for extension messages from popup, options or background
+    addExtensionMessageListener('restart-interval', this.restartInterval);
+    addExtensionMessageListener('join-session', this.joinSession);
+    addExtensionMessageListener('create-session', this.createSession);
+    addExtensionMessageListener('leave-session', this.deleteCurrentSession);
+    addExtensionMessageListener('set-name', this.setName);
     addExtensionMessageListener('copy-to-clipboard', (message) => {
       console.log('copy-to-clipboard', message);
       // Set focus on the document again through alert before copying to enable copy to clipboard
       alert('Session ID copied to clipboard!');
       this.copyToClipboard(store.sessionId)
     });
-    addExtensionMessageListener('set-name', (message) => {
-      console.log('set-name', message);
-      this.setName();
-    });
 
     // Synchronize position with firebase
     this.restartInterval();
 
-    // If user is in a session, join it
+    // If user is already in a session, join it again
     if (store.sessionId && store.userId && store.name) {
       this.startSession();
-
     }
   },
 
@@ -128,26 +114,34 @@ export default {
 
   methods: {
 
+    // Scroll window to center of the position of defined user
     scrollToUser(user) {
       console.log('scroll-to-user', user);
       window.scrollTo(user.mouseX, user.mouseY - (window.innerHeight / 2));
     },
 
+    // Copy text to clipboard
     copyToClipboard(text = '') {
       console.log('copy-to-clipboard', text);
       navigator.clipboard.writeText(text);
     },
 
-    restartInterval() {
-      clearInterval(this.interval);
+    // Set the coordinates of the user as style properties
+    getPositionStyle(user) {
+      return "top: " + user.mouseY + "px; left: " + user.mouseX + "px;";
+    },
 
+    // Start an interval updating the position of the user in the session
+    restartInterval() {
       console.log('restart-interval', store);
+
+      // Clear old interval if it exists
+      clearInterval(this.interval);
 
       let oldPosition = {
         mouseX: store.mouseX,
         mouseY: store.mouseY,
       };
-
       // Check if position has changed
       const changedPosition = () => {
         if (oldPosition.mouseX !== store.mouseX || oldPosition.mouseY !== store.mouseY) {
@@ -175,12 +169,9 @@ export default {
       }, 500);
     },
 
+    // Save store to extension storage
     saveSettings() {
       saveToExtStorageFrom(store);
-    },
-
-    getPositionStyle(user) {
-      return "top: " + user.mouseY + "px; left: " + user.mouseX + "px;";
     },
 
     // Create new session in firebase and join it
@@ -211,7 +202,7 @@ export default {
       }
     },
 
-    // Join session in firebase
+    // Give user the option to enter a session id and join it
     joinSession() {
       console.log('Trying to join Session');
 
@@ -221,16 +212,16 @@ export default {
         saveToExtStorageAnd(store, 'name', name);
       }
 
-      // If no session id is set, prompt user to set one
+      // Prompt user to enter session id
       const sessionId = prompt('Enter session id');
       saveToExtStorageAnd(store, 'sessionId', sessionId);
 
       this.startSession();
     },
 
+    // Add user to session in firebase
     startSession() {
       if (store.sessionId) {
-        // Add user to session in firebase
         addUserToSession({
           mouseX: store.mouseX,
           mouseY: store.mouseY,
