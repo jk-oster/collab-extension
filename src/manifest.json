@@ -1,0 +1,35 @@
+{
+  "name": "Collaborative Browser Extension",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-scripts/main.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "32": "assets/obsidian32.png",
+    "128": "assets/obsidian128.png",
+    "512": "assets/obsidian512.png",
+    "48": "assets/obsidian48.png"
+  },
+  "action": {
+    "default_icon": {
+      "32": "assets/obsidian32.png",
+      "128": "assets/obsidian128.png",
+      "48": "assets/obsidian48.png"
+    },
+    "default_title": "Open Collab Extension",
+    "default_popup": "popup/popup.html",
+    "default_width": 800,
+    "default_height": 300,
+    "default_top": 100,
+    "default_left": 100
+  },
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "options_page": "options/options.html"
+}
