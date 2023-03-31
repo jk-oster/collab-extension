@@ -19,6 +19,12 @@
       <button class="col-ex-btn" @click="scrollToUser(user)">
         Scroll to {{ user.name }}
       </button>
+      <button class="col-ex-btn" @click="toggleFollow(user)">
+        Follow {{ user.name }}
+      </button>
+      <a v-if="!onSameUrl(user.url)" class="col-ex-btn" :href="user.url" target="_blank">
+        Open {{ user.name }}'s page
+      </a>
     </template>
   </div>
 
@@ -54,6 +60,7 @@ export default {
     return {
       // ID of the interval that updates the position of the user
       interval: 0,
+      userToFollow: '',
     }
   },
 
@@ -79,6 +86,17 @@ export default {
       store.url = window.location.href;
     });
 
+    // Synchronize selection with store
+    addEventListener('mouseup', () => {
+      const selectedText = this.getSelectionText();
+      if (selectedText) {
+        store.selectedText = selectedText
+      }
+      store.url = window.location.href;
+    });
+
+    addEventListener("positions-updated", this.markSelectionsOfUsers);
+
     // Add listeners for extension messages from popup, options or background
     addExtensionMessageListener('restart-interval', this.restartInterval);
     addExtensionMessageListener('join-session', this.joinSession);
@@ -94,6 +112,16 @@ export default {
 
     // Synchronize position with firebase
     this.restartInterval();
+
+    // Follow user by scrolling to it if userToFollow is set
+    setInterval(() => {
+      if (this.userToFollow) {
+        const user = store.users.find(user => user.name === this.userToFollow);
+        if (user) {
+          this.scrollToUser(user);
+        }
+      }
+    }, 300);
 
     // If user is already in a session, join it again
     if (store.sessionId && store.userId && store.name) {
@@ -120,6 +148,14 @@ export default {
       window.scrollTo(user.mouseX, user.mouseY - (window.innerHeight / 2));
     },
 
+    toggleFollow(user) {
+      if (this.userToFollow === user.name) {
+        this.userToFollow = '';
+      } else {
+        this.userToFollow = user.name;
+      }
+    },
+
     // Copy text to clipboard
     copyToClipboard(text = '') {
       console.log('copy-to-clipboard', text);
@@ -131,6 +167,62 @@ export default {
       return "top: " + user.mouseY + "px; left: " + user.mouseX + "px;";
     },
 
+    onSameUrl(url) {
+      return url === window.location.href;
+    },
+
+    getSelectionText() {
+      let text = "";
+      if (window.getSelection) {
+        text = window.getSelection().toString();
+      } else if (document.selection && document.selection.type != "Control") {
+        text = document.selection.createRange().text;
+      }
+      return text;
+    },
+
+    markSelectionsOfUsers() {
+      console.log('mark-selection');
+      // this.removeMarkedSelection();
+      const selectedTexts = store.users.map(user => user.selectedText);
+      selectedTexts.forEach(selectedText => {
+        console.log(selectedText);
+        if (selectedText) {
+          // Wrap selected text in span
+          // this.highlightTextOccurrences(selectedText);
+        }
+      });
+    },
+
+    highlightTextOccurrences(text) {
+      const regex = new RegExp(text, 'gi');
+      document.querySelectorAll('*').forEach((element) => {
+        Array.from(element.childNodes).forEach((node) => {
+          if (node.nodeType === Node.TEXT_NODE) {
+            const matches = node.textContent.match(regex);
+            if (matches) {
+              const fragment = document.createDocumentFragment();
+              matches.forEach((match) => {
+                const span = document.createElement('span');
+                span.classList.add('col-ex-selected-text');
+                span.textContent = match;
+                fragment.appendChild(span);
+              });
+              node.parentNode.insertBefore(fragment, node);
+            }
+          }
+        });
+      });
+    },
+
+    // Remove previous marked selection
+    removeMarkedSelection() {
+      const markedSelection = window.document.querySelector('.col-ex-selected-text');
+      if (markedSelection) {
+        markedSelection.outerHTML = markedSelection.innerHTML;
+      }
+    },
+
     // Start an interval updating the position of the user in the session
     restartInterval() {
       console.log('restart-interval', store);
@@ -138,21 +230,34 @@ export default {
       // Clear old interval if it exists
       clearInterval(this.interval);
 
-      let oldPosition = {
-        mouseX: store.mouseX,
-        mouseY: store.mouseY,
-      };
-      // Check if position has changed
+      const getNewPosition = () => {
+        return {
+          mouseX: store.mouseX,
+          mouseY: store.mouseY,
+          selectedText: store.selectedText,
+          url: store.url,
+        };
+      }
+
+      const difference = (oldPosition) => {
+        return oldPosition.mouseX !== store.mouseX ||
+            oldPosition.mouseY !== store.mouseY ||
+            oldPosition.selectedText !== store.selectedText ||
+            oldPosition.url !== store.url;
+      }
+
       const changedPosition = () => {
-        if (oldPosition.mouseX !== store.mouseX || oldPosition.mouseY !== store.mouseY) {
-          oldPosition = {
-            mouseX: store.mouseX,
-            mouseY: store.mouseY,
-          };
+        if (difference(oldPosition)) {
+          oldPosition = getNewPosition();
           return true;
         }
         return false;
       };
+
+      let oldPosition = {};
+
+      oldPosition = getNewPosition();
+      // Check if position has changed
 
       // Interval to not spam firebase with updates
       this.interval = setInterval(() => {
@@ -163,7 +268,9 @@ export default {
             mouseX: store.mouseX,
             mouseY: store.mouseY,
             id: store.userId,
-            name: store.name
+            name: store.name,
+            url: store.url,
+            selectedText: store.selectedText,
           }, store.sessionId, store.userId);
         }
       }, 500);
@@ -181,7 +288,12 @@ export default {
         saveToExtStorageAnd(store, 'sessionId', session.id);
         this.copyToClipboard(session.id);
         alert('Session created. The Session ID has been copied to your ClipBoard! You can share this id with your friends: ' + session.id);
-        this.joinSession();
+
+        if (!store.name) {
+          this.setName();
+        }
+
+        this.startSession();
       });
     },
 
@@ -208,8 +320,7 @@ export default {
 
       // If no name is set, prompt user to set one
       if (!store.name) {
-        const name = prompt('Enter your name');
-        saveToExtStorageAnd(store, 'name', name);
+        this.setName();
       }
 
       // Prompt user to enter session id
@@ -226,7 +337,9 @@ export default {
           mouseX: store.mouseX,
           mouseY: store.mouseY,
           id: store.userId,
-          name: store.name
+          name: store.name,
+          selectedText: store.selectedText,
+          url: store.url,
         }, store.sessionId, store.userId).then(() => {
 
           console.log('Successfully joined session');
@@ -246,6 +359,10 @@ export default {
 <style scoped>
 html {
   scroll-behavior: smooth;
+}
+
+.col-ex-selected-text {
+  background-color: rgba(255, 242, 0, 0.7);
 }
 
 .col-ex-movable-element {

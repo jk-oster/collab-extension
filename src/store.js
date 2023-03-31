@@ -19,6 +19,7 @@ export const store = reactive({
     syncOn: true,
     updateInterval: 500,
     url: "",
+    selectedText: "",
     userId: "",
     users: [],
 });

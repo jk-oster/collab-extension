@@ -143,6 +143,11 @@ export async function initUsers(sessionId) {
     const usersQuery = createQuery(`sessions/${sessionId}/users`);
     onSnapshot(usersQuery, async (querySnapshot) => {
         console.log("Users positions updated");
+
+        // dispatch update event to listen to
+        const event = new CustomEvent('positions-updated');
+        window.dispatchEvent(event);
+
         let users = [];
         querySnapshot.forEach((snapShotDoc) => {
             users = [...users, snapShotDoc.data()];
