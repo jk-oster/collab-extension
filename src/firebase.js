@@ -13,7 +13,6 @@ import {
 } from "firebase/firestore";
 
 import {store} from "@/store";
-import {resolve} from "path";
 
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -117,6 +116,7 @@ export async function addShapeToSession(shape = {x: 0, y: 0, w: 10, h: 10}, shap
 
 // Add message to session in firebase
 export async function addMessageToSession(message = {user: "", message: "", id: "", date: 0}, messageId, sessionId) {
+    console.log("trying to addMessageToSession", message, messageId, sessionId);
     return setData(message, `sessions`, sessionId, "messages", messageId);
 }
 
@@ -180,7 +180,7 @@ export async function initMessages(sessionId) {
         querySnapshot.forEach((snapShotDoc) => {
             messages = [...messages, snapShotDoc.data()];
         });
-        store.users = messages;
+        store.messages = messages;
     });
 }
 

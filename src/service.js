@@ -81,8 +81,8 @@ export async function initService() {
 // Set interval for following user position
 export function initFollowUser() {
     setInterval(() => {
-        if (store.userToFollow && store.userToFollow !== store.name) {
-            const user = store.users.find(user => user.name == store.userToFollow);
+        if (store.userToFollow && store.userToFollow !== store.userId) {
+            const user = store.users.find(user => user.id == store.userToFollow);
             console.log('user-to-follow', user);
             if (user) {
                 scrollToUser(user);

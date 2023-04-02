@@ -1,23 +1,20 @@
 <template>
-  <div>
-    <div>
-      <span>COLLAB EXT INFO: </span>
-      <span>Session: "{{ store.sessionId }}" </span>
-      <span>User: "{{ store.userId }}" </span>
-      <span>Name: "{{ store.name }}" </span>
-      <span>Update Interval: "{{ store.updateInterval }}ms" </span>
-      <span>Sync On: "{{ store.syncOn }}" </span>
-      <span>Show Self: "{{ store.showSelf }}" </span>
-      <span>Cursor Size: "{{ store.cursorSize }}px" </span>
-      <span>{{ store.positionType }}X: "{{ store.mouseX }}" </span>
-      <span>{{ store.positionType }}Y: "{{ store.mouseY }}" </span>
-    </div>
-  </div>
-
   <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
+    <div>
+      <div>COLLAB EXT INFO: <button class="col-ex-btn" @click="toggleOffCanvas">Hide</button></div>
+      <div>Session: "{{ store.sessionId }}"</div>
+      <div>User: "{{ store.userId }}"</div>
+      <div>Name: "{{ store.name }}"</div>
+      <div>Update Interval: "{{ store.updateInterval }}ms"</div>
+      <div>Sync On: "{{ store.syncOn }}"</div>
+      <div>Show Self: "{{ store.showSelf }}"</div>
+      <div>Cursor Size: "{{ store.cursorSize }}px"</div>
+      <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
+      <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
+    </div>
     <user-scroll-follow :users="usersToDisplay"></user-scroll-follow>
-    <shapes></shapes>
-    <messages></messages>
+    <shapes  v-if="store.sessionId && store.name"></shapes>
+    <messages v-if="store.sessionId && store.name"></messages>
   </div>
 
   <user-cursor :users="usersToDisplay"></user-cursor>
@@ -55,7 +52,9 @@ export default {
   },
   methods: {
     toggleOffCanvas() {
-      saveToExtStorageAnd(store, 'showOffCanvas', !store.showOffCanvas);
+      store.showOffCanvas = !store.showOffCanvas;
+
+      saveToExtStorageAnd(store, 'showOffCanvas', store.showOffCanvas);
     }
   }
 }

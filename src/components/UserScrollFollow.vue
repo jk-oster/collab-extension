@@ -28,10 +28,10 @@ export default {
     },
 
     toggleFollow(user) {
-      if (store.userToFollow === user.name) {
+      if (store.userToFollow === user.id) {
         store.userToFollow = '';
       } else {
-        store.userToFollow = user.name;
+        store.userToFollow = user.id;
       }
     },
 

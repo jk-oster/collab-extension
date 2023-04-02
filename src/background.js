@@ -9,13 +9,13 @@ browser.runtime.onInstalled.addListener(async () => {
     //     file: 'hello-world.js'
     // });
 
-    function greeting() {
-        console.log("Hello, World from the Collab extension!");
-    }
-
-    chrome.scripting.executeScript({
-        function: greeting
-    });
+    // function greeting() {
+    //     console.log("Hello, World from the Collab extension!");
+    // }
+    //
+    // chrome.scripting.executeScript({
+    //     function: greeting
+    // });
 });
 
 browser.runtime.onMessage.addListener((message) => {

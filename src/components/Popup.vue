@@ -71,10 +71,12 @@
       <div>
         <label for="cursorSize">
           Cursor size
-          <input id="cursorSize" max="150" name="cursorSize" v-model="store.cursorSize" type="number" @change="saveSettings()"/>
+          <input id="cursorSize" max="150" name="cursorSize" v-model="store.cursorSize" type="number"
+                 @change="saveSettings()"/>
         </label>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -83,8 +85,10 @@ import {
   loadAllFromExtStorageTo,
   saveToExtStorageFrom,
 } from "@/store";
-import {sendToAllContentScripts,
-  sendToCurrentContentScript} from "@/service"
+import {
+  sendToAllContentScripts,
+  sendToCurrentContentScript
+} from "@/service"
 
 export default {
   name: "Popup",
