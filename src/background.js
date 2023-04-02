@@ -10,7 +10,7 @@ browser.runtime.onInstalled.addListener(async () => {
     // });
 
     function greeting() {
-        alert("Hello, World!");
+        console.log("Hello, World from the Collab extension!");
     }
 
     chrome.scripting.executeScript({

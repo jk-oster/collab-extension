@@ -4,7 +4,15 @@ import {
     saveToExtStorageAnd,
     store
 } from "@/store";
-import {addNewSession, addUserToSession, deleteSession, getRandId, initUsers, updatePosition} from "@/firebase";
+import {
+    addNewSession,
+    addUserToSession,
+    deleteSession,
+    getRandId,
+    initMessages, initShapes,
+    initUsers,
+    updatePosition
+} from "@/firebase";
 import browser from "webextension-polyfill";
 
 let interval = 0;
@@ -40,6 +48,7 @@ export async function initService() {
         store.url = window.location.href;
     });
 
+    // Initialize listener for updates of firebase user
     addEventListener("positions-updated", markSelectionsOfUsers);
 
     // Add listeners for extension messages from popup, options or background
@@ -63,9 +72,10 @@ export async function initService() {
         startSession();
     }
 
+    // Initialize follow service interval
     initFollowUser();
 
-    console.log('Services initialized!');
+    console.log('Base services initialized!');
 }
 
 // Set interval for following user position
@@ -73,6 +83,7 @@ export function initFollowUser() {
     setInterval(() => {
         if (store.userToFollow && store.userToFollow !== store.name) {
             const user = store.users.find(user => user.name == store.userToFollow);
+            console.log('user-to-follow', user);
             if (user) {
                 scrollToUser(user);
             }
@@ -86,9 +97,9 @@ export function scrollToUser(user) {
 }
 
 // Copy text to clipboard
-export function copyToClipboard(text = '') {
+export async function copyToClipboard(text = '') {
     console.log('copy-to-clipboard', text);
-    navigator.clipboard.writeText(text);
+    return navigator.clipboard.writeText(text);
 }
 
 //--------------------------------------------------------------
@@ -266,11 +277,15 @@ export function startSession() {
         }, store.sessionId, store.userId).then(() => {
 
             console.log('Successfully joined session');
-            // start listening to changes in users positions and update the store
-            // store state updates UI
-            initUsers(store.sessionId).then(() => {
-                console.log('Successfully initialized users', store.users);
-            });
+
+            // start listening to changes in users positions and update the store -> store state updates UI
+            initUsers(store.sessionId).then(() => console.log('Successfully initialized users', store.users));
+
+            // Initialize messages
+            initMessages(store.sessionId).then(() => console.log('Messages initialized!'));
+
+            // Initialize shapes
+            initShapes(store.sessionId).then(() => console.log('Shapes initialized!'));
         });
     }
 }
