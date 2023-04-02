@@ -22,6 +22,10 @@ export const store = reactive({
     selectedText: "",
     userId: "",
     users: [],
+    messages: [],
+    shapes: [],
+    userToFollow: '',
+    showOffCanvas: false,
 });
 
 //----------------------------------------------------------------
@@ -38,6 +42,7 @@ export async function loadAllFromExtStorageTo(store) {
         store.showSelf = result?.showSelf ?? false;
         store.syncOn = result?.syncOn ?? true;
         store.updateInterval = result?.updateInterval ?? 500;
+        store.showOffCanvas = result?.showOffCanvas ?? false;
     });
 }
 
@@ -52,6 +57,7 @@ export async function saveToExtStorageFrom(store) {
         showSelf: store.showSelf,
         syncOn: store.syncOn,
         updateInterval: Number(store.updateInterval),
+        showOffCanvas: store.showOffCanvas,
     });
 }
 
@@ -90,8 +96,10 @@ export const saveExtStorageChangesTo = (store = {}) => (changes) => {
 
 // Set listeners for extension storage changes
 export function setStorageListeners(
-    syncFunctions = [(changes) => {}],
-    localFunctions = [(changes) => {}]
+    syncFunctions = [(changes) => {
+    }],
+    localFunctions = [(changes) => {
+    }]
 ) {
     browser.storage.onChanged.addListener((changes, areaName) => {
         if (areaName === "sync") {
@@ -102,44 +110,6 @@ export function setStorageListeners(
             for (const func of localFunctions) {
                 func(changes);
             }
-        }
-    });
-}
-
-//----------------------------------------------------------------
-// Extension Messaging Service
-//----------------------------------------------------------------
-
-// Send a message to the current content script
-export async function sendToCurrentContentScript(message) {
-    browser.tabs.query({active: true, currentWindow: true}).then((tabs) => {
-        console.log('sending to tabs though browser', tabs);
-        return browser.tabs.sendMessage(tabs[0].id, message);
-    });
-}
-
-// Send a message to the background service
-export async function sendToRuntime(message) {
-    console.log('sending to runtime from browser', message);
-    return browser.runtime.sendMessage(message);
-}
-
-// Send a message to all content scripts
-export function sendToAllContentScripts(message, responseCallback = (result) => {}) {
-    browser.tabs.query({}).then((tabs) => {
-        for (const tab of tabs) {
-            console.log('sending to tabs though browser', tab);
-            browser.tabs.sendMessage(tab.id, message).then(responseCallback);
-        }
-    });
-}
-
-// Add a listener for messages from the extension runtime
-export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender) => {}) {
-    browser.runtime.onMessage.addListener(async (message, sender) => {
-        if ('action' in message && message['action'] === action) {
-            console.log('received runtime message from browser', message);
-            callbackFn(message, sender);
         }
     });
 }

@@ -109,6 +109,16 @@ export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, userId
     return setData(position, `sessions`, sessionId, "users", userId);
 }
 
+// Add shape to session in firebase
+export async function addShapeToSession(shape = {x: 0, y: 0, w: 10, h: 10}, shapeId, sessionId) {
+    return setData(shape, `sessions`, sessionId, "shapes", shapeId);
+}
+
+// Add message to session in firebase
+export async function addMessageToSession(message = {user: "", message: ""}, shapeId, sessionId) {
+    return setData(message, `sessions`, sessionId, "messages", shapeId);
+}
+
 // Delete session from firebase
 export async function deleteSession(sessionId) {
     return setData({}, `sessions`, sessionId);
@@ -153,6 +163,40 @@ export async function initUsers(sessionId) {
             users = [...users, snapShotDoc.data()];
         });
         store.users = users;
+    });
+}
+
+export async function initMessages(sessionId) {
+    const messagesQuery = createQuery(`sessions/${sessionId}/messages`);
+    onSnapshot(messagesQuery, async (querySnapshot) => {
+        console.log("Messages positions updated");
+
+        // dispatch update event to listen to
+        const event = new CustomEvent('messages-updated');
+        window.dispatchEvent(event);
+
+        let messages = [];
+        querySnapshot.forEach((snapShotDoc) => {
+            messages = [...messages, snapShotDoc.data()];
+        });
+        store.users = messages;
+    });
+}
+
+export async function initShapes(sessionId) {
+    const shapesQuery = createQuery(`sessions/${sessionId}/shapes`);
+    onSnapshot(shapesQuery, async (querySnapshot) => {
+        console.log("Shapes positions updated");
+
+        // dispatch update event to listen to
+        const event = new CustomEvent('shapes-updated');
+        window.dispatchEvent(event);
+
+        let shapes = [];
+        querySnapshot.forEach((snapShotDoc) => {
+            shapes = [...shapes, snapShotDoc.data()];
+        });
+        store.shapes = shapes;
     });
 }
 

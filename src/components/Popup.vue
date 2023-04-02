@@ -15,6 +15,10 @@
         </label>
       </div>
       <div>
+        <button class="col-ex-btn" @click="toggleSidebar()">Show sidebar</button>
+      </div>
+
+      <div>
         <button class="col-ex-btn" @click="createSession()">Create New Session</button>
       </div>
 
@@ -77,9 +81,10 @@
 <script>
 import {
   loadAllFromExtStorageTo,
-  saveToExtStorageFrom, sendToAllContentScripts,
-  sendToCurrentContentScript,
+  saveToExtStorageFrom,
 } from "@/store";
+import {sendToAllContentScripts,
+  sendToCurrentContentScript} from "@/service"
 
 export default {
   name: "Popup",
@@ -107,6 +112,10 @@ export default {
     saveSettings() {
       console.log('Saving settings');
       saveToExtStorageFrom(this.store);
+    },
+
+    toggleSidebar() {
+      sendToCurrentContentScript({action: 'toggle-sidebar'});
     },
 
     restartInterval() {
