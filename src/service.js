@@ -130,32 +130,34 @@ export function markSelectionsOfUsers() {
 }
 
 export function highlightTextOccurrences(text) {
+    if(!text || text.length < 3) return;
     const regex = new RegExp(text, 'gi');
     document.querySelectorAll('*').forEach((element) => {
-        Array.from(element.childNodes).forEach((node) => {
+        for (const node of Array.from(element.childNodes)) {
             if (node.nodeType === Node.TEXT_NODE) {
                 const matches = node.textContent.match(regex);
                 if (matches) {
-                    const fragment = document.createDocumentFragment();
-                    matches.forEach((match) => {
-                        const span = document.createElement('span');
-                        span.classList.add('col-ex-selected-text');
-                        span.textContent = match;
-                        fragment.appendChild(span);
-                    });
-                    node.parentNode.insertBefore(fragment, node);
+                    element.innerHTML = element.innerHTML.replace(regex, `<span class="col-ex-selected-text">$&</span>`);
+                    break;
                 }
             }
-        });
+        }
     });
 }
 
 // Remove previous marked selection
 export function removeMarkedSelection() {
-    const markedSelection = window.document.querySelector('.col-ex-selected-text');
-    if (markedSelection) {
-        markedSelection.outerHTML = markedSelection.innerHTML;
-    }
+
+    // const markedRegex = new RegExp('<span class="col-ex-selected-text">(.*)</span>', 'gi');
+    // let result = document.querySelector('body').innerHTML;
+    // for (const match of result.matchAll(markedRegex)) {
+    //     result = result.replace(match[0], match[1]);
+    // }
+    // document.querySelector('body').innerHTML = result;
+
+    document.querySelectorAll('.col-ex-selected-text').forEach((element) => {
+        element.outerHTML = element.innerHTML;
+    });
 }
 
 //-------------------------------------------------------------------

@@ -1,17 +1,22 @@
 <template>
   <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
-    <div>
-      <div>COLLAB EXT INFO: <button class="col-ex-btn" @click="toggleOffCanvas">Hide</button></div>
-      <div>Session: "{{ store.sessionId }}"</div>
-      <div>User: "{{ store.userId }}"</div>
-      <div>Name: "{{ store.name }}"</div>
-      <div>Update Interval: "{{ store.updateInterval }}ms"</div>
-      <div>Sync On: "{{ store.syncOn }}"</div>
-      <div>Show Self: "{{ store.showSelf }}"</div>
-      <div>Cursor Size: "{{ store.cursorSize }}px"</div>
-      <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
-      <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
-    </div>
+    <details>
+      <summary>
+        COLLAB EXT INFO: <button class="col-ex-btn" @click="toggleOffCanvas">Hide</button>
+      </summary>
+      <div>
+        <div>Session: "{{ store.sessionId }}"</div>
+        <div>User: "{{ store.userId }}"</div>
+        <div>Name: "{{ store.name }}"</div>
+        <div>Update Interval: "{{ store.updateInterval }}ms"</div>
+        <div>Sync On: "{{ store.syncOn }}"</div>
+        <div>Show Self: "{{ store.showSelf }}"</div>
+        <div>Cursor Size: "{{ store.cursorSize }}px"</div>
+        <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
+        <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
+      </div>
+    </details>
+
     <user-scroll-follow :users="usersToDisplay"></user-scroll-follow>
     <shapes  v-if="store.sessionId && store.name"></shapes>
     <messages v-if="store.sessionId && store.name"></messages>
@@ -104,7 +109,9 @@ html {
   top: 0;
   right: 0;
   padding: 0.5rem;
-  background-color: #111827;
+  background-color: #10151f;
+  font-size: 0.875rem;
+  color: #dddddd;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   max-height: 100vh;

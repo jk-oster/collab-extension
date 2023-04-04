@@ -15,7 +15,7 @@
         </label>
       </div>
       <div>
-        <button class="col-ex-btn" @click="toggleSidebar()">Show sidebar</button>
+        <button class="col-ex-btn" @click="toggleSidebar()">Toggle sidebar</button>
       </div>
 
       <div>
