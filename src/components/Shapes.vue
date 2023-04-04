@@ -1,12 +1,18 @@
 <template>
-<div>Shapes coming soon</div>
+    <div>Shapes coming soon</div>
 </template>
 
 <script>
 import {store} from "@/store";
 
 export default {
-  name: "Shapes"
+    name: "Shapes",
+
+    computed: {
+        shapes() {
+            return store.shapes;
+        },
+    },
 }
 </script>
 
