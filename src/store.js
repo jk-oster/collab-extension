@@ -26,6 +26,7 @@ export const store = reactive({
     shapes: [],
     userToFollow: '',
     showOffCanvas: false,
+    color: '#e66465',
 });
 
 //----------------------------------------------------------------
@@ -43,6 +44,7 @@ export async function loadAllFromExtStorageTo(store) {
         store.syncOn = result?.syncOn ?? true;
         store.updateInterval = result?.updateInterval ?? 500;
         store.showOffCanvas = result?.showOffCanvas ?? false;
+        store.color = result?.color ?? '#e66465';
     });
 }
 
@@ -58,6 +60,7 @@ export async function saveToExtStorageFrom(store) {
         syncOn: store.syncOn,
         updateInterval: Number(store.updateInterval),
         showOffCanvas: store.showOffCanvas,
+        color: store.color,
     });
 }
 

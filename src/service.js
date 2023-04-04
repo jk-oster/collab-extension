@@ -81,10 +81,9 @@ export async function initService() {
 // Set interval for following user position
 export function initFollowUser() {
     setInterval(() => {
-        if (store.userToFollow && store.userToFollow !== store.userId) {
-            const user = store.users.find(user => user.id == store.userToFollow);
-            console.log('user-to-follow', user);
-            if (user) {
+        if (store.userToFollow) {
+            const user = store.users.find(user => user.id === store.userToFollow);
+            if (user && user.url === window.location.href) {
                 scrollToUser(user);
             }
         }
@@ -92,7 +91,6 @@ export function initFollowUser() {
 }
 
 export function scrollToUser(user) {
-    console.log('scroll-to-user', user);
     window.scrollTo(user.mouseX, user.mouseY - (window.innerHeight / 2));
 }
 
@@ -130,16 +128,12 @@ export function markSelectionsOfUsers() {
 }
 
 export function highlightTextOccurrences(text) {
-    if(!text || text.length < 3) return;
-    const regex = new RegExp(text, 'gi');
+    if (!text || text.length < 3) return;
     document.querySelectorAll('*').forEach((element) => {
         for (const node of Array.from(element.childNodes)) {
-            if (node.nodeType === Node.TEXT_NODE) {
-                const matches = node.textContent.match(regex);
-                if (matches) {
-                    element.innerHTML = element.innerHTML.replace(regex, `<span class="col-ex-selected-text">$&</span>`);
-                    break;
-                }
+            if (node.nodeType === Node.TEXT_NODE && node.textContent.includes(text)) {
+                element.innerHTML = element.innerHTML.replace(text, `<span class="col-ex-selected-text">$&</span>`);
+                break;
             }
         }
     });
@@ -147,14 +141,7 @@ export function highlightTextOccurrences(text) {
 
 // Remove previous marked selection
 export function removeMarkedSelection() {
-
-    // const markedRegex = new RegExp('<span class="col-ex-selected-text">(.*)</span>', 'gi');
-    // let result = document.querySelector('body').innerHTML;
-    // for (const match of result.matchAll(markedRegex)) {
-    //     result = result.replace(match[0], match[1]);
-    // }
-    // document.querySelector('body').innerHTML = result;
-
+    // unwrap selected text
     document.querySelectorAll('.col-ex-selected-text').forEach((element) => {
         element.outerHTML = element.innerHTML;
     });
@@ -212,6 +199,7 @@ export function restartInterval() {
                 name: store.name,
                 url: store.url,
                 selectedText: store.selectedText,
+                color: store.color,
             }, store.sessionId, store.userId);
         }
     }, 500);
@@ -276,6 +264,7 @@ export function startSession() {
             name: store.name,
             selectedText: store.selectedText,
             url: store.url,
+            color: store.color,
         }, store.sessionId, store.userId).then(() => {
 
             console.log('Successfully joined session');

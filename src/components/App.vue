@@ -1,28 +1,29 @@
 <template>
-  <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
-    <details>
-      <summary>
-        COLLAB EXT INFO: <button class="col-ex-btn" @click="toggleOffCanvas">Hide</button>
-      </summary>
-      <div>
-        <div>Session: "{{ store.sessionId }}"</div>
-        <div>User: "{{ store.userId }}"</div>
-        <div>Name: "{{ store.name }}"</div>
-        <div>Update Interval: "{{ store.updateInterval }}ms"</div>
-        <div>Sync On: "{{ store.syncOn }}"</div>
-        <div>Show Self: "{{ store.showSelf }}"</div>
-        <div>Cursor Size: "{{ store.cursorSize }}px"</div>
-        <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
-        <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
-      </div>
-    </details>
+    <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
+        <details>
+            <summary class="col-ex-summary">
+                <span>COLLAB EXT INFO:</span>
+                <button class="col-ex-btn" @click="toggleOffCanvas">Hide</button>
+            </summary>
+            <div>
+                <div>Session: "{{ store.sessionId }}"</div>
+                <div>User: "{{ store.userId }}"</div>
+                <div>Name: "{{ store.name }}"</div>
+                <div>Update Interval: "{{ store.updateInterval }}ms"</div>
+                <div>Sync On: "{{ store.syncOn }}"</div>
+                <div>Show Self: "{{ store.showSelf }}"</div>
+                <div>Cursor Size: "{{ store.cursorSize }}px"</div>
+                <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
+                <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
+            </div>
+        </details>
 
-    <user-scroll-follow :users="usersToDisplay"></user-scroll-follow>
-    <shapes  v-if="store.sessionId && store.name"></shapes>
-    <messages v-if="store.sessionId && store.name"></messages>
-  </div>
+        <user-scroll-follow :users="usersToDisplay"></user-scroll-follow>
+        <shapes v-if="store.sessionId && store.name"></shapes>
+        <messages v-if="store.sessionId && store.name"></messages>
+    </div>
 
-  <user-cursor :users="usersToDisplay"></user-cursor>
+    <user-cursor :users="usersToDisplay"></user-cursor>
 
 </template>
 
@@ -36,113 +37,141 @@ import Messages from "@/components/Messages.vue";
 import Shapes from "@/components/Shapes.vue";
 
 export default {
-  name: "App",
-  components: {Shapes, Messages, UserScrollFollow, UserCursor},
+    name: "App",
+    components: {Shapes, Messages, UserScrollFollow, UserCursor},
 
-  async mounted() {
-    await initService();
+    async mounted() {
+        await initService();
 
-    addExtensionMessageListener('toggle-sidebar', this.toggleOffCanvas);
-  },
-
-  computed: {
-    usersToDisplay() {
-      if (store.showSelf) return store.users;
-      return store.users.filter(user => user.id !== store.userId);
+        addExtensionMessageListener('toggle-sidebar', this.toggleOffCanvas);
     },
 
-    store() {
-      return store;
-    },
-  },
-  methods: {
-    toggleOffCanvas() {
-      store.showOffCanvas = !store.showOffCanvas;
+    computed: {
+        usersToDisplay() {
+            if (store.showSelf) return store.users;
+            return store.users.filter(user => user.id !== store.userId);
+        },
 
-      saveToExtStorageAnd(store, 'showOffCanvas', store.showOffCanvas);
+        store() {
+            return store;
+        },
+    },
+    methods: {
+        toggleOffCanvas() {
+            store.showOffCanvas = !store.showOffCanvas;
+
+            saveToExtStorageAnd(store, 'showOffCanvas', store.showOffCanvas);
+        }
     }
-  }
 }
 
 </script>
 
-<style>
+<style lang="scss">
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-.col-ex-selected-text {
-  background-color: rgba(255, 242, 0, 0.7);
-}
+.col-ex {
+    &-btn {
+        height: 1.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        min-height: 1.5rem;
+        font-size: .75rem;
 
-.col-ex-fixed {
-  position: fixed;
-  top: 60px;
-  right: 60px;
-  z-index: 9999;
+        border: 1px solid white;
+        text-transform: uppercase;
+        display: inline-flex;
+        flex-shrink: 0;
+        cursor: pointer;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+        transition-duration: .2s;
+        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+        border-radius: .5rem;
+        line-height: 1em;
+        font-weight: 600;
+        text-decoration-line: none;
+        animation: button-pop .25s ease-out;
+        background-color: #222222;
+        color: #dddddd;
+    }
+
+    &-summary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &-selected-text {
+        background-color: rgba(255, 242, 0, 0.7);
+    }
+
+    &-fixed {
+        position: fixed;
+        top: 60px;
+        right: 60px;
+        z-index: 9999;
+    }
+
+    &-avatar {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+
+        background-color: #d1d5db;
+        color: #fff;
+
+        border-radius: 50%;
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1;
+        overflow: hidden;
+        text-align: center;
+        text-transform: uppercase;
+    }
 }
 
 .translate-x-0 {
-  transform: translateX(0);
+    transform: translateX(0);
 }
 
 .translate-x-full {
-  transform: translateX(100%);
+    transform: translateX(100%);
 }
 
 .duration-300 {
-  animation-duration: 300ms;
+    animation-duration: 300ms;
 }
 
 .ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .popup-container,
 .popup-button {
-  z-index: 99999;
+    z-index: 99999;
 }
 
 .popup-container {
-  overflow: auto;
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding: 0.5rem;
-  background-color: #10151f;
-  font-size: 0.875rem;
-  color: #dddddd;
-  transition-duration: 300ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  max-height: 100vh;
-  border-radius: 0.25rem;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #10151f;
+    color: #dddddd;
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: 100vh;
+    border-radius: 0.25rem;
+    min-width: 350px;
 }
 
-.col-ex-btn {
-  height: 1.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  min-height: 1.5rem;
-  font-size: .75rem;
-
-  border: 1px solid white;
-  text-transform: uppercase;
-  display: inline-flex;
-  flex-shrink: 0;
-  cursor: pointer;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-duration: .2s;
-  transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-  border-radius: .5rem;
-  line-height: 1em;
-  font-weight: 600;
-  text-decoration-line: none;
-  animation: button-pop .25s ease-out;
-  background-color: #222222;
-  color: #dddddd;
-}
 </style>
