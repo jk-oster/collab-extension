@@ -1,6 +1,6 @@
 <template>
     <div class="col-ex-messages">
-
+        <div>Messages</div>
         <div class="col-ex-message-container">
             <div v-for="message in messages" :key="message.id" :id="'msg-' + message.id" class="col-ex-message">
                 <div v-html="wrapUrls(message.text)"></div>
@@ -13,7 +13,7 @@
             <label style="display: none;" for="newMessage">New message</label>
             <editor id="newMessage" class="col-ex-editor" v-model="newMessage"/>
             <!--        <input type="text" id="newMessage" v-model="newMessage" @keyup.enter="addMessage"/>-->
-            <button @click="addMessage" class="col-ex-btn">Send</button>
+            <button @click="addMessage" class="col-ex-btn">Send message</button>
         </div>
     </div>
 </template>
@@ -68,14 +68,17 @@ export default {
     margin-top: 5px;
   }
 
-&-messages {
+  &-messages {
+    margin-top: 10px;
+
     p, ul, ol, h1, h2, h3, h4, h5, code, pre {
-        margin-top: 0.25em;
-        margin-bottom: 0.25em;
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
     }
+
     li {
-        margin-top: 0.05em;
-        margin-bottom: 0.05em;
+      margin-top: 0.05em;
+      margin-bottom: 0.05em;
     }
   }
 
@@ -112,6 +115,10 @@ export default {
     min-height: 1em;
     background-color: #fff;
     width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 5px;
+    border-radius: 5px;
   }
 
 }

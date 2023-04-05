@@ -110,7 +110,7 @@ export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, userId
 }
 
 // Add shape to session in firebase
-export async function addShapeToSession(shape = {x: 0, y: 0, w: 10, h: 10}, shapeId, sessionId) {
+export async function addShapeToSession(shape = {top: 0, left: 0, width: 10, height: 10, user: '', date: 0, id: '', url: ''}, shapeId, sessionId) {
     return setData(shape, `sessions`, sessionId, "shapes", shapeId);
 }
 

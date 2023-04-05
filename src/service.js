@@ -308,8 +308,7 @@ export async function sendToRuntime(message) {
 }
 
 // Send a message to all content scripts
-export function sendToAllContentScripts(message, responseCallback = (result) => {
-}) {
+export function sendToAllContentScripts(message, responseCallback = (result) => {}) {
     try {
         browser.tabs.query({}).then((tabs) => {
             for (const tab of tabs) {
@@ -323,12 +322,21 @@ export function sendToAllContentScripts(message, responseCallback = (result) => 
 }
 
 // Add a listener for messages from the extension runtime
-export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender) => {
-}) {
+export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender) => {}) {
     browser.runtime.onMessage.addListener(async (message, sender) => {
         if ('action' in message && message['action'] === action) {
             console.log('received runtime message from browser', message);
             callbackFn(message, sender);
         }
     });
+
+    addEventListener(action, (event) => {
+        console.log('received event message from window', event);
+        callbackFn(event);
+    });
+}
+
+export function dispatchExtensionMessage(action = 'update', message = {}) {
+    const event = new CustomEvent(action, message);
+    window.dispatchEvent(event);
 }

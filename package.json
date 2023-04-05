@@ -12,7 +12,8 @@
     "@tiptap/starter-kit": "^2.0.2",
     "@tiptap/vue-3": "^2.0.2",
     "firebase": "^9.18.0",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-icomoon": "^0.6.1"
   },
   "devDependencies": {
     "@asigloo/prettier-config": "^0.2.0",

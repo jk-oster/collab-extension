@@ -4,19 +4,17 @@
         <template v-for="user in users">
             <div class="col-ex-avatar-container">
             <span>
-                <span class="col-ex-avatar" :style="'background-color: ' + user.color">{{
-                    getInitialLetter(user.name)
-                    }}</span>
+                <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color">{{getInitialLetter(user.name)}}</span>
             </span>
 
                 <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="scrollTo(user)">
-                    Scroll to {{ user.name }}
+                    <icon name="location"></icon> Scroll to {{ user.name }}
                 </button>
                 <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="toggleFollow(user)">
-                   {{ user.id === userToFollow ? 'Unfollow ' : 'Follow ' }}{{ user.name }}
+                   <icon name="magnet"></icon> {{ user.id === userToFollow ? 'Unfollow ' : 'Follow ' }}{{ user.name }}
                 </button>
                 <a v-if="!onSameUrl(user.url)" class="col-ex-btn" :href="user.url" target="_blank">
-                    Open {{ user.name }}'s page
+                   <icon name="link"></icon> Open {{ user.name }}'s page
                 </a>
             </div>
         </template>
