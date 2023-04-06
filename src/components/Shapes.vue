@@ -6,7 +6,7 @@
         </button>
         <label for="showShapes">
             Show shapes
-            <input id="showShapes" type="checkbox" @click="toggleShapes" :value="!store.showShapes"/>
+            <input id="showShapes" type="checkbox" @click="toggleShapes" :value="store.showShapes"/>
         </label>
     </div>
 
@@ -134,6 +134,7 @@ export default {
     position: absolute;
     opacity: 0.5;
     border-radius: 5px;
+    z-index: 9999;
 
     &:focus {
       outline: 3px solid rgba(12, 89, 255);
