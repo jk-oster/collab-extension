@@ -10,6 +10,7 @@ import {
     query,
     getDocs,
     onSnapshot,
+    setLogLevel,
 } from "firebase/firestore";
 
 import {store} from "@/store";
@@ -30,6 +31,9 @@ const firebase = {
 const app = initializeApp(firebase);
 
 export const db = getFirestore(app);
+
+
+// setLogLevel("debug");
 
 
 //----------------------------------------------------------------
@@ -105,7 +109,8 @@ export async function updatePosition(position = {mouseX: 0, mouseY: 0}, sessionI
 }
 
 // Add user to session in firebase
-export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, userId, sessionId) {
+export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, sessionId, userId) {
+    console.log("trying to addUserToSession", position, userId, sessionId);
     return setData(position, `sessions`, sessionId, "users", userId);
 }
 
