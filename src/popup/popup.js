@@ -1,7 +1,6 @@
-const browser = require("webextension-polyfill");
-
 import { createApp } from 'vue'
 import Popup from "@/components/Popup.vue";
+import "@/style/main.css";
 
 const MOUNT_EL_ID = "collab-extension-popup";
 

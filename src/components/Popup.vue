@@ -1,5 +1,5 @@
 <template>
-    <div class="translate-y-full col-ex-container">
+    <div class="col-ex-container">
         <div>
             <div>
                 <strong>Cursor-Collaboration-Extension Options</strong>
@@ -15,27 +15,45 @@
                 </label>
             </div>
             <div>
-                <button class="col-ex-btn" @click="toggleSidebar()"><icon name="eye"></icon> Toggle sidebar</button>
+                <button class="col-ex-btn" @click="toggleSidebar()">
+                    <icon name="eye"></icon>
+                    Toggle sidebar
+                </button>
             </div>
 
             <div>
-                <button class="col-ex-btn" @click="createSession()"><icon name="users"></icon> Create New Session</button>
+                <button class="col-ex-btn" @click="createSession()">
+                    <icon name="users"></icon>
+                    Create New Session
+                </button>
             </div>
 
             <div>
-                <button class="col-ex-btn" @click="deleteCurrentSession()"><icon name="bin"></icon> Delete Session</button>
+                <button class="col-ex-btn" @click="deleteCurrentSession()">
+                    <icon name="bin"></icon>
+                    Delete Session
+                </button>
             </div>
             <div>
 
-                <button class="col-ex-btn" @click="joinSession()"><icon name="user-plus"></icon> Join Session</button>
+                <button class="col-ex-btn" @click="joinSession()">
+                    <icon name="user-plus"></icon>
+                    Join Session
+                </button>
             </div>
             <div>
 
-                <button class="col-ex-btn" @click="copyToClipboard()"><icon name="paste"></icon> Copy session ID</button>
+                <button class="col-ex-btn" @click="copyToClipboard()">
+                    <icon name="paste"></icon>
+                    Copy session ID
+                </button>
             </div>
             <div>
 
-                <button class="col-ex-btn" @click="setName()"><icon name="pencil"></icon> Set Name</button>
+                <button class="col-ex-btn" @click="setName()">
+                    <icon name="pencil"></icon>
+                    Set Name
+                </button>
             </div>
 
             <div>
@@ -174,88 +192,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-html {
-    scroll-behavior: smooth;
-}
 
-.col-ex {
-    &-btn {
-        height: 1.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
-        min-height: 1.5rem;
-        font-size: .75rem;
-
-        border: 1px solid white;
-        text-transform: uppercase;
-        display: inline-flex;
-        flex-shrink: 0;
-        cursor: pointer;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-        transition-duration: .2s;
-        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
-        border-radius: .5rem;
-        line-height: 1em;
-        font-weight: 600;
-        text-decoration-line: none;
-        animation: button-pop .25s ease-out;
-        background-color: #222222;
-        color: #dddddd;
-
-        &:hover {
-            background-color: #000000;
-            color: #ffffff;
-        }
-    }
-
-    &-avatar {
-        align-items: center;
-        display: inline-flex;
-        justify-content: center;
-
-        background-color: #d1d5db;
-        color: #fff;
-
-        border-radius: 50%;
-        height: 3rem;
-        width: 3rem;
-        font-size: 1.5rem;
-        font-weight: 600;
-        line-height: 1;
-        overflow: hidden;
-        text-align: center;
-        text-transform: uppercase;
-    }
-}
-
-.translate-y-0 {
-    transform: translateY(0);
-}
-
-.translate-y-full {
-    transform: translateY(100%);
-}
-
-.duration-300 {
-    animation-duration: 300ms;
-}
-
-.ease-in-out {
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.col-ex-container {
-    padding: 1rem;
-    background-color: #10151f;
-    color: #dddddd;
-    min-width: 300px;
-    border-radius: 0.25rem;
-    transition-duration: 150ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 </style>
