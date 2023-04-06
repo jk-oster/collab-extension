@@ -24,3 +24,8 @@ browser.runtime.onMessage.addListener(message => {
         vm.visible = !vm.visible;
     }
 });
+
+// Disable console.log
+console.log = function (message) {
+    // Do nothing
+}

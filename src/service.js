@@ -4,15 +4,7 @@ import {
     saveToExtStorageAnd,
     store
 } from "@/store";
-import {
-    addNewSession,
-    addUserToSession,
-    deleteSession,
-    getRandId,
-    initMessages, initShapes,
-    initUsers,
-    updatePosition
-} from "@/firebase";
+import {getRandId} from "@/firebase";
 import browser from "webextension-polyfill";
 
 let interval = 0;
@@ -49,7 +41,20 @@ export async function initService() {
     });
 
     // Initialize listener for updates of firebase user
-    addEventListener("positions-updated", markSelectionsOfUsers);
+    addExtensionMessageListener("update-users", (users) => {
+        markSelectionsOfUsers();
+        store.users = users;
+    });
+
+    // Initialize listener for updates of firebase shapes
+    addExtensionMessageListener("update-shapes", (shapes) => {
+        store.shapes = shapes;
+    });
+
+    // Initialize listener for updates of firebase messages
+    addExtensionMessageListener("update-messages", (messages) => {
+        store.messages = messages;
+    });
 
     // Add listeners for extension messages from popup, options or background
     addExtensionMessageListener('restart-interval', restartInterval);
@@ -192,15 +197,23 @@ export function restartInterval() {
         // If user is in a session and cursor position has changed update position
         if (store.sessionId && store.userId && store.name && changedPosition() && store.syncOn) {
             // Sync cursor position with firebase
-            updatePosition({
-                mouseX: store.mouseX,
-                mouseY: store.mouseY,
-                id: store.userId,
-                name: store.name,
-                url: store.url,
-                selectedText: store.selectedText,
-                color: store.color,
-            }, store.sessionId, store.userId);
+
+            sendToRuntime({
+                action: 'update-position',
+                data: {
+                    position: {
+                        mouseX: store.mouseX,
+                        mouseY: store.mouseY,
+                        id: store.userId,
+                        name: store.name,
+                        url: store.url,
+                        selectedText: store.selectedText,
+                        color: store.color,
+                    },
+                    sessionId: store.sessionId,
+                    userId: store.userId
+                }
+            });
         }
     }, 500);
 }
@@ -208,10 +221,27 @@ export function restartInterval() {
 // Create new session in firebase and join it
 export function createSession() {
     console.log('Create new Session');
-    addNewSession().then(session => {
-        saveToExtStorageAnd(store, 'sessionId', session.id);
-        copyToClipboard(session.id);
-        alert('Session created. The Session ID has been copied to your ClipBoard! You can share this id with your friends: ' + session.id);
+
+    const sessionId = getRandId();
+
+    saveToExtStorageAnd(store, 'sessionId', sessionId);
+
+    const data = {
+        sessionId: sessionId,
+        user: {
+            id: store.userId,
+            name: store.name,
+            url: store.url,
+            mouseX: store.mouseX,
+            mouseY: store.mouseY,
+            selectedText: store.selectedText,
+            color: store.color,
+        }
+    }
+
+    sendToRuntime({action: 'create-session', data}).then(() => {
+        copyToClipboard(sessionId);
+        alert('Session created. The Session ID has been copied to your ClipBoard! You can share this id with your friends: ' + sessionId);
 
         if (!store.name) {
             setName();
@@ -219,6 +249,7 @@ export function createSession() {
 
         startSession();
     });
+
 }
 
 // Delete session in firebase, store, extension storage and leave it
@@ -226,7 +257,8 @@ export function deleteCurrentSession() {
     console.log('Deleting and leaving current Session');
     const currentSessionId = store.sessionId;
     saveToExtStorageAnd(store, 'sessionId', '');
-    deleteSession(currentSessionId);
+
+    sendToRuntime({action: 'leave-session', data: {sessionId: currentSessionId, userId: store.userId}});
 }
 
 // Set name in store and extension storage
@@ -257,27 +289,21 @@ export function joinSession() {
 // Add user to session in firebase
 export function startSession() {
     if (store.sessionId) {
-        addUserToSession({
-            mouseX: store.mouseX,
-            mouseY: store.mouseY,
-            id: store.userId,
-            name: store.name,
-            selectedText: store.selectedText,
-            url: store.url,
-            color: store.color,
-        }, store.sessionId, store.userId).then(() => {
+        const data = {
+            user: {
+                mouseX: store.mouseX,
+                mouseY: store.mouseY,
+                id: store.userId,
+                name: store.name,
+                selectedText: store.selectedText,
+                url: store.url,
+                color: store.color,
+            },
+            sessionId: store.sessionId,
+            userId: store.userId
+        }
 
-            console.log('Successfully joined session');
-
-            // start listening to changes in users positions and update the store -> store state updates UI
-            initUsers(store.sessionId).then(() => console.log('Successfully initialized users', store.users));
-
-            // Initialize messages
-            initMessages(store.sessionId).then(() => console.log('Messages initialized!'));
-
-            // Initialize shapes
-            initShapes(store.sessionId).then(() => console.log('Shapes initialized!'));
-        });
+        sendToRuntime({action: 'start-session', data: data});
     }
 }
 
@@ -286,11 +312,11 @@ export function startSession() {
 //----------------------------------------------------------------
 
 // Send a message to the current content script
-export async function sendToCurrentContentScript(message) {
+export async function sendToCurrentContentScript(message = {action: '', data: {}}) {
     try {
-        browser.tabs.query({active: true, currentWindow: true}).then((tabs) => {
-            console.log('sending to tabs though browser', tabs);
-            return browser.tabs.sendMessage(tabs[0].id, message);
+        browser.tabs.query({active: true, currentWindow: true}).then(async (tabs) => {
+            console.log('sending to current tab though browser', tabs, message);
+            return await browser.tabs.sendMessage(tabs[0].id, message);
         });
     } catch (e) {
         console.log(e)
@@ -298,22 +324,28 @@ export async function sendToCurrentContentScript(message) {
 }
 
 // Send a message to the background service
-export async function sendToRuntime(message) {
+export async function sendToRuntime({action = '', data = {}}, windowEvent = false) {
     try {
-        console.log('sending to runtime from browser', message);
-        return browser.runtime.sendMessage(message);
+        console.log('sending to runtime from browser', action, data);
+
+        if (windowEvent) {
+            dispatchExtensionMessage(action, data);
+        }
+
+        return await browser.runtime.sendMessage({action, data});
     } catch (e) {
         console.log(e)
     }
 }
 
 // Send a message to all content scripts
-export function sendToAllContentScripts(message, responseCallback = (result) => {}) {
+export async function sendToAllContentScripts({action = '', data = {}}, responseCallback = (result) => {
+}) {
     try {
-        browser.tabs.query({}).then((tabs) => {
+        await browser.tabs.query({}).then(async (tabs) => {
             for (const tab of tabs) {
                 console.log('sending to tabs though browser', tab);
-                browser.tabs.sendMessage(tab.id, message).then(responseCallback);
+                await browser.tabs.sendMessage(tab.id, {action, data}).then(responseCallback);
             }
         });
     } catch (e) {
@@ -322,21 +354,26 @@ export function sendToAllContentScripts(message, responseCallback = (result) => 
 }
 
 // Add a listener for messages from the extension runtime
-export function addExtensionMessageListener(action = 'update', callbackFn = (message, sender) => {}) {
-    browser.runtime.onMessage.addListener(async (message, sender) => {
-        if ('action' in message && message['action'] === action) {
-            console.log('received runtime message from browser', message);
-            callbackFn(message, sender);
-        }
-    });
+export async function addExtensionMessageListener(action = 'update', callbackFn = (data) => {
+}) {
+    try {
+        browser.runtime.onMessage.addListener(async (message, sender) => {
+            if ('action' in message && message['action'] === action) {
+                console.log('received runtime message from browser', message);
+                callbackFn(message?.data ?? message);
+            }
+        });
 
-    addEventListener(action, (event) => {
-        console.log('received event message from window', event);
-        callbackFn(event);
-    });
+        addEventListener(action, (data) => {
+            console.log('received event message from window', data);
+            callbackFn(data);
+        });
+    } catch (e) {
+        console.log(e)
+    }
 }
 
-export function dispatchExtensionMessage(action = 'update', message = {}) {
-    const event = new CustomEvent(action, message);
+export function dispatchExtensionMessage(action = '', data = {}) {
+    const event = new CustomEvent(action, data);
     window.dispatchEvent(event);
 }

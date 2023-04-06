@@ -22,6 +22,7 @@
 import {store} from "@/store";
 import {addMessageToSession, getRandId} from "@/firebase";
 import Editor from "@/components/Editor.vue";
+import {sendToRuntime} from "@/service";
 
 export default {
     name: "Messages",
@@ -42,12 +43,24 @@ export default {
         addMessage() {
             if (this.newMessage && this.newMessage.length > 0 && this.newMessage !== '<p></p>') {
                 const messageId = getRandId();
-                addMessageToSession({
+                const message = {
                     id: messageId ?? "",
                     user: store.name ?? "",
                     text: this.newMessage ?? "",
                     date: new Date().getTime() ?? 0,
-                }, messageId, store.sessionId);
+                };
+
+                sendToRuntime({
+                    action: "add-message",
+                    data: {
+                        message,
+                        sessionId: store.sessionId,
+                        messageId,
+                    }
+                });
+
+                store.messages = [...store.messages, message];
+
                 this.newMessage = "";
             }
         },

@@ -2,7 +2,7 @@ import {reactive} from "vue";
 
 // Import webextension-polyfill to allow for cross-browser compatibility
 // Wraps the chrome browser-API in a promise-based API
-const browser = require("webextension-polyfill");
+import browser from "webextension-polyfill";
 
 /**
  * Store for all data that needs to be shared across components & synced with extension storage
@@ -88,12 +88,12 @@ export async function loadFromExtStorage(propName) {
     });
 }
 
-// Initialize extension storage listeners to save changes to store
+// Initialize extension storage listeners to save changes to store variable
 export function initStorageListeners(store = {}) {
     setStorageListeners([saveExtStorageChangesTo(store)], [saveExtStorageChangesTo(store)]);
 }
 
-// Save all changes from extension storage event to store
+// Save all changes from extension storage event to store variable
 export const saveExtStorageChangesTo = (store = {}) => (changes) => {
     for (const key in changes) {
         store[key] = changes[key].newValue;

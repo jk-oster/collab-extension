@@ -10,6 +10,7 @@ import {
     query,
     getDocs,
     onSnapshot,
+    deleteDoc,
     setLogLevel,
 } from "firebase/firestore";
 
@@ -100,109 +101,96 @@ export function getRandId(length = 15) {
 // Add new session to firebase
 export async function addNewSession(session = {id: getRandId()}) {
     // store.currentChat = chat;
-    return {data: setData(session, `sessions`, session.id), id: session.id};
+    return {
+        data: await setData(session, `sessions`, session.id),
+        id: session.id
+    };
 }
 
 // Update user position in session in firebase
-export async function updatePosition(position = {mouseX: 0, mouseY: 0}, sessionId, userId) {
+export async function updatePosition({position = {mouseX: 0, mouseY: 0}, sessionId, userId}) {
+    console.log("trying to updatePosition", position, userId, sessionId);
     return setData(position, `sessions`, sessionId, "users", userId);
 }
 
 // Add user to session in firebase
-export async function addUserToSession(position = {mouseX: 0, mouseY: 0}, sessionId, userId) {
-    console.log("trying to addUserToSession", position, userId, sessionId);
-    return setData(position, `sessions`, sessionId, "users", userId);
+export async function addUserToSession({user = {mouseX: 0, mouseY: 0}, sessionId, userId}) {
+    console.log("trying to addUserToSession", user, userId, sessionId);
+    return setData(user, `sessions`, sessionId, "users", userId);
 }
 
 // Add shape to session in firebase
-export async function addShapeToSession(shape = {top: 0, left: 0, width: 10, height: 10, user: '', date: 0, id: '', url: ''}, shapeId, sessionId) {
+export async function addShapeToSession({shape = {top: 0, left: 0, width: 10, height: 10, user: '', date: 0, id: '', url: ''}, shapeId, sessionId}) {
     return setData(shape, `sessions`, sessionId, "shapes", shapeId);
 }
 
 // Add message to session in firebase
-export async function addMessageToSession(message = {user: "", message: "", id: "", date: 0}, messageId, sessionId) {
+export async function addMessageToSession({ message = {user: "", message: "", id: "", date: 0}, messageId, sessionId}) {
     console.log("trying to addMessageToSession", message, messageId, sessionId);
     return setData(message, `sessions`, sessionId, "messages", messageId);
 }
 
 // Delete session from firebase
-export async function deleteSession(sessionId) {
-    return setData({}, `sessions`, sessionId);
+export async function deleteSession({sessionId}) {
+    return deleteDoc(doc(db, "session", sessionId));
 }
 
 // Delete user from session in firebase
-export async function deleteSessionUser(sessionId, userId) {
-    return setData({}, `sessions`, sessionId, "users", userId);
+export async function deleteSessionUser({sessionId, userId}) {
+    return deleteDoc(doc(db, `sessions`, sessionId, "users", userId));
+}
+
+// Delete shape from session in firebase
+export async function deleteSessionShape({sessionId, shapeId}) {
+    return deleteDoc(doc(db, `sessions`, sessionId, "shapes", shapeId));
+}
+
+// Delete message from session in firebase
+export async function deleteSessionMessage({sessionId, messageId}) {
+    return deleteDoc(doc(db, `sessions`, sessionId, "messages", messageId));
 }
 
 export async function getSession(sessionId) {
     store.session = getDataFromDocRef(`sessions/${sessionId}`);
 }
 
-// export async function initSession(id) {
-//     const userChatsQuery = createQuery(
-//         `sessions`,
-//         where("id", "==", id)
-//     );
-//     onSnapshot(userChatsQuery, async (querySnapshot) => {
-//         console.log("session updated");
-//         let session = {};
-//         querySnapshot.forEach((snapShotDoc) => {
-//             session = snapShotDoc.data();
-//         });
-//         store.users = session.users;
-//         store.chats = session.id;
-//     });
-// }
+// // dispatch update event to listen to
+// const event = new CustomEvent('positions-updated');
+// window.dispatchEvent(event);
 
-export async function initUsers(sessionId) {
+export function initWatchingUsers(sessionId, callback) {
     const usersQuery = createQuery(`sessions/${sessionId}/users`);
-    onSnapshot(usersQuery, async (querySnapshot) => {
-        console.log("Users positions updated");
-
-        // dispatch update event to listen to
-        const event = new CustomEvent('positions-updated');
-        window.dispatchEvent(event);
-
-        let users = [];
-        querySnapshot.forEach((snapShotDoc) => {
-            users = [...users, snapShotDoc.data()];
-        });
-        store.users = users;
-    });
+    initWatchingFirebase(usersQuery, callback);
 }
 
-export async function initMessages(sessionId) {
+
+// // dispatch update event to listen to
+// const event = new CustomEvent('messages-updated');
+// window.dispatchEvent(event);
+export function initWatchingMessages(sessionId, callback) {
     const messagesQuery = createQuery(`sessions/${sessionId}/messages`);
-    onSnapshot(messagesQuery, async (querySnapshot) => {
-        console.log("Messages positions updated");
-
-        // dispatch update event to listen to
-        const event = new CustomEvent('messages-updated');
-        window.dispatchEvent(event);
-
-        let messages = [];
-        querySnapshot.forEach((snapShotDoc) => {
-            messages = [...messages, snapShotDoc.data()];
-        });
-        store.messages = messages;
-    });
+    initWatchingFirebase(messagesQuery, callback);
 }
 
-export async function initShapes(sessionId) {
+
+// // dispatch update event to listen to
+// const event = new CustomEvent('shapes-updated');
+// window.dispatchEvent(event);
+export function initWatchingShapes(sessionId, callback) {
     const shapesQuery = createQuery(`sessions/${sessionId}/shapes`);
-    onSnapshot(shapesQuery, async (querySnapshot) => {
-        console.log("Shapes positions updated");
+    initWatchingFirebase(shapesQuery, callback);
+}
 
-        // dispatch update event to listen to
-        const event = new CustomEvent('shapes-updated');
-        window.dispatchEvent(event);
-
-        let shapes = [];
+export function initWatchingFirebase(query, handler) {
+    onSnapshot(query, async (querySnapshot) => {
+        let data = [];
         querySnapshot.forEach((snapShotDoc) => {
-            shapes = [...shapes, snapShotDoc.data()];
+            data.push(snapShotDoc.data());
         });
-        store.shapes = shapes;
+
+        if (handler) {
+            handler(data);
+        }
     });
 }
 

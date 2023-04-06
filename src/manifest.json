@@ -4,8 +4,12 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content-scripts/main.js"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content-scripts/main.js"
+      ]
     }
   ],
   "background": {
@@ -30,6 +34,17 @@
     "default_top": 100,
     "default_left": 100
   },
-  "permissions": ["activeTab", "scripting", "tabs", "storage", "clipboardWrite", "clipboardRead", "unlimitedStorage", "webRequest", "notifications"],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs",
+    "storage",
+    "clipboardWrite",
+    "clipboardRead",
+    "unlimitedStorage",
+    "webRequest",
+    "notifications"
+  ],
+  "host_permissions": ["<all_urls>"],
   "options_page": "options/options.html"
 }

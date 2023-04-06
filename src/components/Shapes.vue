@@ -24,6 +24,7 @@
 <script>
 import {saveToExtStorageAnd, store} from "@/store";
 import {addShapeToSession, getRandId} from "@/firebase";
+import {sendToRuntime} from "@/service";
 
 export default {
     name: "Shapes",
@@ -74,8 +75,12 @@ export default {
                 color: store.color,
             };
 
-            saveToExtStorageAnd(store, 'shapes', [...store.shapes, newShape]);
-            addShapeToSession(newShape, newShape.id, store.sessionId);
+            store.shapes = [...store.shapes, newShape];
+
+            sendToRuntime({
+                action: 'add-shape',
+                data: {shape: newShape, shapeId: newShape.id, sessionId: store.sessionId}
+            });
 
             this.lastShape = newShape;
         },
@@ -86,7 +91,10 @@ export default {
             this.lastShape.width = event.pageX - this.lastShape.left;
             this.lastShape.height = event.pageY - this.lastShape.top;
 
-            addShapeToSession(this.lastShape, this.lastShape.id, store.sessionId);
+            sendToRuntime({
+                action: 'add-shape',
+                data: {shape: this.lastShape, shapeId: this.lastShape.id, sessionId: store.sessionId}
+            });
         },
 
         focusShape(event, shape) {
@@ -114,7 +122,11 @@ export default {
         deleteShape(shape) {
             if (!shape.id || !store.shapes.find(s => s.id === shape.id)) return;
             saveToExtStorageAnd(store, 'shapes', store.shapes.filter(s => s.id !== shape.id));
-            addShapeToSession({}, shape.id, store.sessionId);
+
+            sendToRuntime({
+                action: 'delete-shape',
+                data: {shapeId: shape.id, sessionId: store.sessionId}
+            });
         },
     },
 }
