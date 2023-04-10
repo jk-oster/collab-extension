@@ -23,8 +23,8 @@
 
 <script>
 import {saveToExtStorageAnd, store} from "@/store";
-import {addShapeToSession, getRandId} from "@/firebase";
-import {sendToRuntime} from "@/service";
+import {getRandId} from "@/firebase";
+import {getWindowTotalHeight, sendToRuntime} from "@/service";
 
 export default {
     name: "Shapes",
@@ -64,8 +64,8 @@ export default {
     methods: {
         addShape(event) {
             const newShape = {
-                left: event.pageX,
-                top: event.pageY,
+                left: event.pageX / window.innerWidth,
+                top: event.pageY / getWindowTotalHeight(),
                 width: 0,
                 height: 0,
                 id: getRandId(),
@@ -88,8 +88,8 @@ export default {
         updateShape(event) {
             if (!this.lastShape) return;
 
-            this.lastShape.width = event.pageX - this.lastShape.left;
-            this.lastShape.height = event.pageY - this.lastShape.top;
+            this.lastShape.width = event.pageX / window.innerWidth - this.lastShape.left;
+            this.lastShape.height = event.pageY / getWindowTotalHeight() - this.lastShape.top;
 
             sendToRuntime({
                 action: 'add-shape',
@@ -108,7 +108,7 @@ export default {
         },
 
         shapeStyle(shape) {
-            return `left: ${shape.left}px; top: ${shape.top}px; width: ${shape.width}px; height: ${shape.height}px; background-color: ${shape.color};border: 1px solid ${shape.color};`;
+            return `left: ${(shape.left * window.innerWidth).toFixed(0)}px; top: ${(shape.top * getWindowTotalHeight()).toFixed(0)}px; width: ${(shape.width * window.innerWidth).toFixed(0)}px; height: ${(shape.height * getWindowTotalHeight()).toFixed(0)}px; background-color: ${shape.color};border: 1px solid ${shape.color};`;
         },
 
         toggleDrawing() {

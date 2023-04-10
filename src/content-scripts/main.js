@@ -26,6 +26,6 @@ browser.runtime.onMessage.addListener(message => {
 });
 
 // Disable console.log
-console.log = function (message) {
-    // Do nothing
-}
+// console.log = function (message) {
+//     // Do nothing
+// }

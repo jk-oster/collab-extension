@@ -167,7 +167,7 @@ export default {
         // Create new session in firebase and join it
         createSession() {
             console.log('Create new Session');
-            sendToAllContentScripts({action: 'create-session'});
+            sendToCurrentContentScript({action: 'create-session'});
         },
 
         // Delete session in firebase, store, extension storage and leave it

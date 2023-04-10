@@ -172,6 +172,18 @@ export function initWatchingMessages(sessionId, callback) {
     initWatchingFirebase(messagesQuery, callback);
 }
 
+// array of unsubscribe functions to stop listening to firebase
+const unsubscribeFns = [];
+
+// stop watching all previous firebase listeners
+export async function stopWatchingPreviousSnapShotListeners() {
+    await Promise.all(unsubscribeFns.map(async (unsubscribeFn) => {
+        console.log("unsubscribing", unsubscribeFn);
+        await unsubscribeFn();
+    }));
+    unsubscribeFns.length = 0;
+    return true;
+}
 
 // // dispatch update event to listen to
 // const event = new CustomEvent('shapes-updated');
@@ -182,7 +194,7 @@ export function initWatchingShapes(sessionId, callback) {
 }
 
 export function initWatchingFirebase(query, handler) {
-    onSnapshot(query, async (querySnapshot) => {
+    unsubscribeFns.push(onSnapshot(query, async (querySnapshot) => {
         let data = [];
         querySnapshot.forEach((snapShotDoc) => {
             data.push(snapShotDoc.data());
@@ -191,7 +203,7 @@ export function initWatchingFirebase(query, handler) {
         if (handler) {
             handler(data);
         }
-    });
+    }));
 }
 
 

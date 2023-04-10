@@ -26,8 +26,8 @@ export async function initService() {
 
     // Synchronize cursor position with store
     addEventListener("mousemove", (event) => {
-        store.mouseX = event[store.positionType + 'X'];
-        store.mouseY = event[store.positionType + 'Y'];
+        store.mouseX = event[store.positionType + 'X'] / window.innerWidth;
+        store.mouseY = event[store.positionType + 'Y'] / getWindowTotalHeight();
         store.url = window.location.href;
     });
 
@@ -83,6 +83,16 @@ export async function initService() {
     console.log('Base services initialized!');
 }
 
+export function getWindowTotalHeight() {
+    const htmlElement = document.documentElement;
+    const bodyElement = document.body;
+
+    return Math.max(
+        htmlElement.clientHeight, htmlElement.scrollHeight, htmlElement.offsetHeight,
+        bodyElement.scrollHeight, bodyElement.offsetHeight
+    );
+}
+
 // Set interval for following user position
 export function initFollowUser() {
     setInterval(() => {
@@ -96,7 +106,7 @@ export function initFollowUser() {
 }
 
 export function scrollToUser(user) {
-    window.scrollTo(user.mouseX, user.mouseY - (window.innerHeight / 2));
+    window.scrollTo(user.mouseX * window.innerWidth, user.mouseY - (window.innerHeight / 2));
 }
 
 // Copy text to clipboard
@@ -312,11 +322,14 @@ export function startSession() {
 //----------------------------------------------------------------
 
 // Send a message to the current content script
-export async function sendToCurrentContentScript(message = {action: '', data: {}}) {
+export async function sendToCurrentContentScript(message = {action: '', data: null}) {
     try {
         browser.tabs.query({active: true, currentWindow: true}).then(async (tabs) => {
-            console.log('sending to current tab though browser', tabs, message);
-            return await browser.tabs.sendMessage(tabs[0].id, message);
+            if (tabs.length > 0 && /^https?:\/\//.test(tabs[0].url)) {
+                console.log('sending to current tab though browser', tabs, message);
+                return await browser.tabs.sendMessage(tabs[0].id, message);
+            }
+            console.log('no valid tab found');
         });
     } catch (e) {
         console.log(e)
@@ -324,7 +337,7 @@ export async function sendToCurrentContentScript(message = {action: '', data: {}
 }
 
 // Send a message to the background service
-export async function sendToRuntime({action = '', data = {}}, windowEvent = false) {
+export async function sendToRuntime({action = '', data = null}, windowEvent = false) {
     try {
         console.log('sending to runtime from browser', action, data);
 
@@ -339,12 +352,13 @@ export async function sendToRuntime({action = '', data = {}}, windowEvent = fals
 }
 
 // Send a message to all content scripts
-export async function sendToAllContentScripts({action = '', data = {}}, responseCallback = (result) => {
+export async function sendToAllContentScripts({action = '', data = null}, responseCallback = (result) => {
 }) {
     try {
         await browser.tabs.query({}).then(async (tabs) => {
+            console.log('sending to all content scripts though browser', tabs);
             for (const tab of tabs) {
-                console.log('sending to tabs though browser', tab);
+                console.log('sending to tab though browser', tab);
                 await browser.tabs.sendMessage(tab.id, {action, data}).then(responseCallback);
             }
         });

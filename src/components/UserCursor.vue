@@ -21,6 +21,7 @@
 <script>
 
 import {store} from "@/store";
+import {getWindowTotalHeight} from "@/service";
 
 export default {
   name: "UserCursor",
@@ -33,7 +34,7 @@ export default {
   methods: {
     // Set the coordinates of the user as style properties
     getPositionStyle(user) {
-      return "top: " + user.mouseY + "px; left: " + user.mouseX + "px;";
+      return "top: " + ((user.mouseY * getWindowTotalHeight()).toFixed(0)) + "px; left: " + (user.mouseX * window.innerWidth).toFixed(0) + "px;";
     },
 
     onSameUrl(url) {

@@ -1,11 +1,16 @@
 <template>
+    <button class="col-ex-btn col-ex-fixed" @click="toggleOffCanvas">
+        <icon name="eye"></icon>
+        Show Sidebar
+    </button>
+
     <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
         <details>
             <summary class="col-ex-summary">
                 <span>COLLAB EXT INFO:</span>
                 <button class="col-ex-btn" @click="toggleOffCanvas">
                     <icon name="eye"></icon>
-                    Hide
+                    Hide Sidebar
                 </button>
             </summary>
             <div>
@@ -17,6 +22,7 @@
                     <button class="col-ex-btn" @click="setName">
                         <icon name="pencil"></icon>
                         Set name
+
                     </button>
                     <button class="col-ex-btn" @click="deleteCurrentSession">
                         <icon name="bin"></icon>
@@ -226,6 +232,65 @@ html {
   max-height: 100vh;
   border-radius: 0.25rem;
   min-width: 350px;
+  font-feature-settings: normal;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
+  font-size: 1rem;
+}
+
+
+.col-ex-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  tab-size: 4;
+  font-feature-settings: normal;
+  color-scheme: dark;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  margin-bottom: 8rem;
+
+  &-menu {
+    :where(& li) {
+      position: relative;
+      display: flex;
+      flex-shrink: 0;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+  }
+
+  &-content {
+    tab-size: 4;
+    font-size: 1rem;
+    line-height: 1.75;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 13rem;
+    padding: .5rem;
+    visibility: hidden;
+    position: absolute;
+    z-index: 50;
+    opacity: 0;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    right: 0;
+    bottom: auto;
+    top: 100%;
+    transform-origin: top;
+  }
 }
 
 </style>
