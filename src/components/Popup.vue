@@ -1,9 +1,9 @@
 <template>
     <div class="col-ex-container">
         <div>
-            <div>
+            <h3>
                 <strong>Cursor-Collaboration-Extension Options</strong>
-            </div>
+            </h3>
             <div>by Jakob Osterberger</div>
         </div>
 

@@ -1,8 +1,10 @@
 <template>
-    <button class="col-ex-btn col-ex-fixed" @click="toggleOffCanvas">
-        <icon name="eye"></icon>
-        Show Sidebar
-    </button>
+    <draggable type="fixed">
+        <button class="col-ex-btn" @click="toggleOffCanvas">
+            <icon name="eye"></icon>
+            Toggle Sidebar
+        </button>
+    </draggable>
 
     <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
         <details>
@@ -36,8 +38,16 @@
                 <div>Sync On: "{{ store.syncOn }}"</div>
                 <div>Show Self: "{{ store.showSelf }}"</div>
                 <div>Cursor Size: "{{ store.cursorSize }}px"</div>
-                <div>{{ store.positionType }}X: "{{ store.mouseX }}"</div>
-                <div>{{ store.positionType }}Y: "{{ store.mouseY }}"</div>
+                <div>{{ store.positionType }}X: "{{ (store.mouseX * windowTotalWidth).toFixed(0) }}"</div>
+                <div>{{ store.positionType }}Y: "{{ (store.mouseY * windowTotalHeight).toFixed(0) }}"</div>
+                <div>
+                    <span>Users:</span>
+                    <ul>
+                        <li v-for="user of store.users">
+                            {{ user.id }}: <span>{{ user.name.slice(0,10) }}</span> - <a href="{{ user.url }}">{{ user.url.slice(0,25) }}</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </details>
 
@@ -69,7 +79,7 @@ import {saveToExtStorageAnd, store} from "@/store";
 import {
     addExtensionMessageListener,
     copyToClipboard, deleteCurrentSession,
-    dispatchExtensionMessage,
+    dispatchExtensionMessage, getWindowTotalHeight,
     setName
 } from "@/service";
 import UserCursor from "@/components/UserCursor.vue";
@@ -78,10 +88,11 @@ import {initService} from "@/service";
 import Messages from "@/components/Messages.vue";
 import Shapes from "@/components/Shapes.vue";
 import Icon from "@/components/Icon.vue";
+import Draggable from "@/components/Draggable.vue";
 
 export default {
     name: "App",
-    components: {Icon, Shapes, Messages, UserScrollFollow, UserCursor},
+    components: {Icon, Shapes, Messages, UserScrollFollow, UserCursor, Draggable},
 
     async mounted() {
         await initService();
@@ -98,8 +109,17 @@ export default {
         store() {
             return store;
         },
+
+        windowTotalHeight() {
+            return getWindowTotalHeight();
+        },
+
+        windowTotalWidth() {
+            return window.innerWidth;
+        }
     },
     methods: {
+        getWindowTotalHeight,
         deleteCurrentSession,
         setName,
         copyToClipboard,
@@ -128,13 +148,11 @@ html {
 
 .col-ex {
   &-btn {
-    height: 1.5rem;
-    padding: 0.1rem 0.5rem;
-    min-height: 1.5rem;
-    font-size: .75rem;
-
-    border: 1px solid white;
-    text-transform: uppercase;
+    height: 2em;
+    padding: 0.25rem 0.75rem;
+    min-height: 2em;
+    font-size: 1rem;
+    border: 1px solid transparent;
     display: inline-flex;
     cursor: pointer;
     align-items: center;

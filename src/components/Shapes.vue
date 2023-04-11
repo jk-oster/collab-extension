@@ -4,20 +4,24 @@
             <icon name="pencil"></icon>
             Draw Shape
         </button>
-        <label for="showShapes">
-            Show shapes
-            <input id="showShapes" type="checkbox" @click="toggleShapes" :value="store.showShapes"/>
-        </label>
+        <button id="showShapes" class="col-ex-btn" @click="toggleShapes">
+            <icon name="eye"></icon>
+            Toggle shapes
+        </button>
     </div>
 
     <template v-for="shape in shapes">
+
         <teleport to="body">
             <div :style="shapeStyle(shape)" :id="shape.id" tabindex="0" class="col-ex-shape"
                  @click="focusShape($event, shape)">
-
+                        <span class="col-ex-badge-element" :style="{'background-color': shape.color}">{{
+                            shape.user
+                            }}</span>
             </div>
         </teleport>
     </template>
+    <div v-if="isDrawing" class="col-ex-drag-shield" @mousedown.prevent="()=>{}"/>
 
 </template>
 
@@ -25,9 +29,11 @@
 import {saveToExtStorageAnd, store} from "@/store";
 import {getRandId} from "@/firebase";
 import {getWindowTotalHeight, sendToRuntime} from "@/service";
+import Editor from "@/components/Editor.vue";
 
 export default {
     name: "Shapes",
+    components: {Editor},
 
     data() {
         return {
@@ -41,6 +47,8 @@ export default {
         const element = document.querySelector('body');
         element.addEventListener('mousedown', (e) => {
             if (!this.isDrawing) return;
+            e.preventDefault();
+            e.stopPropagation();
             this.addShape(e);
         });
         element.addEventListener('mousemove', (e) => {
@@ -108,7 +116,14 @@ export default {
         },
 
         shapeStyle(shape) {
-            return `left: ${(shape.left * window.innerWidth).toFixed(0)}px; top: ${(shape.top * getWindowTotalHeight()).toFixed(0)}px; width: ${(shape.width * window.innerWidth).toFixed(0)}px; height: ${(shape.height * getWindowTotalHeight()).toFixed(0)}px; background-color: ${shape.color};border: 1px solid ${shape.color};`;
+            return {
+                width: (shape.width * window.innerWidth).toFixed(0) + 'px',
+                height: (shape.height * getWindowTotalHeight()).toFixed(0) +'px',
+                'background-color': shape.color,
+                left: (shape.left * window.innerWidth).toFixed(0) + 'px',
+                top: (shape.top * getWindowTotalHeight()).toFixed(0) + 'px',
+                position: 'absolute',
+            };
         },
 
         toggleDrawing() {
@@ -146,12 +161,21 @@ export default {
     position: absolute;
     opacity: 0.5;
     border-radius: 5px;
-    z-index: 9999;
+    z-index: 9990;
 
     &:focus {
-      outline: 3px solid rgba(12, 89, 255);
-      opacity: 0.2;
+      outline: 3px solid rgb(255, 12, 40);
+      opacity: 0.3;
     }
   }
+}
+
+.col-ex-drag-shield {
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  z-index: 9990;
 }
 </style>

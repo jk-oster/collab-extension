@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 .col-ex-movable-element {
   pointer-events: none;
   position: absolute;

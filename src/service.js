@@ -106,7 +106,7 @@ export function initFollowUser() {
 }
 
 export function scrollToUser(user) {
-    window.scrollTo(user.mouseX * window.innerWidth, user.mouseY - (window.innerHeight / 2));
+    window.scrollTo(user.mouseX * window.innerWidth, (user.mouseY * getWindowTotalHeight()) - (window.innerHeight / 2));
 }
 
 // Copy text to clipboard

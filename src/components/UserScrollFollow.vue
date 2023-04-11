@@ -3,9 +3,9 @@
         <div v-if="users.length === 0">Invite other users to join you!</div>
         <template v-for="user in users">
             <div class="col-ex-avatar-container">
-            <span>
-                <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color">{{getInitialLetter(user.name)}}</span>
-            </span>
+                <span>
+                    <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color">{{getInitialLetter(user.name)}}</span>
+                </span>
 
                 <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="scrollTo(user)">
                     <icon name="location"></icon> Scroll to {{ user.name }}
@@ -67,8 +67,11 @@ export default {
     justify-content: space-between;
 }
 
+.col-ex-avatar-container + .col-ex-avatar-container {
+    margin-top: 5px;
+}
+
 .col-ex-scroll-to-container {
-    border: 1px solid #ccc;
     padding: 5px;
     border-radius: 5px;
     margin-top: 5px;

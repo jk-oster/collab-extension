@@ -1,5 +1,3 @@
-var browser = require("webextension-polyfill");
-
 import { createApp } from 'vue'
 import App from "@/components/App.vue";
 import "@/style/main.css";
@@ -14,16 +12,12 @@ mountEl = document.createElement("div");
 mountEl.setAttribute("id", MOUNT_EL_ID);
 document.body.appendChild(mountEl);
 
-const vm = createApp(App).mount(mountEl);
+const vueApp = createApp(App);
+
+const vm = vueApp.mount(mountEl);
 
 window.collabExtension = vm;
 console.log(window.collabExtension);
-
-browser.runtime.onMessage.addListener(message => {
-    if (message.toggleVisible) {
-        vm.visible = !vm.visible;
-    }
-});
 
 // Disable console.log
 // console.log = function (message) {

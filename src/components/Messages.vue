@@ -96,11 +96,11 @@ export default {
   }
 
   &-message {
-    border: 1px solid #ccc;
     margin-right: 5px;
     margin-bottom: 5px;
     padding: 5px;
     border-radius: 5px;
+    background-color: #232835;
 
     &-meta {
       display: flex;
@@ -124,8 +124,8 @@ export default {
 
   &-editor {
     margin-top: 0;
-    margin-bottom: 0;
-    min-height: 1em;
+    margin-bottom: 5px;
+    min-height: 2em;
     background-color: #fff;
     width: 100%;
     border: none;
