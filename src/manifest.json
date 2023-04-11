@@ -1,6 +1,6 @@
 {
   "name": "Collaborative Browser Extension",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "manifest_version": 3,
   "content_scripts": [
     {
