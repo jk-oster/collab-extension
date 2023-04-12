@@ -132,22 +132,22 @@ export function getSelectionText() {
 export function markSelectionsOfUsers() {
     console.log('mark-selection');
     removeMarkedSelection();
-    const selectedTexts = store.users.map(user => user.selectedText);
-    selectedTexts.forEach(selectedText => {
+    store.users.forEach(user => {
+        const selectedText = user.selectedText;
         console.log(selectedText);
         if (selectedText) {
             // Wrap selected text in span
-            highlightTextOccurrences(selectedText);
+            highlightTextOccurrences(selectedText, user);
         }
     });
 }
 
-export function highlightTextOccurrences(text) {
+export function highlightTextOccurrences(text, user) {
     if (!text || text.length < 3) return;
     document.querySelectorAll('*').forEach((element) => {
         for (const node of Array.from(element.childNodes)) {
             if (node.nodeType === Node.TEXT_NODE && node.textContent.includes(text)) {
-                element.innerHTML = element.innerHTML.replace(text, `<span class="col-ex-selected-text">$&</span>`);
+                element.innerHTML = element.innerHTML.replace(text, `<span class="col-ex-selected-text" style="background-color: ${user.color}">$&</span>`);
                 break;
             }
         }

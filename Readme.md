@@ -40,7 +40,7 @@ The extension consists of three parts: the background script, the popup script a
 The settings of the extension are stored and persisted using the [browser.storage.sync API](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync).
 
 ## Known issues
-- The extension does not work on all browsers. It has only been tested on Chrome 111.
+- The extension does probably not work on all browsers. It has only been tested on Chrome 111.
 - Styling of the extension sidebar menu is sometimes broken by css of the website the extension is loaded on.
 - If the extension popup is opened too early (before the content script has initialized), the extension may will not work properly and throws an error message.
 - If the option "Service Worker - Reload on update" is enabled in the Chrome developer console (tab application), the extension will not work properly.

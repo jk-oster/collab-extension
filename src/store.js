@@ -17,7 +17,7 @@ export const store = reactive({
     sessionId: "",
     showSelf: false,
     syncOn: true,
-    updateInterval: 500,
+    updateInterval: 1000,
     url: "",
     selectedText: "",
     userId: "",
@@ -34,6 +34,12 @@ export const store = reactive({
 // Extension Storage Sync Service Functions
 //----------------------------------------------------------------
 
+export async function syncStoreWithExtStorage(store) {
+    await loadAllFromExtStorageTo(store);
+    initStorageListeners(store);
+}
+
+// Load all extension storage values to store variable to sync them initially
 export async function loadAllFromExtStorageTo(store) {
     return browser.storage.sync.get().then((result) => {
         store.sessionId = result?.sessionId ?? "";
@@ -43,7 +49,7 @@ export async function loadAllFromExtStorageTo(store) {
         store.cursorSize = result?.cursorSize ?? 20;
         store.showSelf = result?.showSelf ?? false;
         store.syncOn = result?.syncOn ?? true;
-        store.updateInterval = result?.updateInterval ?? 500;
+        store.updateInterval = result?.updateInterval ?? 1000;
         store.showOffCanvas = result?.showOffCanvas ?? false;
         store.color = result?.color ?? '#e66465';
         store.showShapes = result?.showShapes ?? true;
@@ -88,7 +94,7 @@ export async function loadFromExtStorage(propName) {
     });
 }
 
-// Initialize extension storage listeners to save changes to store variable
+// Initialize extension storage listeners to save changes to store variable -> syncs store with extension storage
 export function initStorageListeners(store = {}) {
     setStorageListeners([saveExtStorageChangesTo(store)], [saveExtStorageChangesTo(store)]);
 }
@@ -101,12 +107,7 @@ export const saveExtStorageChangesTo = (store = {}) => (changes) => {
 }
 
 // Set listeners for extension storage changes
-export function setStorageListeners(
-    syncFunctions = [(changes) => {
-    }],
-    localFunctions = [(changes) => {
-    }]
-) {
+export function setStorageListeners(syncFunctions = [], localFunctions = []) {
     browser.storage.onChanged.addListener((changes, areaName) => {
         if (areaName === "sync") {
             for (const func of syncFunctions) {

@@ -9,7 +9,7 @@
     <div :class="(store.showOffCanvas ? ' translate-x-0 ' : ' translate-x-full ') + ' popup-container'">
         <details>
             <summary class="col-ex-summary">
-                <span>COLLAB EXT INFO:</span>
+                <h3>COLLAB EXT</h3>
                 <button class="col-ex-btn" @click="toggleOffCanvas">
                     <icon name="eye"></icon>
                     Hide Sidebar
@@ -31,8 +31,8 @@
                         Delete Session
                     </button>
                 </div>
-                <div>Session: "{{ store.sessionId }}"</div>
-                <div>User: "{{ store.userId }}"</div>
+                <div>Session ID: "{{ store.sessionId }}"</div>
+                <div>User ID: "{{ store.userId }}"</div>
                 <div>Name: "{{ store.name }}"</div>
                 <div>Update Interval: "{{ store.updateInterval }}ms"</div>
                 <div>Sync On: "{{ store.syncOn }}"</div>
@@ -44,7 +44,8 @@
                     <span>Users:</span>
                     <ul>
                         <li v-for="user of store.users">
-                            {{ user.id }}: <span>{{ user.name.slice(0,10) }}</span> - <a href="{{ user.url }}">{{ user.url.slice(0,25) }}</a>
+                            {{ user.id }}: <span>{{ user.name.slice(0, 10) }}</span> - <a
+                                href="{{ user.url }}">{{ user.url.slice(0, 25) }}</a>
                         </li>
                     </ul>
                 </div>
@@ -253,6 +254,10 @@ html {
   font-feature-settings: normal;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
   font-size: 1rem;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #dddddd;
+  }
 }
 
 

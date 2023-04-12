@@ -1,12 +1,17 @@
 <template>
     <div class="col-ex-scroll-to-container">
-        <div v-if="users.length === 0">Invite other users to join you!</div>
+        <div v-if="users.length === 0" :style="{display: 'flex', 'justify-content': 'space-between'}">
+            <span>Invite other users to join you!</span>
+            <button class="col-ex-btn" @click="copyToClipboard">
+                <icon name="paste"></icon>
+                Copy Session ID
+            </button>
+        </div>
         <template v-for="user in users">
             <div class="col-ex-avatar-container">
                 <span>
                     <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color">{{getInitialLetter(user.name)}}</span>
                 </span>
-
                 <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="scrollTo(user)">
                     <icon name="location"></icon> Scroll to {{ user.name }}
                 </button>
@@ -24,17 +29,20 @@
 
 <script>
 import {store} from "@/store";
-import {scrollToUser} from "@/service";
+import {copyToClipboard, scrollToUser} from "@/service";
+import Icon from "@/components/Icon.vue";
 
 export default {
     name: "UserScrollFollow",
     props: ['users'],
+    components: {Icon},
     computed: {
         userToFollow() {
             return store.userToFollow;
         },
     },
     methods: {
+        copyToClipboard,
         // Scroll window to center of the position of defined user
         scrollTo(user) {
             scrollToUser(user);
