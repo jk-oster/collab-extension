@@ -43,7 +43,7 @@
             </div>
         </teleport>
     </template>
-    <div v-if="isDrawing" class="col-ex-drag-shield" @mousedown.prevent="()=>{}"/>
+    <div v-if="isDrawing || resizing || dragging" class="col-ex-drag-shield" @mousedown.prevent="()=>{}"/>
 
 </template>
 
@@ -193,6 +193,7 @@ export default {
         },
         // Resizing
         initResize(event, direction) {
+            event.preventDefault();
             event.stopPropagation();
             this.resizing = true;
             this.resizeDirection = direction;

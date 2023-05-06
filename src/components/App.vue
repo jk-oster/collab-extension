@@ -268,6 +268,7 @@ html {
   max-height: 100vh;
   border-radius: 0.25rem;
   min-width: 350px;
+  max-width: 450px;
   font-feature-settings: normal;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, apple color emoji, segoe ui emoji, Segoe UI Symbol, noto color emoji;
   font-size: 1rem;
