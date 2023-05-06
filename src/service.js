@@ -144,7 +144,7 @@ export function markSelectionsOfUsers() {
 
 export function highlightTextOccurrences(text, user) {
     if (!text || text.length < 3) return;
-    document.querySelectorAll('*').forEach((element) => {
+    document.querySelectorAll('body *').forEach((element) => {
         for (const node of Array.from(element.childNodes)) {
             if (node.nodeType === Node.TEXT_NODE && node.textContent.includes(text)) {
                 element.innerHTML = element.innerHTML.replace(text, `<span class="col-ex-selected-text" style="background-color: ${user.color}">$&</span>`);

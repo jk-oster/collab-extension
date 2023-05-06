@@ -1,5 +1,5 @@
 <template>
-    <div class="col-ex-draggable" :style="{ left: left + 'px', top: top + 'px', position: type }" @mousedown="startDrag">
+    <div :class="'col-ex-draggable ' + additionalClass" :style="{ left: left + 'px', top: top + 'px', position: type }" @mousedown="startDrag">
         <slot />
     </div>
     <div v-if="dragging && dragShield" class="col-ex-drag-shield" @mousedown.prevent="()=>{}" />
@@ -7,13 +7,14 @@
 
 <script>
 export default {
-    props: ['initialLeft', 'initialTop', 'dragShield', 'type'],
+    props: ['initialLeft', 'initialTop', 'dragShield', 'type' , 'additionalClass'],
+    emits: ['dragging'],
     data() {
         return {
             dragging: false,
             rel: null,
             left: this.initialLeft ?? window.innerWidth - 200,
-            top: this.initialTop ?? 100,
+            top: this.initialTop ?? window.innerHeight - 100,
             dragShield: this.dragShield ?? false,
             type: this.type ?? 'fixed',
         };
@@ -34,6 +35,11 @@ export default {
             }
         },
         stopDrag() {
+            this.$emit('dragging', {
+                left: this.left,
+                top: this.top,
+            });
+
             this.dragging = false;
             this.rel = null;
             window.removeEventListener('mousemove', this.move);

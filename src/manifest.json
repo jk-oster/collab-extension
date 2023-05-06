@@ -5,7 +5,8 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "https://*/*",
+        "http://*/*"
       ],
       "js": [
         "content-scripts/main.js"
@@ -17,15 +18,15 @@
   },
   "icons": {
     "32": "assets/obsidian32.png",
+    "48": "assets/obsidian48.png",
     "128": "assets/obsidian128.png",
-    "512": "assets/obsidian512.png",
-    "48": "assets/obsidian48.png"
+    "512": "assets/obsidian512.png"
   },
   "action": {
     "default_icon": {
       "32": "assets/obsidian32.png",
-      "128": "assets/obsidian128.png",
-      "48": "assets/obsidian48.png"
+      "48": "assets/obsidian48.png",
+      "128": "assets/obsidian128.png"
     },
     "default_title": "Open Collab Extension",
     "default_popup": "popup/popup.html",
@@ -35,16 +36,15 @@
     "default_left": 100
   },
   "permissions": [
-    "activeTab",
-    "scripting",
     "tabs",
-    "storage",
+    "storage"
+  ],
+  "optional_permissions": [
     "clipboardWrite",
-    "clipboardRead",
-    "unlimitedStorage",
-    "webRequest",
     "notifications"
   ],
-  "host_permissions": ["<all_urls>"],
-  "options_page": "options/options.html"
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  }
 }

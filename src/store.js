@@ -28,6 +28,8 @@ export const store = reactive({
     showOffCanvas: false,
     color: '#e66465',
     showShapes: true,
+    menuLeft: 1300,
+    menuTop: 375,
 });
 
 //----------------------------------------------------------------
@@ -53,6 +55,8 @@ export async function loadAllFromExtStorageTo(store) {
         store.showOffCanvas = result?.showOffCanvas ?? false;
         store.color = result?.color ?? '#e66465';
         store.showShapes = result?.showShapes ?? true;
+        store.menuLeft = result?.menuLeft ?? 1300;
+        store.menuTop = result?.menuTop ?? 375;
     });
 }
 
@@ -70,6 +74,8 @@ export async function saveToExtStorageFrom(store) {
         showOffCanvas: store.showOffCanvas,
         color: store.color,
         showShapes: store.showShapes,
+        menuLeft: Number(store.menuLeft),
+        menuTop: Number(store.menuTop),
     });
 }
 

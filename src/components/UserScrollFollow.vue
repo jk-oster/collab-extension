@@ -9,18 +9,38 @@
         </div>
         <template v-for="user in users">
             <div class="col-ex-avatar-container">
-                <span>
-                    <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color">{{getInitialLetter(user.name)}}</span>
-                </span>
-                <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="scrollTo(user)">
-                    <icon name="location"></icon> Scroll to {{ user.name }}
-                </button>
-                <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="toggleFollow(user)">
-                   <icon name="magnet"></icon> {{ user.id === userToFollow ? 'Unfollow ' : 'Follow ' }}{{ user.name }}
-                </button>
-                <a v-if="!onSameUrl(user.url)" class="col-ex-btn" :href="user.url" target="_blank">
-                   <icon name="link"></icon> Open {{ user.name }}'s page
-                </a>
+                <div>
+                    <span @click="scrollTo(user)" class="col-ex-avatar" :style="'background-color: ' + user.color"
+                          :title="user.name">{{ getInitialLetter(user.name) }}</span>
+                </div>
+                <div>
+                    <div class="col-ex-avatar-name" :title="user.name">{{ user.name }}</div>
+                    <div>
+                        <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="scrollTo(user)"
+                                :title="'Scroll to' + user.name">
+                            <icon name="location"></icon>
+                            <span v-show="showBtnText">
+                                Scroll to
+                            </span>
+                        </button>
+                        <button v-if="onSameUrl(user.url)" class="col-ex-btn" @click="toggleFollow(user)"
+                                :title="(user.id === userToFollow ? 'Unfollow ' : 'Follow ') + user.name">
+                            <icon name="magnet"></icon>
+                            <span v-show="showBtnText">
+                                {{ user.id === userToFollow ? 'Unfollow ' : 'Follow ' }}
+                            </span>
+                        </button>
+                        <a v-if="!onSameUrl(user.url)" class="col-ex-btn" :href="user.url" target="_blank"
+                           :title="'Open ' + user.name + '´s page'">
+                            <icon name="link"></icon>
+                            <span v-show="showBtnText">
+                                Open page
+                            </span>
+                        </a>
+                    </div>
+                </div>
+
+
             </div>
         </template>
     </div>
@@ -34,7 +54,7 @@ import Icon from "@/components/Icon.vue";
 
 export default {
     name: "UserScrollFollow",
-    props: ['users'],
+    props: ['users', 'showBtnText'],
     components: {Icon},
     computed: {
         userToFollow() {
@@ -69,10 +89,14 @@ export default {
 
 <style scoped>
 
+.col-ex-avatar {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
 .col-ex-avatar-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .col-ex-avatar-container + .col-ex-avatar-container {

@@ -1,10 +1,11 @@
 <template>
-    <editor-content :editor="editor" />
+    <editor-content :editor="editor" class="test"/>
 </template>
 
 <script>
 import StarterKit from '@tiptap/starter-kit'
-import { Editor, EditorContent } from '@tiptap/vue-3'
+import {Editor, EditorContent} from '@tiptap/vue-3'
+import {getRandId} from "@/firebase";
 
 export default {
     components: {
@@ -13,6 +14,14 @@ export default {
 
     props: {
         modelValue: {
+            type: String,
+            default: '',
+        },
+        editorId: {
+            type: String,
+            default: '',
+        },
+        editorClass: {
             type: String,
             default: '',
         },
@@ -44,6 +53,13 @@ export default {
 
     mounted() {
         this.editor = new Editor({
+            editorProps: {
+                attributes: {
+                    class: this.editorClass,
+                    id: this.editorId ?? getRandId(),
+                },
+            },
+
             extensions: [
                 StarterKit,
             ],

@@ -6,7 +6,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.125 -0.125 14.25 14.25" :height="store.cursorSize"
              :width="store.cursorSize" stroke-width="1.25">
           <path d="M13.15,5.45a.5.5,0,0,0,0-1L1.83.56A1,1,0,0,0,.56,1.83L4.5,13.16a.5.5,0,0,0,1,0L7.5,7.5Z"
-                fill="#ffffff"
+                :fill="user.color"
                 stroke="#000000" stroke-linecap="round" stroke-linejoin="round"></path>
         </svg>
         <div class="col-ex-badge-element" :style="'background-color: ' + user.color">

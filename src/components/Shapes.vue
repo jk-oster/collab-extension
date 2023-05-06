@@ -6,18 +6,34 @@
         </button>
         <button id="showShapes" class="col-ex-btn" @click="toggleShapes">
             <icon name="eye"></icon>
-            Toggle shapes
+            Toggle shapes {{ store.showShapes ? 'off' : 'on' }}
         </button>
     </div>
 
     <template v-for="shape in shapes">
-
         <teleport to="body">
             <div :style="shapeStyle(shape)" :id="shape.id" tabindex="0" class="col-ex-shape"
                  @click="focusShape($event, shape)">
-                        <span class="col-ex-badge-element" :style="{'background-color': shape.color}">{{
-                            shape.user
-                            }}</span>
+                <span class="col-ex-shape-info">
+                    <span class="col-ex-shape-editor-label" :style="{'background-color': shape.color}">
+                        {{ shape.user }}
+                    </span>
+                    <span>
+                        <label class="col-ex-shape-editor-label" :for="'shape-editor-' +  shape.id"
+                               @click="focusEditor($event, 'shape-editor-' +  shape.id)">
+                            <icon name="pencil" color="white" size="10px"/><span>Edit text</span>
+                        </label>
+                    </span>
+                    <span>
+                        <button class="col-ex-shape-editor-label" @click="deleteShape(shape)">
+                            <icon name="bin" color="white" size="10px"/><span>Delete shape</span>
+                        </button>
+                    </span>
+                </span>
+
+
+                <editor class="col-ex-shape-editor" :editorId="'shape-editor-' +  shape.id" v-model="shape.text"
+                        @keydown.exact.alt.enter="saveShapeText(shape.id)" @focusout="saveShapeText(shape.id)"/>
             </div>
         </teleport>
     </template>
@@ -115,10 +131,16 @@ export default {
             });
         },
 
+        focusEditor(event, editorId) {
+            event.stopPropagation();
+            const editor = document.getElementById(editorId);
+            editor.focus();
+        },
+
         shapeStyle(shape) {
             return {
                 width: (shape.width * window.innerWidth).toFixed(0) + 'px',
-                height: (shape.height * getWindowTotalHeight()).toFixed(0) +'px',
+                height: (shape.height * getWindowTotalHeight()).toFixed(0) + 'px',
                 'background-color': shape.color,
                 left: (shape.left * window.innerWidth).toFixed(0) + 'px',
                 top: (shape.top * getWindowTotalHeight()).toFixed(0) + 'px',
@@ -143,6 +165,20 @@ export default {
                 data: {shapeId: shape.id, sessionId: store.sessionId}
             });
         },
+
+        saveShapeText(shapeId) {
+            const currentShape = store.shapes.find(shape => shape.id === shapeId);
+            if (!currentShape) return;
+
+            console.log('save shape text', currentShape.text);
+            console.log('save shape text', currentShape);
+            console.log('save shape text', store.shapes);
+
+            sendToRuntime({
+                action: 'add-shape',
+                data: {shape: currentShape, shapeId: shapeId, sessionId: store.sessionId}
+            });
+        },
     },
 }
 </script>
@@ -159,23 +195,75 @@ export default {
 
   &-shape {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.80;
     border-radius: 5px;
     z-index: 9990;
+    overflow-y: scroll;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
 
     &:focus {
       outline: 3px solid rgb(255, 12, 40);
       opacity: 0.3;
     }
+
+    &-info {
+      visibility: hidden;
+    }
+
+    &:hover &-info {
+      visibility: visible;
+    }
+
+    &-editor {
+
+      &-label {
+        font-size: 8px;
+        color: #fff;
+        display: inline-flex;
+        align-items: center;
+        margin-left: 5px;
+        padding: 3px 6px;
+        background-color: transparent;
+        border: none;
+
+        span {
+          margin: 0 5px;
+          padding: 0;
+        }
+      }
+
+      & > .ProseMirror {
+        background-color: transparent !important;
+        margin: 0 1em !important;
+        color: #fff !important;
+        padding: 0 5px !important;
+        font-weight: normal;
+
+        p {
+          margin-top: 0.25em;
+          margin-bottom: 0.25em;
+        }
+
+        > * + * {
+          margin-top: 0.25em;
+          margin-bottom: 0.25em;
+        }
+      }
+    }
+  }
+
+  &-drag-shield {
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 9990;
   }
 }
 
-.col-ex-drag-shield {
-  bottom: 0px;
-  left: 0px;
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  z-index: 9990;
-}
 </style>

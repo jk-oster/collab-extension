@@ -3,10 +3,13 @@
         <div>Messages</div>
         <div class="col-ex-message-container">
             <div v-for="message in messages" :key="message.id" :id="'msg-' + message.id" class="col-ex-message">
-                <div v-html="wrapUrls(message.text)"></div>
-                <div class="col-ex-message-meta"><span>{{
-                    message.user
-                    }}</span><span>{{ (new Date(message.date)).toLocaleDateString() }}</span></div>
+                <div class="col-ex-message-meta">
+                    <span class="col-ex-badge-element" :style="'background-color: ' + getUserColor(message.user)">
+                        {{ message.user }}
+                    </span>
+                    <span>{{ (new Date(message.date)).toLocaleDateString() }}</span>
+                </div>
+                <div class="col-ex-message-content" v-html="wrapUrls(message.text)"></div>
             </div>
         </div>
         <div class="col-ex-message-input">
@@ -22,7 +25,7 @@
 import {store} from "@/store";
 import {addMessageToSession, getRandId} from "@/firebase";
 import Editor from "@/components/Editor.vue";
-import {sendToRuntime} from "@/service";
+import {addExtensionMessageListener, sendToRuntime} from "@/service";
 
 export default {
     name: "Messages",
@@ -33,6 +36,11 @@ export default {
         };
     },
 
+    mounted() {
+        addExtensionMessageListener('update-messages', this.scrollToMessageContainerBottom);
+        this.scrollToMessageContainerBottom();
+    },
+
     computed: {
         messages() {
             return store.messages.sort((a, b) => a.date - b.date);
@@ -40,6 +48,11 @@ export default {
     },
 
     methods: {
+        scrollToMessageContainerBottom() {
+            const messageContainer = document.querySelector('.col-ex-message-container');
+            messageContainer.scrollTop = messageContainer.scrollHeight;
+        },
+
         addMessage() {
             if (this.newMessage && this.newMessage.length > 0 && this.newMessage !== '<p></p>') {
                 const messageId = getRandId();
@@ -62,12 +75,18 @@ export default {
                 store.messages = [...store.messages, message];
 
                 this.newMessage = "";
+
+                this.scrollToMessageContainerBottom();
             }
         },
 
         wrapUrls(text) {
             return text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" class="col-ex-link" target="_blank">$1</a>');
         },
+
+        getUserColor(user) {
+            return store.users.find(u => u.name === user)?.color ?? '#f00';
+        }
     },
 }
 </script>
@@ -102,11 +121,26 @@ export default {
     border-radius: 5px;
     background-color: #232835;
 
+    p {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
+    > * + * {
+      margin-top: 0.25em;
+      margin-bottom: 0.25em;
+    }
+
     &-meta {
       display: flex;
       justify-content: space-between;
       margin: 0 5px;
       font-size: 0.5em;
+    }
+
+    &-content {
+      margin: 0 5px;
+      font-size: 0.8em;
     }
 
     &-input > input {
@@ -132,27 +166,35 @@ export default {
     outline: none;
     padding: 0 5px;
     border-radius: 5px;
+
+    .ProseMirror {
+      min-height: 1em;
+      width: 95%;
+      background-color: #fff;
+      color: #000;
+      border: none;
+      outline: none;
+      padding-right: 5px;
+      padding-left: 5px;
+      padding-top: 2.5px;
+
+      p {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+      }
+
+      > * + * {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+      }
+
+      code {
+        background-color: rgba(#616161, 0.1);
+        color: #616161;
+      }
+    }
   }
 
-}
-
-.ProseMirror {
-  min-height: 1em;
-  width: 100%;
-  background-color: #fff;
-  color: #000;
-  border: none;
-  outline: none;
-  padding: 0 5px;
-
-  > * + * {
-    margin-top: 0.75em;
-  }
-
-  code {
-    background-color: rgba(#616161, 0.1);
-    color: #616161;
-  }
 }
 
 

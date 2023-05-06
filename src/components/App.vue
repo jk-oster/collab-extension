@@ -1,5 +1,6 @@
 <template>
-    <draggable type="fixed">
+    <draggable type="fixed" additionalClass="col-ex-drag-menu">
+        <!--user-scroll-follow :users="usersToDisplay"/-->
         <button class="col-ex-btn" @click="toggleOffCanvas">
             <icon name="eye"></icon>
             Toggle Sidebar
@@ -53,8 +54,10 @@
         </details>
 
         <template v-if="store.sessionId">
-            <user-scroll-follow :users="usersToDisplay"></user-scroll-follow>
+            <user-scroll-follow :show-btn-text="true" :users="usersToDisplay"></user-scroll-follow>
+            <hr>
             <shapes v-if="store.sessionId && store.name"></shapes>
+            <hr>
             <messages v-if="store.sessionId && store.name"></messages>
         </template>
         <template v-else>
@@ -97,7 +100,6 @@ export default {
 
     async mounted() {
         await initService();
-
         addExtensionMessageListener('toggle-sidebar', this.toggleOffCanvas);
     },
 
@@ -136,6 +138,14 @@ export default {
             store.showOffCanvas = !store.showOffCanvas;
 
             saveToExtStorageAnd(store, 'showOffCanvas', store.showOffCanvas);
+        },
+
+        saveMenuPosition({left, top}) {
+            console.log('saveMenuPosition: ', left, top);
+            saveToExtStorageAnd(store, 'menuLeft', left);
+            saveToExtStorageAnd(store, 'menuTop', top);
+
+            console.log('saveMenuPosition store: ', store);
         }
     }
 }
@@ -148,6 +158,13 @@ html {
 }
 
 .col-ex {
+
+  &-drag-menu {
+    background-color: #22222222;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
   &-btn {
     height: 2em;
     padding: 0.25rem 0.75rem;
@@ -244,7 +261,7 @@ html {
   top: 0;
   right: 0;
   padding: 1rem;
-  background-color: #10151f;
+  background-color: #05080a;
   color: #dddddd;
   transition-duration: 300ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
