@@ -178,6 +178,10 @@ export default {
       padding-left: 5px;
       padding-top: 2.5px;
 
+      h1, h2, h3, h4, h5, h6, li, ul, ol {
+        color: #000 !important;
+      }
+
       p {
         margin-top: 0.25em;
         margin-bottom: 0.25em;

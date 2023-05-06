@@ -13,8 +13,11 @@
     <template v-for="shape in shapes">
         <teleport to="body">
             <div :style="shapeStyle(shape)" :id="shape.id" tabindex="0" class="col-ex-shape"
+                 @mousedown="dragMouseDown"
+                 @mousemove="elementDrag"
+                 @mouseup="closeDragElement"
                  @click="focusShape($event, shape)">
-                <span class="col-ex-shape-info">
+                <div class="col-ex-shape-info">
                     <span class="col-ex-shape-editor-label" :style="{'background-color': shape.color}">
                         {{ shape.user }}
                     </span>
@@ -29,11 +32,14 @@
                             <icon name="bin" color="white" size="10px"/><span>Delete shape</span>
                         </button>
                     </span>
-                </span>
+                </div>
 
 
                 <editor class="col-ex-shape-editor" :editorId="'shape-editor-' +  shape.id" v-model="shape.text"
                         @keydown.exact.alt.enter="saveShapeText(shape.id)" @focusout="saveShapeText(shape.id)"/>
+                <div class="resizer resizer-right" @mousedown="initResize($event, 'right')"></div>
+                <div class="resizer resizer-bottom" @mousedown="initResize($event, 'bottom')"></div>
+                <div class="resizer resizer-both" @mousedown="initResize($event, 'both')"></div>
             </div>
         </teleport>
     </template>
@@ -56,6 +62,16 @@ export default {
             isDrawing: false,
             lastShape: null,
             store,
+            dragging: false,
+            resizing: false,
+            resizeDirection: null,
+            elem: null,
+            startX: 0,
+            startY: 0,
+            startLeft: 0,
+            startTop: 0,
+            startWidth: 0,
+            startHeight: 0,
         };
     },
 
@@ -69,6 +85,8 @@ export default {
         });
         element.addEventListener('mousemove', (e) => {
             if (!this.isDrawing) return;
+            e.preventDefault();
+            e.stopPropagation();
             this.updateShape(e);
         });
         element.addEventListener('mouseup', (e) => {
@@ -148,6 +166,84 @@ export default {
             };
         },
 
+        // Dragging
+        dragMouseDown(event) {
+            if (!this.isDrawing) {
+                this.dragging = true;
+                this.elem = event.target;
+                this.startX = event.clientX;
+                this.startY = event.clientY;
+                this.startLeft = parseFloat(this.elem.style.left);
+                this.startTop = parseFloat(this.elem.style.top);
+            }
+        },
+
+        elementDrag(event) {
+            if (!this.dragging) return;
+            const deltaX = event.clientX - this.startX;
+            const deltaY = event.clientY - this.startY;
+
+            this.elem.style.left = this.startLeft + deltaX + "px";
+            this.elem.style.top = this.startTop + deltaY + "px";
+        },
+
+        closeDragElement() {
+            this.setShapeFromElem(this.elem);
+            this.dragging = false;
+        },
+        // Resizing
+        initResize(event, direction) {
+            event.stopPropagation();
+            this.resizing = true;
+            this.resizeDirection = direction;
+            this.elem = event.target.parentElement;
+            this.startX = event.clientX;
+            this.startY = event.clientY;
+            this.startWidth = parseFloat(this.elem.style.width);
+            this.startHeight = parseFloat(this.elem.style.height);
+            document.addEventListener("mousemove", this.doResize);
+            document.addEventListener("mouseup", this.stopResize);
+        },
+
+        doResize(event) {
+            if (!this.resizing) return;
+            const deltaX = event.clientX - this.startX;
+            const deltaY = event.clientY - this.startY;
+
+            if (this.resizeDirection === "right" || this.resizeDirection === "both") {
+                this.elem.style.width = this.startWidth + deltaX + "px";
+            }
+            if (this.resizeDirection === "bottom" || this.resizeDirection === "both") {
+                this.elem.style.height = this.startHeight + deltaY + "px";
+            }
+        },
+
+        getShapeFromId(shapeId) {
+            return store.shapes.find(s => s.id === shapeId);
+        },
+
+        setShapeFromElem(elem) {
+            const shapeId = elem.id;
+            const shape = this.getShapeFromId(shapeId);
+            if (!shape) return;
+            shape.left = parseFloat(elem.style.left) / window.innerWidth;
+            shape.top = parseFloat(elem.style.top) / getWindowTotalHeight();
+            shape.width = parseFloat(elem.style.width) / window.innerWidth;
+            shape.height = parseFloat(elem.style.height) / getWindowTotalHeight();
+
+            sendToRuntime({
+                action: 'add-shape',
+                data: {shape: shape, shapeId: shape.id, sessionId: store.sessionId}
+            });
+        },
+
+        stopResize(event) {
+            this.resizing = false;
+            this.setShapeFromElem(event.target.parentElement);
+            document.documentElement.removeEventListener("mousemove", this.doResize);
+            document.documentElement.removeEventListener("mouseup", this.stopResize);
+        },
+
         toggleDrawing() {
             this.isDrawing = !this.isDrawing;
         },
@@ -194,6 +290,8 @@ export default {
   }
 
   &-shape {
+
+    cursor: move;
     position: absolute;
     opacity: 0.80;
     border-radius: 5px;
@@ -205,20 +303,52 @@ export default {
       display: none; /* Safari and Chrome */
     }
 
+    .resizer {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: #333;
+      border: 2px solid white;
+      border-radius: 100%;
+      opacity: 0.85;
+      cursor: pointer;
+      z-index: 10000;
+      visibility: hidden;
+    }
+
+    .resizer-right {
+      top: calc(50% - 5px);
+      right: -5px;
+      cursor: e-resize;
+    }
+
+    .resizer-bottom {
+      bottom: -5px;
+      left: calc(50% - 5px);
+      cursor: s-resize;
+    }
+
+    .resizer-both {
+      right: -5px;
+      bottom: -5px;
+      cursor: se-resize;
+    }
+
     &:focus {
       outline: 3px solid rgb(255, 12, 40);
-      opacity: 0.3;
+      //opacity: 0.3;
     }
 
     &-info {
       visibility: hidden;
     }
 
-    &:hover &-info {
+    &:hover &-info, &:hover .resizer {
       visibility: visible;
     }
 
     &-editor {
+      cursor: text;
 
       &-label {
         font-size: 8px;
@@ -242,6 +372,14 @@ export default {
         color: #fff !important;
         padding: 0 5px !important;
         font-weight: normal;
+
+        h1, h2, h3, h4, h5, h6, li, ul, ol {
+          color: #fff !important;
+        }
+
+        &:hover {
+          outline: 2px solid #fff;
+        }
 
         p {
           margin-top: 0.25em;
