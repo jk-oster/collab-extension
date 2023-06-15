@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "NodeJS scraper for extension data from chrome store",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jakob Osterberger",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "selenium-webdriver": "^4.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

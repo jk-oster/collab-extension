@@ -1,0 +1,4256 @@
+[
+  {
+    "name": "AppPoint Collabdesk",
+    "description": "This WebRTC screen capturing extension can be used within any WebRTC library/application! Use getScreenId.js!",
+    "url": "https://chrome.google.com/webstore/detail/apppoint-collabdesk/mkbmmkmmkppgkahchamcaaommnjpkghd",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Archbee: Create Step-by-Step Guides & SOPs",
+    "description": "Effortlessly create, edit, and share quality documentation with Archbee. Generate step-by-step guides, how-tos, tutorials or SOPs.",
+    "url": "https://chrome.google.com/webstore/detail/archbee-create-step-by-st/mkngmhljihmalaidkiiibfneboamobog",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "Document GPS",
+    "description": "Track, modify and delete already sent attachments using blockchain-based security.",
+    "url": "https://chrome.google.com/webstore/detail/document-gps/gdlobabjmjnkkiajibjhembfpgpenbep",
+    "rating": 5,
+    "ratings": 26
+  },
+  {
+    "name": "Brightery Notes",
+    "description": "safe and secured notes management software to save and access it any where from any device, on the cloud",
+    "url": "https://chrome.google.com/webstore/detail/brightery-notes/mllepbaihhdfmhkckeikbgloohdemiel",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "GMerge - Gmail Merge Mail",
+    "description": "Gmail mail merge tool, send bulk emails from sheet or campaign in Gmail.",
+    "url": "https://chrome.google.com/webstore/detail/gmerge-gmail-merge-mail/cijmdkhhfnpjnpkpajjeholcbcddiopc",
+    "rating": 5,
+    "ratings": 55
+  },
+  {
+    "name": "Check",
+    "description": "Verify breaking news online",
+    "url": "https://chrome.google.com/webstore/detail/check/pjfgpbclkfjkfiljlcfehjmpafeoafdi",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Syft QuickBooks Multi-Connect",
+    "description": "Syft web extension for connecting multiple QuickBooks entities",
+    "url": "https://chrome.google.com/webstore/detail/syft-quickbooks-multi-con/dbbbagocfhhfdelkbbhbnglljcfdeeji",
+    "rating": 5,
+    "ratings": 28
+  },
+  {
+    "name": "Coagmento",
+    "description": "Make the most of your Web browsing - individually or collaboratively.",
+    "url": "https://chrome.google.com/webstore/detail/coagmento/lojohhkdbefaidjhcdngnflbjchgdokl",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "10ten Japanese Reader (Rikaichamp)",
+    "description": "Translate Japanese by hovering over words.",
+    "url": "https://chrome.google.com/webstore/detail/10ten-japanese-reader-rik/pnmaklegiibbioifkmfkgpfnmdehdfan",
+    "rating": 4.9,
+    "ratings": 38
+  },
+  {
+    "name": "Vollume Sampler",
+    "description": "Sample and edit any sound, right from your browser.",
+    "url": "https://chrome.google.com/webstore/detail/vollume-sampler/bogjdiancelbkhkncigdhhnfbpfoahag",
+    "rating": 4.8,
+    "ratings": 26
+  },
+  {
+    "name": "Inkah: Chinese & Korean Pop-up Dictionary",
+    "description": "Look up Korean & Chinese / Zhongwen words while browsing the web. Watch Netflix & Youtube with learning subtitles.",
+    "url": "https://chrome.google.com/webstore/detail/inkah-chinese-korean-pop/pcgmedbmchghfgikplcimdmfldfnecec",
+    "rating": 5,
+    "ratings": 93
+  },
+  {
+    "name": "Free VPN For Chrome - HavenSurf VPN",
+    "description": "Free and secured VPN connection with a wide. Unblock websites, change IP, secure internet.",
+    "url": "https://chrome.google.com/webstore/detail/free-vpn-for-chrome-haven/fnofnlokejkngcopdkaopafdbdcibmcm",
+    "rating": 4.9,
+    "ratings": 7
+  },
+  {
+    "name": "Web Instagram - Instagram-Downloader",
+    "description": "Verwenden Sie die mobile Version von Instagram direkt im Browser. Geschichten oder IGTV und andere Funktionen…",
+    "url": "https://chrome.google.com/webstore/detail/insaverify-web-for-instag/fobaamfiblkoobhjpiigemmdegbmpohd",
+    "rating": 4.8,
+    "ratings": 646
+  },
+  {
+    "name": "Bild im Bild - schwebender Videoplayer",
+    "description": "Sehen Sie sich Ihre Videos weiterhin im Bild-in-Bild-Modus an! Schwebendes Video für Youtube, Facebook, Twitch, Instagram...",
+    "url": "https://chrome.google.com/webstore/detail/picture-in-picture-floati/mndiaaeaiclnmjcnacogaacoejchdclp",
+    "rating": 4.8,
+    "ratings": 292
+  },
+  {
+    "name": "Seitenleiste - Chatgpt, Lesezeichen, Apps und mehr",
+    "description": "🚀 Jetzt mit ChatGPT. Organisieren Sie Lesezeichen, Lieblingswebsites, Apps, ChatGPT und greifen Sie überall darauf zu.",
+    "url": "https://chrome.google.com/webstore/detail/sidebarr-chatgpt-bookmark/afdfpkhbdpioonfeknablodaejkklbdn",
+    "rating": 4.7,
+    "ratings": 1549
+  },
+  {
+    "name": "Property Investigation Tools",
+    "description": "Property investigation tools including asking price history. Some features require a free account, see https://www.patma.co.uk/",
+    "url": "https://chrome.google.com/webstore/detail/property-investigation-to/gbppndfkbhfpmpidebmnhkofloklojii",
+    "rating": 4.6,
+    "ratings": 20
+  },
+  {
+    "name": "Black Menu for Google™",
+    "description": "Der einfachste Zugriff auf das Google Universum.",
+    "url": "https://chrome.google.com/webstore/detail/black-menu-for-google/eignhdfgaldabilaaegmdfbajngjmoke",
+    "rating": 4.6,
+    "ratings": 3787
+  },
+  {
+    "name": "4th Office Edit",
+    "description": "4th Office Edit allows you to open, edit and save changes to documents directly back to the 4th Office application.",
+    "url": "https://chrome.google.com/webstore/detail/4th-office-edit/iolllppockafcienapcpdpbmbdolbpgn",
+    "rating": 4.6,
+    "ratings": 7
+  },
+  {
+    "name": "Team Secrets: Encrypt Gmail Attachments",
+    "description": "Simple end-to-end encryption and multi-factor authentication in Gmail",
+    "url": "https://chrome.google.com/webstore/detail/team-secrets-encrypt-gmai/jnnbpljconmbempgfgjdfaclacgmdfci",
+    "rating": 4.6,
+    "ratings": 10
+  },
+  {
+    "name": "TeamPassword",
+    "description": "Password sharing for collaborative teams.",
+    "url": "https://chrome.google.com/webstore/detail/teampassword/cikdbigchmgednjbjppflefljobhnhca",
+    "rating": 4.6,
+    "ratings": 18
+  },
+  {
+    "name": "DocHub - Sign PDF from Gmail",
+    "description": "Sign and edit PDF documents",
+    "url": "https://chrome.google.com/webstore/detail/dochub-sign-pdf-from-gmai/mjgcgnfikekladnkhnimljcalfibijha",
+    "rating": 4.5,
+    "ratings": 302
+  },
+  {
+    "name": "Stolen Camera Finder",
+    "description": "Silent extension that keeps an eye out for photos taken with stolen cameras",
+    "url": "https://chrome.google.com/webstore/detail/stolen-camera-finder/hfhlngbcdalpjiejaenfchpcajdmpeom",
+    "rating": 4.4,
+    "ratings": 90
+  },
+  {
+    "name": "Cookie Cutter by Neeva",
+    "description": "Cookie Cutter protects you from third-party trackers and responds to cookie requests and pop-ups so you don't have to.",
+    "url": "https://chrome.google.com/webstore/detail/cookie-cutter-by-neeva/idcnmiefjmnabbchggljinkeiinlolon",
+    "rating": 4.4,
+    "ratings": 9
+  },
+  {
+    "name": "VPN Free – unbegrenzte Betternet VPN-Proxy",
+    "description": "Das schnellste VPN. Alle Websites entsperren. Behalten Sie im Internet Ihre Privatsphäre mit dem besten unbegrenzten VPN.",
+    "url": "https://chrome.google.com/webstore/detail/vpn-free-betternet-unlimi/gjknjjomckknofjidppipffbpoekiipm",
+    "rating": 4.4,
+    "ratings": 29905
+  },
+  {
+    "name": "RSS Feed Reader",
+    "description": "Get a simple overview of your RSS and Atom feeds in the toolbar",
+    "url": "https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp",
+    "rating": 4.4,
+    "ratings": 6966
+  },
+  {
+    "name": "Adblock für Youtube - Werbeblocker-Tool",
+    "description": "Adblock - Blockieren Sie alle Anzeigen in Youtube-Videos. Adblock entfernt alle Arten von Werbung. Werbeblocker für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/adblock-for-youtube-ad-bl/lagdcjmbchphhndlbpfajelapcodekll",
+    "rating": 4.4,
+    "ratings": 795
+  },
+  {
+    "name": "Greenhub Free VPN - Secure and Unblock VPN",
+    "description": "Unblock any website with the Greenhub VPN proxy that protects your IP and lets you browse privately for free For Chrome.",
+    "url": "https://chrome.google.com/webstore/detail/greenhub-free-vpn-secure/knmhokeiipedacnhpjklbjmfgedfohco",
+    "rating": 4.3,
+    "ratings": 217
+  },
+  {
+    "name": "Things To Do",
+    "description": "Nice and useful to do list on your search tab",
+    "url": "https://chrome.google.com/webstore/detail/things-to-do/ejdnfgiipfhkdfhmgeehaabehjfpojme",
+    "rating": 4.3,
+    "ratings": 3
+  },
+  {
+    "name": "Rytr - AI powered writing assistant",
+    "description": "Best AI Writer, Content Generator & Writing Assistant.",
+    "url": "https://chrome.google.com/webstore/detail/rytr-ai-powered-writing-a/cpnnabpklgnhjopaenljbbmkejamagel",
+    "rating": 4.3,
+    "ratings": 20
+  },
+  {
+    "name": "Trace - Online Tracking Protection",
+    "description": "Browse online without leaving a Trace, because who wants to be tracked?",
+    "url": "https://chrome.google.com/webstore/detail/trace-online-tracking-pro/njkmjblmcfiobddjgebnoeldkjcplfjb",
+    "rating": 4.2,
+    "ratings": 53
+  },
+  {
+    "name": "YouTube Comment Summary with ChatGPT OpenAI",
+    "description": "A ChatGPT AI YouTube comment summary tool. Have a quick look at people's opinions on the video.",
+    "url": "https://chrome.google.com/webstore/detail/youtube-comment-summary-w/mcooieiakpekmoicpgfjheoijfggdhng",
+    "rating": 4.1,
+    "ratings": 9
+  },
+  {
+    "name": "website broken link and 404 error checker",
+    "description": "A SEO tool to fast find all broken links on your websites to Rank Higher.",
+    "url": "https://chrome.google.com/webstore/detail/website-broken-link-and-4/kkjfobdnekhdpmgomkpeibhlnmcjgian",
+    "rating": 4.1,
+    "ratings": 9
+  },
+  {
+    "name": "Chrome Protect — Smart Search",
+    "description": "Search by Chrome Protect — The Best Way to Search",
+    "url": "https://chrome.google.com/webstore/detail/chrome-protect-%E2%80%94-smart-se/mhijjfhmpocbdbjkhcodbllohlobkpko",
+    "rating": 4,
+    "ratings": 6
+  },
+  {
+    "name": "HTTracker Web Downloader",
+    "description": "It downloads entire Website. made by SoftwarePrince.com as a software development company.",
+    "url": "https://chrome.google.com/webstore/detail/httracker-web-downloader/jappiofnhfolelcaeoimjcodghnnkfbk",
+    "rating": 4,
+    "ratings": 8
+  },
+  {
+    "name": "Whiteboard New Tab",
+    "description": "Browse Chrome with a simple writeboard on every new tab",
+    "url": "https://chrome.google.com/webstore/detail/whiteboard-new-tab/edkebnkjabbndojcambndlmgmolbmaib",
+    "rating": 3.9,
+    "ratings": 7
+  },
+  {
+    "name": "History Map",
+    "description": "Browsing with a map in hand",
+    "url": "https://chrome.google.com/webstore/detail/history-map/gnkekbekankhgcmajobhnbdhopcmnfjj",
+    "rating": 3.7,
+    "ratings": 6
+  },
+  {
+    "name": "Amazon Assistant für Chrome",
+    "description": "Amazons offizielle Browser-Erweiterung. Durch die Installation stimmen Sie den Nutzungsbedingungen zu: amazon.de/aa/TOU",
+    "url": "https://chrome.google.com/webstore/detail/amazon-assistant-for-chro/pbjikboenpfhbbejgkoklgkhjpfogcam",
+    "rating": 3.6,
+    "ratings": 3460
+  },
+  {
+    "name": "EasyGood - Free Unlimited VPN Proxy",
+    "description": "EasyGood is best free vpn proxy to unblock, free vpn to unblock website and vpn for pc. vpn free 100% ! vpn professional !",
+    "url": "https://chrome.google.com/webstore/detail/easygood-free-unlimited-v/pgpcjennihmkbbpifnjkdpkagpaggfaa",
+    "rating": 3.5,
+    "ratings": 2
+  },
+  {
+    "name": "Chrome™ Tools",
+    "description": "Chrome Tools has every shortcut you need in your browser. This practical and useful tool gives you instant access to not so obvious…",
+    "url": "https://chrome.google.com/webstore/detail/chrome-tools/jihicnfcjfaflbejkohdeodejenbldmk",
+    "rating": 3.5,
+    "ratings": 2
+  },
+  {
+    "name": "TopCashback UK Get Cashback & Vouchers",
+    "description": "Join over 20m members to earn cashback and get the best vouchers when you shop online with the TopCashback browser extension",
+    "url": "https://chrome.google.com/webstore/detail/topcashback-uk-get-cashba/ekeeeebmbhkkjcaoicinbdjmklipppkj",
+    "rating": 2.8,
+    "ratings": 181
+  },
+  {
+    "name": "IA4Chrome",
+    "description": "Extension Interact For Chrome Browser",
+    "url": "https://chrome.google.com/webstore/detail/ia4chrome/jifbnihciifbfeiiijegkfnbigagacjk",
+    "rating": 2.5,
+    "ratings": 10
+  },
+  {
+    "name": "Magic VPN - Best Free VPN for Chrome",
+    "description": "Free and secure proxy accelerator plug-in, protect your privacy and enjoy unrestricted Internet services.",
+    "url": "https://chrome.google.com/webstore/detail/magic-vpn-best-free-vpn-f/glnhjppnpgfaapdemcpihhkobagpnfee",
+    "rating": 1,
+    "ratings": 2
+  },
+  {
+    "name": "Help Me Focus Extension",
+    "description": "Achieve your focus by keeping track in browser new tab",
+    "url": "https://chrome.google.com/webstore/detail/help-me-focus-extension/ooaincdhfcpciedcpmaggdfcmepfjcip"
+  },
+  {
+    "name": "Fast Dictionary Extension",
+    "description": "Get your dictionary in your browser new tab",
+    "url": "https://chrome.google.com/webstore/detail/fast-dictionary-extension/kochhhcoobdfpjmnjjjnbplobeoglhgp"
+  },
+  {
+    "name": "Inspiration Needed Extension",
+    "description": "Daily inspiration in your browser new tab & Customize background from selective Nature image gallery",
+    "url": "https://chrome.google.com/webstore/detail/inspiration-needed-extens/gaafbnclfphnmlonkbjakojnkeaicckn"
+  },
+  {
+    "name": "Quick PDF Combine Extension",
+    "description": "Merge or Combine two or more pdf in your browser new tab",
+    "url": "https://chrome.google.com/webstore/detail/quick-pdf-combine-extensi/lehjhlfciaapkfnbmabkdfdaokbkjokb"
+  },
+  {
+    "name": "Find Manual",
+    "description": "Find any user manual for many brand products from your browser toolbar",
+    "url": "https://chrome.google.com/webstore/detail/find-manual/cmadiiiggcaaelekacljabmbebfghaif",
+    "rating": 2.8,
+    "ratings": 29
+  },
+  {
+    "name": "New Tab Speed Dial Extension",
+    "description": "Speed Dial changes the standard page to the new tab page with your saved bookmarks",
+    "url": "https://chrome.google.com/webstore/detail/new-tab-speed-dial-extens/kcgcocmjhhnkcddddgocfcjcmmegplpk"
+  },
+  {
+    "name": "Tabson",
+    "description": "All your tabs in one place, saves up to 95% of memory",
+    "url": "https://chrome.google.com/webstore/detail/tabson/hflpomhemdckeoickmckifpfoidefkbg",
+    "rating": 5,
+    "ratings": 13
+  },
+  {
+    "name": "Twiso: AI Notetaker & Screen recorder",
+    "description": "Record yourself and your screen then share it with an instant link + Collaborate using annotation, comments, and highlights.",
+    "url": "https://chrome.google.com/webstore/detail/twiso-ai-notetaker-screen/aeeninnnlhgaojlolnbpljadhbionlal",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Tenderly Debugger",
+    "description": "Instantly jump into the most versatile (visual) debugger from any transaction hash, from any of the block explorers.",
+    "url": "https://chrome.google.com/webstore/detail/tenderly-debugger/miiolgcpknpjjfagkaddfgakbdenenfn",
+    "rating": 5,
+    "ratings": 10
+  },
+  {
+    "name": "Stock Analysis Overlay (Simply Wall St)",
+    "description": "An AI powered analysis overlay",
+    "url": "https://chrome.google.com/webstore/detail/stock-analysis-overlay-si/fogdlgjnkolhbefbbpghbafdkhcdgdnk",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Betafi: Record, Add Notes, Transcribe Calls",
+    "description": "Your regular meeting assistant + Transcription in 30 languages + Compare notes across meetings + Bring your findings to Miro/FigJam",
+    "url": "https://chrome.google.com/webstore/detail/betafi-record-add-notes-t/pcbbcmacaeoaabpnenfhbkocnoajdfme",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "ChatGPT YouTube-Zusammenfassung ohne Limit",
+    "description": "Das beste YouTube-Zusammenfassungstool mit Chat GPT AI. Kopieren Sie das Transkript und die Zusammenfassung mit einem Klick.",
+    "url": "https://chrome.google.com/webstore/detail/youtube-summary-chatgpt-u/eelolnalmpdjemddgmpnmobdhnglfpje",
+    "rating": 5,
+    "ratings": 24
+  },
+  {
+    "name": "WhatSender",
+    "description": "Use WhatsApp Automation Tool to connect with your customers by sending bulk messages.",
+    "url": "https://chrome.google.com/webstore/detail/wapi-send-personalized-me/onohcnjmnndegfjgbfdfaeooceefedji",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "Email Finder & Email Hunter",
+    "description": "Email Finder & Email Hunter help you get email data automatically, save time and focus on work.",
+    "url": "https://chrome.google.com/webstore/detail/email-finder-email-hunter/aihgkhchhecmambgbonicffgneidgclh",
+    "rating": 5,
+    "ratings": 67
+  },
+  {
+    "name": "FreeDropship - Dropship the winning products",
+    "description": "FreeDropship - Find and dropship the Aliexpress winning products easily.",
+    "url": "https://chrome.google.com/webstore/detail/freedropship-dropship-the/opjeiabeabnjceldmihlpigdajkokkmc",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Cooby: Best WhatsApp Extension for Work",
+    "description": "Find the chat thread you want faster, and never miss a message again by modernizing your WhatsApp.",
+    "url": "https://chrome.google.com/webstore/detail/cooby-best-whatsapp-exten/hcikfoejbgdmajlbhadhfchoekcoablm",
+    "rating": 4.8,
+    "ratings": 129
+  },
+  {
+    "name": "QR-Code-Generator - QR-Code erstellen",
+    "description": "QR-Code-Generator - schnellste Möglichkeit, QR-Codes zu generieren oder zu scannen. Und entschlüsseln Sie den QR-Code im Bild.",
+    "url": "https://chrome.google.com/webstore/detail/qr-code-generator/hoeiookpkijlnjdafhaclpdbfflelmci",
+    "rating": 4.7,
+    "ratings": 259
+  },
+  {
+    "name": "SellerAmp SAS - Amazon FBA Analysis Tool",
+    "description": "Analyze products to sell on Amazon via Online Arbitrage. Includes Keepa charts, FBA profit calculator, stock levels and more",
+    "url": "https://chrome.google.com/webstore/detail/selleramp-sas-amazon-fba/kidmffepbniamfbibhfgdakkggchipjl",
+    "rating": 4.7,
+    "ratings": 41
+  },
+  {
+    "name": "zipBoard",
+    "description": "Enables screenshots for zipBoard",
+    "url": "https://chrome.google.com/webstore/detail/zipboard/hjggbopcacdchdecegldbeknhpeiheaf",
+    "rating": 4.7,
+    "ratings": 13
+  },
+  {
+    "name": "Profitl - Amazon FBA Deal Analysis Tool",
+    "description": "Profitl determines the best FBA deals wherever you are - in-store or online - through two solutions for one monthly price.",
+    "url": "https://chrome.google.com/webstore/detail/profitl-amazon-fba-deal-a/fpklbdjjbgdpkpeokoagehbnkdfdkimi",
+    "rating": 4.7,
+    "ratings": 18
+  },
+  {
+    "name": "Cute Cursors - benutzerdefinierter Cursor",
+    "description": "Lustige benutzerdefinierte Cursor für Chrome™. Ersetzen Sie den Standard-Mauszeiger durch einen benutzerdefinierten aus einer…",
+    "url": "https://chrome.google.com/webstore/detail/cute-cursors-custom-curso/anflghppebdhjipndogapfagemgnlblh",
+    "rating": 4.6,
+    "ratings": 14905
+  },
+  {
+    "name": "WIREFOX SEO TOOLKIT - SEO ANALYSIS TOOL",
+    "description": "SEO TOOLKIT, SEO ANALYSIS TOOL",
+    "url": "https://chrome.google.com/webstore/detail/wirefox-seo-toolkit-seo-a/gdicngljankkhfnhjffcdlnnfeooihbk",
+    "rating": 4.6,
+    "ratings": 11
+  },
+  {
+    "name": "VPN Unlimited - Bestes VPN durch Entsperren",
+    "description": "VPN - sicher, anonym und erreichbar online gehen. VPN-Erweiterung für den Zugriff auf jede Website Youtube, Facebook, Netflix",
+    "url": "https://chrome.google.com/webstore/detail/vpn-unlimited-best-vpn-by/epeigjgefhajkiiallmfblgglmdbhfab",
+    "rating": 4.5,
+    "ratings": 578
+  },
+  {
+    "name": "RSS Reader Extension (by Inoreader)",
+    "description": "Build your own newsfeed",
+    "url": "https://chrome.google.com/webstore/detail/rss-reader-extension-by-i/kfimphpokifbjgmjflanmfeppcjimgah",
+    "rating": 4.5,
+    "ratings": 371
+  },
+  {
+    "name": "deprocrastination - block distractions",
+    "description": "Block distractions in the browser and win the productivity game",
+    "url": "https://chrome.google.com/webstore/detail/deprocrastination-block-d/gamblpaiplkihjneblbnoniddfockndi",
+    "rating": 4.4,
+    "ratings": 17
+  },
+  {
+    "name": "Plan - Calendar & Tasks",
+    "description": "The beautiful new tab page with your calendars and tasks.",
+    "url": "https://chrome.google.com/webstore/detail/plan-calendar-tasks/kinkgmlnfafflibopbljlhihdjmbahha",
+    "rating": 4.4,
+    "ratings": 58
+  },
+  {
+    "name": "Scholarcy | Research Paper Summarizer",
+    "description": "Summarizes research articles, creates interactive flashcards, highlights key points, links to open-access versions of each citation",
+    "url": "https://chrome.google.com/webstore/detail/scholarcy-research-paper/oekgknkmgmaehhpegfeioenikocgbcib",
+    "rating": 4.3,
+    "ratings": 28
+  },
+  {
+    "name": "Essential SEO Toolkit (SEO Analysis Tool)",
+    "description": "The Essential SEO Toolkit is a collection of useful SEO tools, which when clicked opens the tool using the current URL.",
+    "url": "https://chrome.google.com/webstore/detail/essential-seo-toolkit-seo/icagkiolfkmndbggheneeamfbnobcdma",
+    "rating": 4.2,
+    "ratings": 28
+  },
+  {
+    "name": "Website SEO Checker: Free Audit & Analysis",
+    "description": "Get free on-page SEO report with the best website SEO checker. Use SEO analysis to do audit for the most valuable pages at first.",
+    "url": "https://chrome.google.com/webstore/detail/website-seo-checker-free/nljcdkjpjnhlilgepggmmagnmebhadnk",
+    "rating": 4.2,
+    "ratings": 52
+  },
+  {
+    "name": "Capian",
+    "description": "Capian helps you make usability evaluations and expert reviews more quickly.",
+    "url": "https://chrome.google.com/webstore/detail/capian/edpkoigbbhaeapdgjohogckmeddejncp",
+    "rating": 4.1,
+    "ratings": 9
+  },
+  {
+    "name": "LipSurf - Voice Control for the Web",
+    "description": "Use voice to type, click anything, scroll, watch videos, open webpages, make custom voice shortcuts and more.",
+    "url": "https://chrome.google.com/webstore/detail/lipsurf-voice-control-for/lnnmjmalakahagblkkcnjkoaihlfglon",
+    "rating": 4.1,
+    "ratings": 100
+  },
+  {
+    "name": "URL Spezifische Notepad - Annopad",
+    "description": "Mit diesem Tool können Sie Notizen für bestimmte Web-Adressen erstellen.",
+    "url": "https://chrome.google.com/webstore/detail/url-specific-notepad-anno/johjcheghocokbkhacbfbhojoangkpcb",
+    "rating": 4.1,
+    "ratings": 173
+  },
+  {
+    "name": "MYKI Password Manager & Authenticator",
+    "description": "MYKI Password Manager Browser Extension",
+    "url": "https://chrome.google.com/webstore/detail/myki-password-manager-aut/bmikpgodpkclnkgmnpphehdgcimmided",
+    "rating": 3.9,
+    "ratings": 133
+  },
+  {
+    "name": "My Password Creator Extension",
+    "description": "Generate Secure Password in NewTab",
+    "url": "https://chrome.google.com/webstore/detail/my-password-creator-exten/fdgmgjpkibiapappdilcajkcfbcgofim",
+    "rating": 3,
+    "ratings": 2
+  },
+  {
+    "name": "Military Pride Extension",
+    "description": "Change your Search Engine Background to a Military photo",
+    "url": "https://chrome.google.com/webstore/detail/military-pride-extension/ceofcicakflonbbmbdbdkbmmhnnfahli"
+  },
+  {
+    "name": "Easy Sender for WhatsApp Web",
+    "description": "A Easy,Useful,Lightweight WhatsApp bulk message sender tools for WhatsApp™ Web client",
+    "url": "https://chrome.google.com/webstore/detail/easy-sender/khfmfdepnleebhonomgihppncahojfig",
+    "rating": 4,
+    "ratings": 10
+  },
+  {
+    "name": "Jumpshare: Free Screen Recorder & Screenshots",
+    "description": "The best screen recorder, screenshot capture and annotation tool",
+    "url": "https://chrome.google.com/webstore/detail/jumpshare-free-screen-rec/bhfhdidbcclahddgkikdccfidjbcmibi",
+    "rating": 4,
+    "ratings": 4
+  },
+  {
+    "name": "CoCites [Beta]",
+    "description": "CoCites adds a one-click button in PubMed to show frequently co-cited articles",
+    "url": "https://chrome.google.com/webstore/detail/cocites-beta/kjnhiadmccnbfbfjkmkhinglkaolnhcj",
+    "rating": 3,
+    "ratings": 2
+  },
+  {
+    "name": "EdrawMind - MindMapping Tool",
+    "description": "EdrawMind, a full-featured collaborative mind mapping and brainstorming tool.",
+    "url": "https://chrome.google.com/webstore/detail/edrawmind-mindmapping-too/jingilnjnajnmppfapdlnficpgliofgk",
+    "rating": 4.3,
+    "ratings": 11
+  },
+  {
+    "name": "Padlet Mini",
+    "description": "Collect and bookmark the best of web for yourself or with friends.",
+    "url": "https://chrome.google.com/webstore/detail/padlet-mini/kcljbbiddpoeaknnjaminoceoojdbikp",
+    "rating": 4.1,
+    "ratings": 64
+  },
+  {
+    "name": "Wondershare DemoAir - Screen Recorder",
+    "description": "Easy Screen Recorder for Chrome to Record Screen, Webcam and Share Videos in Seconds!",
+    "url": "https://chrome.google.com/webstore/detail/wondershare-demoair-scree/olfdaaodhngodpnnoahamgfnndipjopi",
+    "rating": 4,
+    "ratings": 22
+  },
+  {
+    "name": "ScreenBud · Capture, edit & share screenshots",
+    "description": "Capture, edit & share screenshots -- FOR FREE!",
+    "url": "https://chrome.google.com/webstore/detail/screenbud-%C2%B7-capture-edit/gcjpddnhdopbpimmngmgfhhimnbenjhl",
+    "rating": 3.8,
+    "ratings": 12
+  },
+  {
+    "name": "Word-Editor Online",
+    "description": "Einfache Online-Bearbeitung Ihrer Word-Dokumente und Hinzufügen von Bildern, Text und Kommentaren zu einer Word-Datei.",
+    "url": "https://chrome.google.com/webstore/detail/word-editor-online/iflipbenkncalpdbamhkaleppfnlefjm",
+    "rating": 3,
+    "ratings": 2
+  },
+  {
+    "name": "Zone PDF: PDFs bearbeiten und konvertieren",
+    "description": "PDF-Dateien in Sekundenschnelle bearbeiten, konvertieren, zusammenführen, komprimieren und teilen!",
+    "url": "https://chrome.google.com/webstore/detail/zone-pdf-edit-and-convert/lbiaiddfgadedcboolliiefgajaholag",
+    "rating": 2.8,
+    "ratings": 8
+  },
+  {
+    "name": "Excel-Editor Online",
+    "description": "Einfache Online-Bearbeitung Ihrer Excel-Dokumente und Hinzufügen von Bildern, Text und Kommentaren zu einer Excel-Datei.",
+    "url": "https://chrome.google.com/webstore/detail/excel-editor-online/ahibepkhmaepihjpbddebpdhfoecghfd",
+    "rating": 2.5,
+    "ratings": 2
+  },
+  {
+    "name": "FluentCloud Meetings Presenter",
+    "description": "This extension is required to share your desktop with FluentCloud Meetings, brought to you by FluentStream Technologies.",
+    "url": "https://chrome.google.com/webstore/detail/fluentcloud-meetings-pres/jjgfjbggknjheidfijhjnmnnicgnklij"
+  },
+  {
+    "name": "GoHandbooks: Empower Your Team",
+    "description": "GoHandbooks allows you & your team members to collaborate on and quickly access your business operations manual, anytime, anywhere.",
+    "url": "https://chrome.google.com/webstore/detail/gohandbooks-empower-your/flkbbffbhpmklghcklceamjnmhdchcba"
+  },
+  {
+    "name": "not8 - collaborative product review",
+    "description": "Shareable sticky notes for team website review and user feedback",
+    "url": "https://chrome.google.com/webstore/detail/not8-collaborative-produc/kdfppggcfpgdcdjcmfpmnfncifmdncfe",
+    "rating": 5,
+    "ratings": 19
+  },
+  {
+    "name": "How-To (Web Flows)",
+    "description": "Effortlessly navigate websites and get things done with How to, the ultimate website workflow solution.",
+    "url": "https://chrome.google.com/webstore/detail/how-to-web-flows/ldidaanedenkfldlanaifhaiiglnigng",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "StudyMateAI",
+    "description": "A browser extension for accessing GPT-3 while browsing or viewing PDF files",
+    "url": "https://chrome.google.com/webstore/detail/studymateai/ojdbfphobphdlgloniofafojolaalnlm",
+    "rating": 5,
+    "ratings": 2
+  },
+
+  {
+    "name": "XBert Extension",
+    "description": "See your XBert alerts plus create and link tasks from anywhere.",
+    "url": "https://chrome.google.com/webstore/detail/xbert-extension/nigdbicmeinmmhflhbhcnpidibbiojbf",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "tracking.exposed: investigating algorithms",
+    "description": "Collaborative tool to support investigation of personalization algorithms.",
+    "url": "https://chrome.google.com/webstore/detail/trackingexposed-investiga/fnknflppefckhjhecbfigfhlcbmcnmmi",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "Spellex Write-Assist for Chrome",
+    "description": "Spellex for Chrome is a complete assistive technology literacy toolbar to help improve reading, writing, and speech comprehension.",
+    "url": "https://chrome.google.com/webstore/detail/spellex-write-assist-for/nclbdenibannopngkgdpemcmleninpdp",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Gitoqlok",
+    "description": "Chrome extension that add source versioning control in Qlik",
+    "url": "https://chrome.google.com/webstore/detail/gitoqlok/kkgicbgpgfcbhcbmifmfagggnpkebdaj",
+    "rating": 5,
+    "ratings": 10
+  },
+  {
+    "name": "StandNote",
+    "description": "StandNote is your easy to use online meeting assistant that backs you up with automated meeting minutes for every conversation.",
+    "url": "https://chrome.google.com/webstore/detail/standnote/emgbjefldokjjjoofmidcnigmienlclm",
+    "rating": 5,
+    "ratings": 7
+  },
+  {
+    "name": "Shepherd",
+    "description": "Shepherd is a B2B SaaS solution helping companies and teams adapt to the future of work by running more efficient meetings.",
+    "url": "https://chrome.google.com/webstore/detail/shepherd/mfdklpflbmbhldnjohkpdfaclaklphak",
+    "rating": 5,
+    "ratings": 12
+  },
+  {
+    "name": "TMate: Virtual office for remote teams",
+    "description": "Live audio chat and collaborate with teammates on top of any web-app.",
+    "url": "https://chrome.google.com/webstore/detail/tmate-virtual-office-for/ihlpdpjcjecebokpcmnlobaldpnpnocd",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "LightUpTheWeb(Beta)",
+    "description": "Bookmark, Highlight and Search",
+    "url": "https://chrome.google.com/webstore/detail/lightupthewebbeta/afabncndnlipbonmgbjjcfddjhpmlgeo",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "GQueues for Google Calendar",
+    "description": "Mark GQueues tasks complete directly in Google Calendar",
+    "url": "https://chrome.google.com/webstore/detail/gqueues-for-google-calend/fghnmlcmakpmbjgplmcbkhgkeegofhll",
+    "rating": 5,
+    "ratings": 18
+  },
+  {
+    "name": "Claap for Chrome",
+    "description": "All-in-one Video Workspace: Screen Recording, Meeting Recording, Video Wiki. Built for team collaboration.",
+    "url": "https://chrome.google.com/webstore/detail/claap-for-chrome/bnflmljpbmkjeahgjakmjdanmhldjhbk",
+    "rating": 5,
+    "ratings": 47
+  },
+  {
+    "name": "Screenshot, comment & share in a click",
+    "description": "Cabana helps you share screenshots, comments, mentions and annotations across multiple webpages or SaaS tools in a single thread.",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-comment-share/lndemclhjihfkmeidbeahniadkgjkkjn",
+    "rating": 5,
+    "ratings": 7
+  },
+  {
+    "name": "MarkUp For Chrome",
+    "description": "Visual Feedback for Websites",
+    "url": "https://chrome.google.com/webstore/detail/markup-for-chrome/llbkdcpbiogplgmefnkbgcdfiopfphbc",
+    "rating": 4.9,
+    "ratings": 38
+  },
+  {
+    "name": "Ampliz Sales Buddy",
+    "description": "Find B2B Email address, Direct dials & Company Intelligence with just one click",
+    "url": "https://chrome.google.com/webstore/detail/ampliz-sales-buddy/abgoaphadkcmbkapnamhkcgkaddlmfal",
+    "rating": 4.8,
+    "ratings": 6
+  },
+  {
+    "name": "B2Brain",
+    "description": "Intel, Talking Points and Leads for your target accounts. Make Notes for free. Automate account research.",
+    "url": "https://chrome.google.com/webstore/detail/b2brain/gfkjbjplehnonknlkbolekeijihfkoaf",
+    "rating": 4.8,
+    "ratings": 18
+  },
+  {
+    "name": "iManage Work for Gmail",
+    "description": "iManage Work for Gmail",
+    "url": "https://chrome.google.com/webstore/detail/imanage-work-for-gmail/eameopeafamlapaanmfijbednoofgeep",
+    "rating": 4.7,
+    "ratings": 11
+  },
+  {
+    "name": "GQueues Chrome Extension",
+    "description": "Easily create tasks for GQueues - the task manager built for teams on Google Workspace.",
+    "url": "https://chrome.google.com/webstore/detail/gqueues-chrome-extension/nfaboplgcinooacenccbofkaadcfbkkb",
+    "rating": 4.5,
+    "ratings": 62
+  },
+  {
+    "name": "Weet for Chrome: Video and Screen recorder",
+    "description": "A picture paints a thousand words. So why send an email or schedule a meeting when you can send a video message.",
+    "url": "https://chrome.google.com/webstore/detail/weet-for-chrome-video-and/mhohnenkbgmndjgdccjmelopdaceibfk",
+    "rating": 4.4,
+    "ratings": 9
+  },
+  {
+    "name": "CTiContRol® Webphone para Google Workspace",
+    "description": "CTiContRol® Webphone para Google Workspace",
+    "url": "https://chrome.google.com/webstore/detail/cticontrol%C2%AE-webphone-para/gakjlgabbpdkoilkncmlolaampjadjbj",
+    "rating": 4.3,
+    "ratings": 4
+  },
+  {
+    "name": "Mind maps",
+    "description": "The clear way to share complex information. Mind maps is a collaborative tool that helps you make sense of complex things.",
+    "url": "https://chrome.google.com/webstore/detail/mind-maps/apnopkndgalmmmanikgoihpnmkgflelc",
+    "rating": 4,
+    "ratings": 4
+  },
+  {
+    "name": "Kelp: Your magical website organizer",
+    "description": "A customizable New Tab page that groups websites by meetings and tags.",
+    "url": "https://chrome.google.com/webstore/detail/kelp-your-magical-website/onkkkcfnlbkoialleldfbgodakajfpnl"
+  },
+  {
+    "name": "Share Google Contacts with Shared Contacts®",
+    "description": "Share Google Contacts like you share Google Docs with Gmail and Google Workspace (G Suite) users using Shared Contacts for Gmail®.",
+    "url": "https://chrome.google.com/webstore/detail/share-google-contacts-wit/nhmihkokjnmeaagjihlamgohjfmapehj",
+    "rating": 4.4,
+    "ratings": 38
+  },
+  {
+    "name": "Teilen Sie das Plug-in für Google-Kontakte",
+    "description": "Fügen Sie Ihrer Google-Kontakte-Oberfläche Freigabefunktionen hinzu... Genau so, wie Sie Google Drive-Ordner und -Dokumente…",
+    "url": "https://chrome.google.com/webstore/detail/share-google-contacts-plu/nllecbomigehlngfclbgjeghfmfajfgp",
+    "rating": 4.4,
+    "ratings": 7
+  },
+  {
+    "name": "GQueues for Gmail",
+    "description": "Turn emails into actionable tasks with GQueues - the task manager built for teams on Google Workspace.",
+    "url": "https://chrome.google.com/webstore/detail/gqueues-for-gmail/oabmjafkkhaamplldfiipdefcdmjcfac",
+    "rating": 4.3,
+    "ratings": 29
+  },
+  {
+    "name": "Blixem Tab Manager",
+    "description": "Organize, save & share your tabs for easy collaboration with Blixem.",
+    "url": "https://chrome.google.com/webstore/detail/blixem-tab-manager/omopkelmfodladbpldammhdjiljhapib",
+    "rating": 4.2,
+    "ratings": 18
+  },
+  {
+    "name": "Labstep Chrome Extension",
+    "description": "Use our extension to save resources directly into Labstep. Labstep is a flexible research environment that connects your…",
+    "url": "https://chrome.google.com/webstore/detail/labstep-chrome-extension/cfaifbhbmgjafdffhinpgkmjdidkbonp"
+  },
+  {
+    "name": "ChatGPT to Notion",
+    "description": "Save your discussions with ChatGPT directly into Notion!",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-to-notion/oojndninaelbpllebamcojkdecjjhcle",
+    "rating": 4.4,
+    "ratings": 21
+  },
+  {
+    "name": "AODocs - Smartbar for Google Workspace",
+    "description": "Add AODocs® features to Google Workspace™ (Google Drive™, Docs™, Sheets™, Slides™, Drawings™ and Gmail™).",
+    "url": "https://chrome.google.com/webstore/detail/aodocs-smartbar-for-googl/aikbehojjdffmangolfbohjdigfdnepa",
+    "rating": 3.8,
+    "ratings": 60
+  },
+  {
+    "name": "Text to Speech: Voice Reader TTS",
+    "description": "Add Free Text to Speech Voice TTS Reader in Google Chrome and read text out loud from news, articles, websites and other sources",
+    "url": "https://chrome.google.com/webstore/detail/text-to-speech-voice-read/mhapkjngbbknjmpbnjbbhmogbhagncjd",
+    "rating": 3.8,
+    "ratings": 30
+  },
+  {
+    "name": "Telescope: AI-powered Web Clipper",
+    "description": "AI-powered Knowledge Base that transcribes videos, summarizes documents/websites & makes knowledge discovery 10x faster.",
+    "url": "https://chrome.google.com/webstore/detail/telescope-ai-powered-web/lpohhpokidkkffkeaklfocgpkdlkpkki",
+    "rating": 3.6,
+    "ratings": 8
+  },
+  {
+    "name": "Virtru for Drive",
+    "description": "Virtru for Drive",
+    "url": "https://chrome.google.com/webstore/detail/virtru-for-drive/nhdkblgjckgbdpjbohjepdakoioldloe",
+    "rating": 3.4,
+    "ratings": 5
+  },
+  {
+    "name": "Move Files from Box to Google Drive",
+    "description": "This extension lets you directly transfer files from Box to Google Drive without download and upload.",
+    "url": "https://chrome.google.com/webstore/detail/move-files-from-box-to-go/ggjjjpfggpdhamicpcfllpcdobmpplbm"
+  },
+  {
+    "name": "trustkey",
+    "description": "Interactive digital templates",
+    "url": "https://chrome.google.com/webstore/detail/trustkey/lkacomkhliianbamiaihdbcdagffhjde"
+  },
+  {
+    "name": "Apidog Browser Extension",
+    "description": "All-in-One workspace for API Design, Documentation, Debug, Mock, Test.",
+    "url": "https://chrome.google.com/webstore/detail/apidog-browser-extension/dmhljjnonlhapikmelaefohecogokhio"
+  },
+  {
+    "name": "Safe Doc",
+    "description": "Safe Doc smooths the way for schools managing Google Workspace for Education features that Google Admin Console doesn't provide.…",
+    "url": "https://chrome.google.com/webstore/detail/safe-doc/mmhppocgfdombmapajfeafhecobfcjpk",
+    "rating": 1.7,
+    "ratings": 11
+  },
+  {
+    "name": "Drive Watcher Chrome Extension",
+    "description": "Add a powerful watcher in your workspace and stay tuned about updates done by your work mates",
+    "url": "https://chrome.google.com/webstore/detail/drive-watcher-chrome-exte/ecncpdaaopimgjpfolockddjghbncpbj"
+  },
+  {
+    "name": "ADM+S - The Australian Ad Observatory",
+    "description": "The Australian Ad Observatory plugin improves collective understandings of advertisements served on social media.",
+    "url": "https://chrome.google.com/webstore/detail/adm%2Bs-the-australian-ad-o/nekkdcndchgifogkllchnbjlopephabm"
+  },
+  {
+    "name": "365 RePicture Calendar",
+    "description": "The 365 RePicture Calendar is a project that aims to break down stereotypes and create positive social change through visuals.",
+    "url": "https://chrome.google.com/webstore/detail/365-repicture-calendar/palghpbijnanjiboehlhijapmcflbihd"
+  },
+  {
+    "name": "Décortex by Do4Change",
+    "description": "Décortex : intelligence collective au service de l'information citoyenne, via Do4Change",
+    "url": "https://chrome.google.com/webstore/detail/d%C3%A9cortex-by-do4change/dkkjfclknbflaccjcfpmadndijilanhg"
+  },
+  {
+    "name": "SenseMaker",
+    "description": "Make sense of it all",
+    "url": "https://chrome.google.com/webstore/detail/sensemaker/ipfndgkanldpllcaenoncmgejipkjdje"
+  },
+  {
+    "name": "Picket",
+    "description": "Collective bargaining for netizens",
+    "url": "https://chrome.google.com/webstore/detail/picket/poeghfopkomankboimkibohhaomlafpd"
+  },
+  {
+    "name": "Rollender Ball 3D - Chromebook Game",
+    "description": "Rolling Ball 3D: Rollen Sie durch Hindernisse, sammeln Sie Diamanten und erobern Sie Levels! Rasantes Gameplay im Arcade-Stil.",
+    "url": "https://chrome.google.com/webstore/detail/rolling-ball-unblocked/decchghldbjdfjepcmhfdiolekpdfcka",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Gmail Notes - Add notes to email in Gmail",
+    "description": "Add note to Gmail emails for remind something, like a sticky.",
+    "url": "https://chrome.google.com/webstore/detail/gmail-notes-add-notes-to/bbpgdlmdmlalbacneejkinpnpngnnghj",
+    "rating": 5,
+    "ratings": 12
+  },
+  {
+    "name": "Synth Extension",
+    "description": "Transcripts and AI Notes for Google meet",
+    "url": "https://chrome.google.com/webstore/detail/synth-extension/nkhoabjafibdeagcjmacgfbojgpjldid",
+    "rating": 5,
+    "ratings": 21
+  },
+  {
+    "name": "LinkedRadar - ChatGPT LinkedIn Auto Connect Tool",
+    "description": "Boost 10x engagement on LinkedIn with LinkedRadar's ChatGPT-Driven Auto Connect Tool.",
+    "url": "https://chrome.google.com/webstore/detail/linkedradar-linkedin-auto/kgpckhbdfdhbkfkepcoebpabkmnbhoke",
+    "rating": 4.9,
+    "ratings": 161
+  },
+  {
+    "name": "Tweaks for YouTube",
+    "description": "Seek, control volume, speed, and more with mouse and keyboard. Adjust player controls, progress bar, UI elements, process audio...",
+    "url": "https://chrome.google.com/webstore/detail/tweaks-for-youtube/ogkoifddpkoabehfemkolflcjhklmkge",
+    "rating": 4.8,
+    "ratings": 234
+  },
+  {
+    "name": "Album",
+    "description": "Builds a list with the images present on the current page and exports it as text, mosaic or carousel.",
+    "url": "https://chrome.google.com/webstore/detail/album/obknigmaekkacdkckfeegcfiefdaeked",
+    "rating": 4.8,
+    "ratings": 15
+  },
+  {
+    "name": "Live Chat Overlay",
+    "description": "Restyle the YouTube popout chat so you can overlay it for livestreams",
+    "url": "https://chrome.google.com/webstore/detail/live-chat-overlay/aplaefbnohemkmngdogmbkpompjlijia",
+    "rating": 4.7,
+    "ratings": 32
+  },
+  {
+    "name": "Noota - Screen Recorder & Meeting Assistant",
+    "description": "Live assistant - record, transcribe & summarize Zoom, Google Meet & Teams meetings",
+    "url": "https://chrome.google.com/webstore/detail/noota-screen-recorder-mee/eilpgeiadholnidgjpgkijfcpaoncchh",
+    "rating": 4.7,
+    "ratings": 11
+  },
+  {
+    "name": "Website Server IP - Supports IPv6,Copy,Hide",
+    "description": "It displays the server IP of the current website, supports IPv6 , copy IP, hide IP, switch floating layer",
+    "url": "https://chrome.google.com/webstore/detail/website-server-ip-support/jgldaddniioegealakjcfjefbngfoien"
+  },
+  {
+    "name": "Save as Shortcut",
+    "description": "Offers the ability to save tab(s) and bookmarks as Internet shortcut files.",
+    "url": "https://chrome.google.com/webstore/detail/save-as-shortcut/flehofiklehmnnolpjcamplcnmhgcbkk",
+    "rating": 4.5,
+    "ratings": 100
+  },
+  {
+    "name": "Vertically Listed Tabs",
+    "description": "Manage your chrome or brave browser tabs vertically!",
+    "url": "https://chrome.google.com/webstore/detail/vertically-listed-tabs/inaclhjkfbdmfbdnpgnglcpdiddmacbh",
+    "rating": 4.5,
+    "ratings": 11
+  },
+  {
+    "name": "Guter Videodownloader",
+    "description": "Videodownloader, der funktioniert. Video-, Audio-, AVI-, MP4-, MP3-, MOV-, Flash-Download unterstützt.",
+    "url": "https://chrome.google.com/webstore/detail/good-video-downloader/mhpcabliilgadobjpkameggapnpeppdg",
+    "rating": 4.4,
+    "ratings": 331
+  },
+  {
+    "name": "Anypage",
+    "description": "Anypage is a blogging/social platform tool that allows you to gather, organize, and present multimedia internet research.",
+    "url": "https://chrome.google.com/webstore/detail/anypage/anmhbeifdpdehpdeoaacmjobnhndadpi",
+    "rating": 4.2,
+    "ratings": 11
+  },
+  {
+    "name": "Google Meet-Verbesserungssuite",
+    "description": "40 neue Funktionen für Google Meet wie Alle stummschalten, Alle entfernen, Automatisches Zulassen, Emojis, Videos spiegeln,…",
+    "url": "https://chrome.google.com/webstore/detail/google-meet-enhancement-s/ljojmlmdapmnibgflmmminacbjebjpno",
+    "rating": 4,
+    "ratings": 255
+  },
+  {
+    "name": "Custom Cursor for Chrome™ - CUTE➤",
+    "description": "Over 1873 Styles and Custom Cursors for Chrome Browser via free extension Cute Cursors. Enjoy Now!",
+    "url": "https://chrome.google.com/webstore/detail/custom-cursor-for-chrome/kdnmnhneccackiehedjmnpgfpjicicgo"
+  },
+  {
+    "name": "Video Dominator",
+    "description": "Hover over any video, hold the right mouse button down, and use mouse wheels or buttons to seek, adjust volume, speed, and more.",
+    "url": "https://chrome.google.com/webstore/detail/video-dominator/npmegcnbapicebebajligpkjdjjbempo",
+    "rating": 4.7,
+    "ratings": 21
+  },
+  {
+    "name": "Password Generator",
+    "description": "Generates domain specific passwords",
+    "url": "https://chrome.google.com/webstore/detail/password-generator/nnjgaeekiplalipomfgacalgehhcckbp",
+    "rating": 4,
+    "ratings": 20
+  },
+  {
+    "name": "Intellimerch Uploader",
+    "description": "Intellimerch Uploader Makes Your Merch by Amazon Product Listing Submissions Faster and Easier!",
+    "url": "https://chrome.google.com/webstore/detail/intellimerch-uploader/ainiibobfkopmlhccefbmeeeeihflfjh",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "remoteit-izi",
+    "description": "Addon pour remote-it izipass",
+    "url": "https://chrome.google.com/webstore/detail/remoteit-izi/ebbkjipagenbhcbjojfljnnjjbeodcdl"
+  },
+  {
+    "name": "MeetMate - Add-on for Google Meet",
+    "description": "Speaker Checker, Chat Saver & Exporter",
+    "url": "https://chrome.google.com/webstore/detail/meetmate-add-on-for-googl/keogokidepigdncilipepmfiignpdoen"
+  },
+  {
+    "name": "Cryptodex",
+    "description": "Your all-in-one cryptocurrency address book",
+    "url": "https://chrome.google.com/webstore/detail/cryptodex/pbfbaeobcojdjfgplolbofdjlahhclkc",
+    "rating": 4,
+    "ratings": 2
+  },
+  {
+    "name": "Select to Answer BOT",
+    "description": "Select text with ALT key pressed to query a remote API. Result is pasted to clipboard",
+    "url": "https://chrome.google.com/webstore/detail/select-to-answer-bot/lkfcgdfkaoonflbjokfhehnhifadcoof"
+  },
+  {
+    "name": "PR Express Checkout",
+    "description": "copy the git remote add user, git fetch and git checkout the PR branch to your clipboard",
+    "url": "https://chrome.google.com/webstore/detail/pr-express-checkout/mpenjancaheilkjbhlhkdfefmdhgggof"
+  },
+  {
+    "name": "YouTube Timestamps",
+    "description": "YouTube timestamps made easy",
+    "url": "https://chrome.google.com/webstore/detail/youtube-timestamps/bhaebpnlhphfjffkchdccafakpeimnpd",
+    "rating": 5,
+    "ratings": 8
+  },
+  {
+    "name": "Social BFF",
+    "description": "Your Best Friend for LinkedIn Relationship Building.",
+    "url": "https://chrome.google.com/webstore/detail/social-bff/acglbnfbcnhdogcogkbhpepopliapjch",
+    "rating": 4.2,
+    "ratings": 12
+  },
+  {
+    "name": "Allset: Team Calendar & Meeting Notes",
+    "description": "Allset is where teams can work with a smart schedule and gather to have productive and meaningful meetings.",
+    "url": "https://chrome.google.com/webstore/detail/allset-team-calendar-meet/liohdedagpcnppnohebiibecclbfdojg",
+    "rating": 5,
+    "ratings": 10
+  },
+  {
+    "name": "Gmail Address Check & Send Verify Tool",
+    "description": "Check From, To, Cc, Bcc, Subject to avoid mistake operation before sending an email message on Gmail.",
+    "url": "https://chrome.google.com/webstore/detail/gmail-address-check-send/lmpigfliddkbbpdojfpbbnginolfgdoh",
+    "rating": 5,
+    "ratings": 14
+  },
+  {
+    "name": "Workona Tab Manager",
+    "description": "The world’s best tab manager",
+    "url": "https://chrome.google.com/webstore/detail/workona-tab-manager/ailcmbgekjpnablpdkmaaccecekgdhlh",
+    "rating": 4.7,
+    "ratings": 3146
+  },
+  {
+    "name": "uTab - Unlimited Custom Dashboard",
+    "description": "Perfekte neue Registerkarte zum Organisieren von Lesezeichen mit vielen nützlichen Funktionen. Erstellen Sie benannte Ordner mit…",
+    "url": "https://chrome.google.com/webstore/detail/utab-unlimited-custom-das/npmjjkphdlmbeidbdbfefgedondknlaf",
+    "rating": 4.3,
+    "ratings": 959
+  },
+  {
+    "name": "Sutherland Robility Connect",
+    "description": "Robility connect Chrome Extension monitors address bar URL and helps to protect corporate data",
+    "url": "https://chrome.google.com/webstore/detail/sutherland-robility-conne/aboenfjacedibonlehnlmonjibinfcgl"
+  },
+  {
+    "name": "Group Address Book 3 - Sateraito Office",
+    "description": "Add Group Address Book in the Apps Web Pages",
+    "url": "https://chrome.google.com/webstore/detail/group-address-book-3-sate/kpdfomphidpfpiieklfbadlbnbocgjfc"
+  },
+  {
+    "name": "TCS Webmail",
+    "description": "TCS Webmail Login Page webmail.tcs.com",
+    "url": "https://chrome.google.com/webstore/detail/tcs-webmail/mpmddhklininggcilpnocebfhmcifdic",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "TabGallery - thumbnail switcher",
+    "description": "View all tab thumbnails at new tab and switch tab using keyboard. Search tabs' page content and switch.",
+    "url": "https://chrome.google.com/webstore/detail/tabgallery-thumbnail-swit/pojmlllkhfjlhaagafkbfclmbhjknppp",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Desktop.com Browser Extension",
+    "description": "Take advantage of the Desktop.com Browser Extension with Secure Vaults. Quick-import links, bookmarks and web apps to your…",
+    "url": "https://chrome.google.com/webstore/detail/desktopcom-browser-extens/aehofphooenabolflanfidbhjmgmchpb",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "Passwd: Team Password Manager",
+    "description": "Passwd remembers all your team's passwords for you. And stores them safely.",
+    "url": "https://chrome.google.com/webstore/detail/passwd-team-password-mana/mnngnbmkiabhobdmeolcnjidongapoba",
+    "rating": 5,
+    "ratings": 7
+  },
+  {
+    "name": "Linker - Save. Group. Share.",
+    "description": "All-in-one Bookmark and Snippets Manager",
+    "url": "https://chrome.google.com/webstore/detail/linker-save-group-share/higmpfakidjnhidefjieejmphpmlpbea",
+    "rating": 5,
+    "ratings": 4
+  },
+  {
+    "name": "Toggl to OpenAir Timesheets",
+    "description": "Takes time entries from Toggl and adds it to an open timesheet in OpenAir",
+    "url": "https://chrome.google.com/webstore/detail/toggl-to-openair-timeshee/gejgfldgookgefmbfkokffldlklbekgg",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "SwipeNote",
+    "description": "Work Smart. Organize. Collaborate. Succeed.",
+    "url": "https://chrome.google.com/webstore/detail/swipenote/fhlcoakhfjadgagilgoamhjjggicpodp",
+    "rating": 4.9,
+    "ratings": 8
+  },
+  {
+    "name": "Gmail Checker & Gmail Notification - Multi Account Gmail Notifier",
+    "description": "Get notifications for multiple Gmail accounts, and read or delete email without opening Gmail",
+    "url": "https://chrome.google.com/webstore/detail/gmail-checker-multi-accou/hangbmidafgeohijjheoocjjpdbpaaeh",
+    "rating": 4.8,
+    "ratings": 58
+  },
+  {
+    "name": "enhan(t) Note Taking Power Tool",
+    "description": "Bookmark moments, capture screenshots, take notes and annotate during your meetings. Get transcript, meeting metrics and questions.",
+    "url": "https://chrome.google.com/webstore/detail/enhant-note-taking-power/fohcdemnkddkfcbheibnjhnpfliemnfg",
+    "rating": 4.7,
+    "ratings": 11
+  },
+  {
+    "name": "Recurring emails for Gmail",
+    "description": "Sends your emails at a later time once, or recurring every X hours/days/months/years",
+    "url": "https://chrome.google.com/webstore/detail/recurring-emails-for-gmai/nfkkaahokibjkbmoieakdcihjkifhfdo",
+    "rating": 4.6,
+    "ratings": 68
+  },
+  {
+    "name": "SaveTabs - Fensterregisterkarten-Manager",
+    "description": "Speichern und öffnen Sie alle Webseiten mit einem Klick.",
+    "url": "https://chrome.google.com/webstore/detail/savetabs-window-tab-manag/ikjiakenkeediiafhihmipcdafkkhdno",
+    "rating": 4.6,
+    "ratings": 12
+  },
+  {
+    "name": "Content Clipper by Cronycle",
+    "description": "Use the Cronycle Clipper extension to save content you see on the web to your Cronycle boards, to make sense of, enrich, and share.",
+    "url": "https://chrome.google.com/webstore/detail/content-clipper-by-cronyc/jccdbjaagpigfhmhabkeghcfbiioibhg",
+    "rating": 4.6,
+    "ratings": 10
+  },
+  {
+    "name": "tabExtend",
+    "description": "Transform your browser workflow",
+    "url": "https://chrome.google.com/webstore/detail/tabextend/ffikidnnejmibopbgbelephlpigeniph",
+    "rating": 4.6,
+    "ratings": 240
+  },
+  {
+    "name": "classroom.cloud Student",
+    "description": "Diese Erweiterung wird mit classroom.cloud verwendet. classroom.cloud bietet einen Satz stressfreier, einfacher, aber trotzdem…",
+    "url": "https://chrome.google.com/webstore/detail/classroomcloud-student/mpkdoimpgkhjcicmhmlmgboelebflpla",
+    "rating": 4.5,
+    "ratings": 23
+  },
+  {
+    "name": "Partizion",
+    "description": "Organize, find, and manage your work in the browser.",
+    "url": "https://chrome.google.com/webstore/detail/partizion/ldimfpkkjopddckaglpeakpaepclcljn",
+    "rating": 4.5,
+    "ratings": 82
+  },
+  {
+    "name": "Malen",
+    "description": "Füge Text hinzu, zeichne Formen, male Linien, male Kurven, mache Notizen, zeichne Pfeile auf Seiten in Echtzeit, mache einen…",
+    "url": "https://chrome.google.com/webstore/detail/paint/ejllkedmklophclpgonojjkaliafeilj",
+    "rating": 4.5,
+    "ratings": 134
+  },
+  {
+    "name": "Akamai Developer Toolkit",
+    "description": "A chrome extension that provide developers access to Akamai developer tools including testing OPEN APIs right within their workspace",
+    "url": "https://chrome.google.com/webstore/detail/akamai-developer-toolkit/oeekflkhfpllpepjdkpodopelgaebeed",
+    "rating": 4.3,
+    "ratings": 7
+  },
+  {
+    "name": "Basaas Extension",
+    "description": "Switch between all your apps quickly. Get a unified view on all your daily to dos and appointments.",
+    "url": "https://chrome.google.com/webstore/detail/basaas-extension/dfnefpadkibojlglpobnjbphlaojobfg",
+    "rating": 4.3,
+    "ratings": 6
+  },
+  {
+    "name": "Dragon (DMO, DMD, DPA, DLA) Web Extension",
+    "description": "Dragon Web Extension",
+    "url": "https://chrome.google.com/webstore/detail/dragon-dmo-dmd-dpa-dla-we/feolagkacappiaieohahjkeaikhjjcfa",
+    "rating": 4.1,
+    "ratings": 22
+  },
+  {
+    "name": "Speed Dial 2 Neue Registerkarte",
+    "description": "Speed Dial 2 ist eine einfache, schnelle und intuitive neue Registerkarte, mit der Sie Ihre bevorzugten Seiten speichern und…",
+    "url": "https://chrome.google.com/webstore/detail/speed-dial-2-new-tab/jpfpebmajhhopeonhlcgidhclcccjcik",
+    "rating": 4.1,
+    "ratings": 7573
+  },
+  {
+    "name": "Weava Highlighter - PDF & Web",
+    "description": "Best highlighting tool for Website and PDF. FREE and easy to use.",
+    "url": "https://chrome.google.com/webstore/detail/weava-highlighter-pdf-web/cbnaodkpfinfiipjblikofhlhlcickei",
+    "rating": 4.1,
+    "ratings": 2573
+  },
+  {
+    "name": "Flowbar - Chrome Tab Manager",
+    "description": "Multi-functional browser organizer & note taking tool.",
+    "url": "https://chrome.google.com/webstore/detail/flowbar-chrome-tab-manage/chidlojljmmcgpjapdbkedbbilnjoddg",
+    "rating": 3.9,
+    "ratings": 106
+  },
+  {
+    "name": "tabFlow - tabgroups in tree style",
+    "description": "Tab groups manager in tree style. Never lose tabgroups and its context. successor of tabs outliner with tabgroups & more.",
+    "url": "https://chrome.google.com/webstore/detail/tabflow-tabgroups-in-tree/kmflkihdpehdjmdginjapjlgoldafjpc",
+    "rating": 3.9,
+    "ratings": 14
+  },
+  {
+    "name": "Speed Dial Neue Registerkarte",
+    "description": "Speed Dial ist eine einfache, schnelle und intuitive neue Registerkarte, mit der Sie Ihre bevorzugten Seiten speichern und…",
+    "url": "https://chrome.google.com/webstore/detail/speed-dial-new-tab/ggonkegnkiclajiocblalpkfajkbkelp",
+    "rating": 3.9,
+    "ratings": 117
+  },
+  {
+    "name": "Tab Session Manager",
+    "description": "Speichern und Wiederherstellen aller Fenster und Tabs. Unterstützt automatisches Speichern.",
+    "url": "https://chrome.google.com/webstore/detail/tab-session-manager/iaiomicjabeggjcfkbimgmglanimpnae",
+    "rating": 3.8,
+    "ratings": 221
+  },
+  {
+    "name": "Notion Web Clipper",
+    "description": "Use our Web Clipper to save any website into Notion.",
+    "url": "https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk",
+    "rating": 3.6,
+    "ratings": 424
+  },
+  {
+    "name": "Google Docs Dark Mode 2.0 for Chrome",
+    "description": "Turn on Dark Mode for Google Docs in one click via this extension. Use it for Chrome, Firefox, PC, Windows 10 and other",
+    "url": "https://chrome.google.com/webstore/detail/google-docs-dark-mode-20/ihkdedfdcocppnnaiigjpckhegifagfd",
+    "rating": 3.4,
+    "ratings": 43
+  },
+  {
+    "name": "Email Extractor for Groups - Prospectss.com",
+    "description": "Extract details of group members to find their verified professional email address, designation, location, company name & domain.",
+    "url": "https://chrome.google.com/webstore/detail/email-extractor-for-group/fdooaeafkeckhgbnbmodmjkjpfmjcbnh",
+    "rating": 3.4,
+    "ratings": 61
+  },
+  {
+    "name": "Tab Group Saver - Save and Manage Tab Groups",
+    "description": "Save and manage your tab groups",
+    "url": "https://chrome.google.com/webstore/detail/tab-group-saver-save-and/ghbdjeckopemkoomopmpgjifafpcjhga",
+    "rating": 3.4,
+    "ratings": 72
+  },
+  {
+    "name": "Browser Redirection Extension",
+    "description": "This extension redirects Webpages.",
+    "url": "https://chrome.google.com/webstore/detail/browser-redirection-exten/hdppkjifljbdpckfajcmlblbchhledln",
+    "rating": 3.1,
+    "ratings": 10
+  },
+  {
+    "name": "Browser Redirection Extension (Beta)",
+    "description": "This extension redirects Webpages (de42780982e).",
+    "url": "https://chrome.google.com/webstore/detail/browser-redirection-exten/pajinnhelbahlkakdibkhfcnnoflloff"
+  },
+  {
+    "name": "FortiSASE Secure Web Gateway",
+    "description": "Access the internet securely via FortiSASE Secure Web Gateway",
+    "url": "https://chrome.google.com/webstore/detail/fortisase-secure-web-gate/aecejhdejcnfihadbfidmndehobfdpcc"
+  },
+  {
+    "name": "Tab Organizer - Workspaces",
+    "description": "Tab Organizer - Workspaces: Group tabs, save & restore, boost productivity. Ideal for students, researchers, and professionals.",
+    "url": "https://chrome.google.com/webstore/detail/tab-organizer-workspaces/kadhpbmnaecekipppdhoopnejekgkgci"
+  },
+  {
+    "name": "Bulk Slack Message Removal",
+    "description": "Delete Slack messages in bulk. It supports removing slack messages in public channels, private channels, group chat, and DM.…",
+    "url": "https://chrome.google.com/webstore/detail/bulk-slack-message-remova/dahaofhkbloejmcijfknenbdgohmmeen",
+    "rating": 3.8,
+    "ratings": 5
+  },
+  {
+    "name": "TidyTabs",
+    "description": "A browser extension that lets you choose which tabs you would like to close by domain",
+    "url": "https://chrome.google.com/webstore/detail/tidytabs/mfcdfhecemnhilkobccglegnbdkhmdam"
+  },
+  {
+    "name": "Vormats - Screen Recorder for the workplace",
+    "description": "Quickly and easily make and share videos for asynchronous communication. Capture your screen. Share and track your engagement.",
+    "url": "https://chrome.google.com/webstore/detail/vormats-screen-recorder-f/pppgcnfdhkckmhecigcoiklpnkmjpoko"
+  },
+  {
+    "name": "Replace Google Workspace domain logo",
+    "description": "Replaces the Google Workspace domain logo in top right corner",
+    "url": "https://chrome.google.com/webstore/detail/replace-google-workspace/omhkgmgdcakokjnghhocfehipfcleiin"
+  },
+  {
+    "name": "WalmartHunt-Walmart Dropshipping Tools",
+    "description": "Walmart dropshipping product research tool and improve listing page for Walmart sellers and brands.",
+    "url": "https://chrome.google.com/webstore/detail/walmarthunt-walmart-drops/oeadfeokeafokjbffnibccbbgbjcdefe",
+    "rating": 5,
+    "ratings": 9
+  },
+  {
+    "name": "Ghostery Insights Beta",
+    "description": "Get powerful, real-time tracker analytics. Audit trackers from one entry point to improve user experience and website performance.",
+    "url": "https://chrome.google.com/webstore/detail/ghostery-insights-beta/eafjgfjfiocmniplemahnlhgibaanhch",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "SafeToOpen Online Security",
+    "description": "SafeToOpen Online Security protects you against scams, viruses, and phishing web pages.",
+    "url": "https://chrome.google.com/webstore/detail/safetoopen-online-securit/ekfkopmgnijagfmjgcjkbffcnmggekec",
+    "rating": 5,
+    "ratings": 13
+  },
+  {
+    "name": "ScreenGenius: Screenshot & Screen Record Tool",
+    "description": "Screenshot & Screen Record Tool",
+    "url": "https://chrome.google.com/webstore/detail/screengenius-screenshot-s/eclnikmacpcandpbfjkjgnoicmlpkkdj",
+    "rating": 5,
+    "ratings": 57
+  },
+  {
+    "name": "Convo",
+    "description": "Use the Convo extension to share interesting links and images with your team. Mark up links and start discussions.",
+    "url": "https://chrome.google.com/webstore/detail/convo/gcdggbeilgaopeangjbaindkdaecbfea",
+    "rating": 5,
+    "ratings": 15
+  },
+  {
+    "name": "Review&Go",
+    "description": "Review papers using highlights and go!",
+    "url": "https://chrome.google.com/webstore/detail/reviewgo/hgiannlbfceoomjmcgedbmkfeblbcogi",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "ChatGPT for WhatsApp",
+    "description": "Share your ChatGPT conversations with friends on WhatsApp.",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-for-whatsapp/eacpodndpkokbialnikcedfbpjgkipil",
+    "rating": 5,
+    "ratings": 14
+  },
+  {
+    "name": "Demodesk",
+    "description": "The #1 Customer Meeting Platform for Sales and Success Teams",
+    "url": "https://chrome.google.com/webstore/detail/demodesk/bbojnefnecffoabbniaoboefbffbbimi",
+    "rating": 5,
+    "ratings": 13
+  },
+  {
+    "name": "Instagram Comment Summary with ChatGPT OpenAI",
+    "description": "Get Instagram video feedback quickly with Chat GPT Open AI comment summary tool.",
+    "url": "https://chrome.google.com/webstore/detail/instagram-comment-summary/mgjibnofbindflimnmepdnpjiekolpjh",
+    "rating": 4.9,
+    "ratings": 8
+  },
+  {
+    "name": "Plus: Live screenshots of any app or website",
+    "description": "Capture, share and save data with live screenshots of any app or website.",
+    "url": "https://chrome.google.com/webstore/detail/plus-live-screenshots-of/bnebanooamokkihfjepphafoekheipfh",
+    "rating": 4.9,
+    "ratings": 17
+  },
+  {
+    "name": "ESPN NBA Fantasy Team Auto Setup",
+    "description": "Automatically add active players to the current roster in an ESPN NBA fantasy league.",
+    "url": "https://chrome.google.com/webstore/detail/espn-nba-fantasy-team-aut/nmehekgchlioodlggejkfhiglajaonie",
+    "rating": 4.9,
+    "ratings": 29
+  },
+  {
+    "name": "Webfarbe Tool - Drawww",
+    "description": "Zeichnen Sie Formen, Linien, fügen Sie Text zu Live -Webseiten hinzu. Annotate online, machen Sie Screenshot, laden Sie PNG…",
+    "url": "https://chrome.google.com/webstore/detail/web-paint-tool-drawww/mclgkicemmkpcooobfgcgocmcejnmgij",
+    "rating": 4.8,
+    "ratings": 56
+  },
+  {
+    "name": "Da Vinci Tools",
+    "description": "The Supermetrics Google Marketing Platform power tools for smart digital marketers and analysts.",
+    "url": "https://chrome.google.com/webstore/detail/da-vinci-tools/pekljbkpgnpphbkgjbfgiiclemodfpen",
+    "rating": 4.8,
+    "ratings": 33
+  },
+  {
+    "name": "Emoji-Tastatur online - Kopieren Sie Ihr Emoji und fügen Sie es ein",
+    "description": "Nr. 1 Emoji-Tastatur für den Chrome-Browser. Emojis in Nachrichten kopieren und einfügen. Smileys, Essen, Hände, Transport, Tiere…",
+    "url": "https://chrome.google.com/webstore/detail/emoji-keyboard-online-cop/kgmeffmlnkfnjpgmdndccklfigfhajen",
+    "rating": 4.8,
+    "ratings": 146
+  },
+  {
+    "name": "Welche Schriftart - Schriftartensuche",
+    "description": "Welche Schriftart? Einfach die Schriftart auf einer Webseite, HTML-Schriftgröße, Farbe und Schriftfamilie identifizieren.",
+    "url": "https://chrome.google.com/webstore/detail/what-font-font-finder/opogloaldjiplhogobhmghlgnlciebin",
+    "rating": 4.8,
+    "ratings": 170
+  },
+  {
+    "name": "ChatGPT - Website & Youtube Zusammenfassungen",
+    "description": "Schnelle Zusammenfassungen von Webseiten & Youtube Videos mit ChatGPT / GPT4 kurz und prägnant. Intelligent & zeitsparend!",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-%C2%BB-summarize-every/cbgecfllfhmmnknmamkejadjmnmpfjmp",
+    "rating": 4.8,
+    "ratings": 405
+  },
+  {
+    "name": "NetHunt CRM for Gmail",
+    "description": "From a Gmail inbox to a full-featured CRM. Access 100% of CRM functionality from Gmail inbox.",
+    "url": "https://chrome.google.com/webstore/detail/nethunt-crm-for-gmail/kaeigipjcamcanmmhgpniimjagdleoee",
+    "rating": 4.8,
+    "ratings": 159
+  },
+  {
+    "name": "FatCoupon Cash Back & Promo Codes",
+    "description": "Shop with the FatCoupon extension for cash back and automatic coupons at over 10,000 stores.",
+    "url": "https://chrome.google.com/webstore/detail/fatcoupon-cash-back-promo/cakejefemdjbmhdjkjhibjhmhgjefidm",
+    "rating": 4.8,
+    "ratings": 2168
+  },
+  {
+    "name": "MLB Baseball Tracker",
+    "description": "Adds an icon with your selected MLB team's game information with real-time score and in-game data.",
+    "url": "https://chrome.google.com/webstore/detail/mlb-baseball-tracker/ojihcoimmhapanmaglfhjfddoniigjpg",
+    "rating": 4.8,
+    "ratings": 20
+  },
+  {
+    "name": "Bild-Downloader - Bilder in großen Mengen herunterladen",
+    "description": "Durchsuchen und laden Sie Bilder aus dem Internet herunter. Wählen Sie ein Bild aus oder laden Sie alle auf einmal herunter.",
+    "url": "https://chrome.google.com/webstore/detail/image-downloader-bulk-dow/klmiibolojjndggdnjnjggmgimlcalch",
+    "rating": 4.7,
+    "ratings": 361
+  },
+  {
+    "name": "Bote im Internet",
+    "description": "Organisieren Sie verschiedene Messenger an einem Ort. Wählen Sie am besten eine All-in-One-Messaging-Plattform für Ihre…",
+    "url": "https://chrome.google.com/webstore/detail/online-messengers-in-all/ekjogkoigkhbgdgpolejnjfmhdcgaoof",
+    "rating": 4.7,
+    "ratings": 91
+  },
+  {
+    "name": "Clipp - Screen Recorder & Text-Based Editor",
+    "description": "Capture your screen and camera, edit your video like editing a doc, and share your video with a link.",
+    "url": "https://chrome.google.com/webstore/detail/clipp-screen-recorder-tex/lfbpcollhpgcagagphajcighiikcefed",
+    "rating": 4.7,
+    "ratings": 6
+  },
+  {
+    "name": "Zusammenfassung mit ChatGPT - Open AI",
+    "description": "Fassen Sie jede Webseite oder jedes Youtube-Video mit ChatGPT zusammen. Erhalten Sie die Zusammenfassung mit GPT-4.",
+    "url": "https://chrome.google.com/webstore/detail/summary-with-chatgpt-open/mikcekmbahpbehdpakenaknkkedeonhf",
+    "rating": 4.7,
+    "ratings": 137
+  },
+  {
+    "name": "Enhanced ESPN NBA box score",
+    "description": "Improve the ESPN NBA box score viewing experience",
+    "url": "https://chrome.google.com/webstore/detail/enhanced-espn-nba-box-sco/obmjelnefbpppnlclofadlniafdnhjpc",
+    "rating": 4.7,
+    "ratings": 47
+  },
+  {
+    "name": "Doodle games",
+    "description": "Doodles are the fun, surprising, spontaneous changes that are made to the Google logo. Events turned into Games. Play games anytime",
+    "url": "https://chrome.google.com/webstore/detail/doodle-games/kjgkmceledmpdnmgmppiekdbnamccdjp",
+    "rating": 4.7,
+    "ratings": 193
+  },
+  {
+    "name": "NinjaCapture - Quick & Easy Screen Capture",
+    "description": "Grab screenshots, annotate, and share screens easier than ever before with screen capture Chrome extension",
+    "url": "https://chrome.google.com/webstore/detail/ninjacapture-quick-easy-s/gcfefmncefkaghcobeocaekopmmpofmc",
+    "rating": 4.6,
+    "ratings": 91
+  },
+  {
+    "name": "Web TikTok Mobile Viewer - Bezeichnen",
+    "description": "Web TikTok Mobile Viewer - Denote ist die beste Erweiterung, um TikTok in mobiler Form anzusehen. Es ist leicht, einfach und…",
+    "url": "https://chrome.google.com/webstore/detail/web-tiktok-mobile-viewer/beopoaohjhehmihfkpgcdbnppdeaiflc",
+    "rating": 4.6,
+    "ratings": 16
+  },
+  {
+    "name": "Online-Tools für PDFs | ilovepdf.com",
+    "description": "Komplett kostenfreies Online-Tool zum Zusammenfügen, Teilen, Komprimieren und Konvertieren.",
+    "url": "https://chrome.google.com/webstore/detail/online-pdf-tools-ilovepdf/cbdolfjnphjlbbpfdcohojjmbkkfpfom",
+    "rating": 4.6,
+    "ratings": 464
+  },
+  {
+    "name": "Paint Online - Page Marker",
+    "description": "Erstellen Sie lustige Zeichnungen direkt auf Webseiten und machen Sie Screenshots mit dem Paint-on-Tab-Tool für Chrome!",
+    "url": "https://chrome.google.com/webstore/detail/paint-online/cclhgechkjghfaoebihpklmllnnlnbdb",
+    "rating": 4.6,
+    "ratings": 211
+  },
+  {
+    "name": "FindNiche - Shopify store traffic analysis",
+    "description": "Overall analysis of stores, products, traffic, keywords & ads for all Shopify sellers.",
+    "url": "https://chrome.google.com/webstore/detail/findniche-shopify-store-t/kiniklbpicchjlhhagjhchoabjffogni",
+    "rating": 4.6,
+    "ratings": 10
+  },
+  {
+    "name": "SEOquake",
+    "description": "SEOquake ist ein kostenloses Plug-in, das Ihnen wichtige SEO-Metriken sowie andere nützliche Tools wie das SEO-Audit und viele…",
+    "url": "https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc",
+    "rating": 4.6,
+    "ratings": 2454
+  },
+  {
+    "name": "EtsyHunt - Etsy Rank Tool",
+    "description": "Product & Shop analysis tools for all Etsy sellers. Make it easy to optimize your Etsy rank.",
+    "url": "https://chrome.google.com/webstore/detail/etsyhunt-etsy-rank-tool/pmpgnefoilpinnblccjddomajohmbpko",
+    "rating": 4.5,
+    "ratings": 68
+  },
+  {
+    "name": "Universal Keyword Planner box",
+    "description": "Expand more keyword suggestions from search bar. Supporting most common sites.",
+    "url": "https://chrome.google.com/webstore/detail/universal-keyword-planner/niaagjifaifoebkdkkndbhdoamicolmj",
+    "rating": 4.5,
+    "ratings": 4
+  },
+  {
+    "name": "Chrome Capture - Screenshot & GIF -Tool",
+    "description": "Nehmen Sie GIF auf oder machen Sie einen Screenshot von irgendetwas in Ihrem Browser - schneller und einfacher als je zuvor.",
+    "url": "https://chrome.google.com/webstore/detail/chrome-capture-screenshot/ggaabchcecdbomdcnbahdfddfikjmphe",
+    "rating": 4.5,
+    "ratings": 787
+  },
+  {
+    "name": "Streak CRM für Gmail",
+    "description": "Kunden verwalten oder Angebote direkt in Gmail.",
+    "url": "https://chrome.google.com/webstore/detail/streak-crm-for-gmail/pnnfemgpilpdaojpnkjdgfgbnnjojfik",
+    "rating": 4.5,
+    "ratings": 6554
+  },
+  {
+    "name": "Better FPL",
+    "description": "Master Fantasy Premier League with the Better FPL extension! Dominate your mini leagues and make your friends envy your genius!",
+    "url": "https://chrome.google.com/webstore/detail/better-fpl/oimpiccgpkkjbdligdbcipdcjcklcglm",
+    "rating": 4.5,
+    "ratings": 610
+  },
+  {
+    "name": "Snipit - organize, share, collaborate",
+    "description": "Code snippets for teams and individuals. Save and organize your code snippets in the cloud. Share and collaborate with team members.",
+    "url": "https://chrome.google.com/webstore/detail/snipit-organize-share-col/dodniekpimecafnhdbfaihfgdgbihhjl",
+    "rating": 3.8,
+    "ratings": 8,
+    "longDescription": "Snip code blocks directly from the pages you visit. Just select some text, and the Snipit button is right there for you.\nIf the page contains valid markup, Snipit even fills most of the fields for you: title, syntax and tags. Click \"Save\" and you're done!",
+    "lastUpdated": "11. April 2021",
+    "userCount": 10000,
+    "homePage": "https://snipit.io/"
+  },
+  {
+    "name": "Tandem - Meet and Collaborate",
+    "description": "Schedule meetings, get on the same page, and collaborate with your team on Tandem.chat.",
+    "url": "https://chrome.google.com/webstore/detail/tandem-meet-and-collabora/ghodibcinehbgcjlmpnjnfonpflflihk",
+    "rating": 4.8,
+    "ratings": 4,
+    "longDescription": "Thank you for using the Tandem Chrome Extension! This extension powers up your team collaboration experience. Note that an account on Tandem is required to use this extension.\n\nMeet in Tandem\n\nOn Google Calendar, when creating new events and editing existing events, you can now create Tandem meeting links to meet with your team or anyone outside your company. These meeting links only allow access to the meeting, not your entire Tandem team.\n\nGet on the same page\n\nYou can also send the current tab you are viewing to your teammates with a click. Just click the Tandem button in the Extensions area next to your browser's URL bar to get started.\n\nCollaborate fluidly\n\nYou'll be able to see your teammates cursors (helpful to indicate things while talking) if you join them from a call and both of you have the Chrome Extension. You can turn on cursor sharing any time from the popup menu.\n\nFinally, on Linux, this extension adds the URL of the page you are viewing to the tab title so that Tandem can share work app statuses.",
+    "lastUpdated": "7. März 2022",
+    "userCount": 1000,
+    "homePage": "http://tandem.chat/"
+  },
+  {
+    "name": "Bb Collab - Lexer",
+    "description": "Your Lecture Indexer for Blackboard Collaborate.",
+    "url": "https://chrome.google.com/webstore/detail/bb-collab-lexer/maklcooadbccldeeegjalllmdmfjljjb"
+  },
+  {
+    "name": "Aktivieren Sie Kopieren-Einfügen und Rechtsklick-Maus",
+    "description": "Entsperren Sie Kontextmenü-, Kopieren-, Einfügen- und Textauswahlfunktionen auf Websites, die dies verhindern",
+    "url": "https://chrome.google.com/webstore/detail/enable-copy-paste-right-c/abeenondinkebapdmgcgmjhjekooeeae",
+    "rating": 4.5,
+    "ratings": 56
+  },
+  {
+    "name": "Übersetzer - übersetzen und Wörterbuch",
+    "description": "Übersetzer Google, Wörter übersetzen, Sätze übersetzen. Ganzseitiger Übersetzer und Wörterbuch, Text-to-Speech (TTS). Zum…",
+    "url": "https://chrome.google.com/webstore/detail/translator-ulanguage-tran/mnlohknjofogcljbcknkakphddjpijak",
+    "rating": 4.4,
+    "ratings": 1100
+  },
+  {
+    "name": "ScreenPal Desktop App Launcher",
+    "description": "Launch the ScreenPal desktop tools from your Chrome browser!",
+    "url": "https://chrome.google.com/webstore/detail/screenpal-desktop-app-lau/eefedolmcildfckjamddopaplfiiankl",
+    "rating": 4.4,
+    "ratings": 495
+  },
+  {
+    "name": "Lead Connect | LinkedIn Outreach Platform",
+    "description": "With smart messaging cadence, Unlimited Hubspot & Email Finder Integrations",
+    "url": "https://chrome.google.com/webstore/detail/lead-connect-linkedin-out/jdcjfphdohecknoaelnngakpignnedfb",
+    "rating": 4.4,
+    "ratings": 28
+  },
+  {
+    "name": "Smart Bookmarks for YouTube: Productivity Up",
+    "description": "Adds the ability to add a bookmark to any place on a YouTube video (aka time-tags, notes, private comments).",
+    "url": "https://chrome.google.com/webstore/detail/smart-bookmarks-for-youtu/ichpfnleoiponjidhcbieonjdpnallmh",
+    "rating": 4.3,
+    "ratings": 38
+  },
+  {
+    "name": "Vidyard - Webcam & Screen Recorder for Sales",
+    "description": "Record your screen or webcam, share your video and track who's watching it!",
+    "url": "https://chrome.google.com/webstore/detail/vidyard-webcam-screen-rec/jiihcciniecimeajcniapbngjjbonjan",
+    "rating": 4.3,
+    "ratings": 1422
+  },
+  {
+    "name": "PPSPY-Shopify Spionage- und Dropship-Tool",
+    "description": "PPSC Inspector für Shopify - Dropshipping und Shopify Spy Tool",
+    "url": "https://chrome.google.com/webstore/detail/ppspy-shopify-spy-dropshi/lppbajkahdbbadheilijoeegnfndhlab",
+    "rating": 4.2,
+    "ratings": 99
+  },
+  {
+    "name": "Timing71",
+    "description": "Timing71 browser extension",
+    "url": "https://chrome.google.com/webstore/detail/timing71/pjdcehojcogjpilmeliklfddboeoogpd",
+    "rating": 4.2,
+    "ratings": 5
+  },
+  {
+    "name": "RotoGrinders - DraftKings Tools",
+    "description": "DraftKings Player Exposure, Salary Cap Calculator, Contest Details & More",
+    "url": "https://chrome.google.com/webstore/detail/rotogrinders-draftkings-t/lokmacldfjfgajcebibmmfohacnikhhd",
+    "rating": 4.2,
+    "ratings": 40
+  },
+  {
+    "name": "Team Password Manager",
+    "description": "Login-Formulare automatisch ausfüllen und Passwörter in Team Password Manager speichern",
+    "url": "https://chrome.google.com/webstore/detail/team-password-manager/gplomcegacfeolmacnhpopbindboipfl",
+    "rating": 4.1,
+    "ratings": 8
+  },
+  {
+    "name": "Base Image Downloader",
+    "description": "Download images in one click. Image downloader supports PNG GIF JPG, SVG files. Filter by size, proper file names.",
+    "url": "https://chrome.google.com/webstore/detail/base-image-downloader/nadenkhojomjfdcppbhhncbfakfjiabp",
+    "rating": 4.1,
+    "ratings": 16
+  },
+  {
+    "name": "Screencastify - Screen Video Recorder",
+    "description": "The leading screen recorder for Chrome. Capture, edit and share videos in seconds.",
+    "url": "https://chrome.google.com/webstore/detail/screencastify-screen-vide/mmeijimgabbpbgpdklnllpncmdofkcpn",
+    "rating": 4,
+    "ratings": 11649
+  },
+  {
+    "name": "新简录屏-新一代在线录屏演示工具",
+    "description": "新一代在线录屏演示工具",
+    "url": "https://chrome.google.com/webstore/detail/%E6%96%B0%E7%AE%80%E5%BD%95%E5%B1%8F-%E6%96%B0%E4%B8%80%E4%BB%A3%E5%9C%A8%E7%BA%BF%E5%BD%95%E5%B1%8F%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/dihjfiakmdjknpoejlnocicebohlijpg"
+  },
+  {
+    "name": "LastPass: Free Password Manager",
+    "description": "LastPass, ein preisgekrönter Passwort-Manager, speichert Ihre Passwörter und gewährt Ihnen von jedem Computer und mobilen Gerät aus…",
+    "url": "https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd",
+    "rating": 4.4,
+    "ratings": 27471
+  },
+  {
+    "name": "QR Code Generator",
+    "description": "Lernen Sie die QR-Code-Erweiterung kennen, die einfachste und schnellste Möglichkeit, QR-Codes zu generieren und weiterzugeben",
+    "url": "https://chrome.google.com/webstore/detail/qr-code-generator/lkdokbndiffkmddlfpbjiokmfkafmgkm",
+    "rating": 4.3,
+    "ratings": 25
+  },
+
+  {
+    "name": "ReadCube Papers",
+    "description": "Easily import articles and webpages to your ReadCube Papers library.",
+    "url": "https://chrome.google.com/webstore/detail/readcube-papers/mfacblegickmnfpaebakfnlbfhpoegin",
+    "rating": 4.1,
+    "ratings": 39
+  },
+  {
+    "name": "Shareaholic für Google Chrome",
+    "description": "Der einfachste Weg, interessante Webseiten mit Freunden auf Facebook, Twitter, Plus und vielen anderen Services zu teilen",
+    "url": "https://chrome.google.com/webstore/detail/shareaholic-for-google-ch/kbmipnjdeifmobkhgogdnomkihhgojep",
+    "rating": 3.9,
+    "ratings": 926
+  },
+  {
+    "name": "TeamSync Bookmarks",
+    "description": "The easiest way to share and manage bookmarks and websites across a team",
+    "url": "https://chrome.google.com/webstore/detail/teamsync-bookmarks/bcopfejjlalhckdkmofjciemgnjkffhj",
+    "rating": 3.9,
+    "ratings": 50
+  },
+
+  {
+    "name": "Good Annotations, Screenshot-Aufnahme",
+    "description": "Das beste Screenshot-Tool für Chrome. Nehmen Sie Ihren Bildschirm sofort auf und teilen Sie ihn mit anderen.",
+    "url": "https://chrome.google.com/webstore/detail/good-annotations-screensh/nlkpbfbbjlghoalcakopdnlohjhchfjf",
+    "rating": 3.8,
+    "ratings": 10
+  },
+  {
+    "name": "WebRTC Network Limiter",
+    "description": "Configures how WebRTC's network traffic is routed by changing Chrome's privacy settings.",
+    "url": "https://chrome.google.com/webstore/detail/webrtc-network-limiter/npeicpdbkakmehahjeeohfdhnlpdklia",
+    "rating": 3.8,
+    "ratings": 334
+  },
+  {
+    "name": "Axiom - Capture URL Extension",
+    "description": "Capture URL or video and add it directly to your library",
+    "url": "https://chrome.google.com/webstore/detail/axiom-capture-url-extensi/nkipbcemcppomlgjeemfpejdlpfjjgib",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "Audio Editor und Music Editor AudioStudio",
+    "description": "AudioStudio zum Erstellen und Bearbeiten von Audio-und Musik-Online",
+    "url": "https://chrome.google.com/webstore/detail/audio-editor-music-editor/dfmpaemifkgbnlgcccccnfjjkeiikeie",
+    "rating": 3.4,
+    "ratings": 135
+  },
+  {
+    "name": "Robinhood NewsFeed",
+    "description": "Real time news with sentiment analysis for daily stock trader! Add on useful features such as: profit display, sector performance...",
+    "url": "https://chrome.google.com/webstore/detail/robinhood-newsfeed/ibljmcpffldiiccjmnbnpnehgkjddapk",
+    "rating": 3.3,
+    "ratings": 12
+  },
+  {
+    "name": "CyberArk Identity Browser Extension",
+    "description": "Improve the overall security and efficiency of your workforce with the following features: View and securely authenticate to all…",
+    "url": "https://chrome.google.com/webstore/detail/cyberark-identity-browser/jifcoadedkediabkmjbflemiblmnbjfk",
+    "rating": 3.2,
+    "ratings": 17
+  },
+  {
+    "name": "AmzGPT: Amazon listing edit",
+    "description": "A free tool to help you find more keywords, and optimize your listing.",
+    "url": "https://chrome.google.com/webstore/detail/amzgpt-amazon-listing-edi/jijophmdjdapikfmbckmhhiheghkgoee",
+    "rating": 3,
+    "ratings": 2
+  },
+  {
+    "name": "UNISPY: Shopify Inspector Sales Tracking Spy",
+    "description": "#1 Shopify Store alihunter Analysetool, Verkaufsverfolgung / Bestseller / Live-Verkäufe / Product Scraper / New Arrival Tracker.",
+    "url": "https://chrome.google.com/webstore/detail/unispy-shopify-inspector/npjfcmocnmkipbffpdpeemppbmbgkhle",
+    "rating": 2.6,
+    "ratings": 5
+  },
+  {
+    "name": "Hypothes.is based peer-review annotations",
+    "description": "Reviz.in: Hypothes.is based peer-review annotations.",
+    "url": "https://chrome.google.com/webstore/detail/hypothesis-based-peer-rev/ihhpfkkjjplhcalchafaldccnlcmdcpa"
+  },
+  {
+    "name": "Otter.ai: Record and transcribe meetings",
+    "description": "Get a meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.",
+    "url": "https://chrome.google.com/webstore/detail/otterai-record-and-transc/bnmojkbbkkonlmlfgejehefjldooiedp",
+    "rating": 2.8,
+    "ratings": 25
+  },
+  {
+    "name": "Mineworlds | Map Share & Import",
+    "description": "Play the ultimate browser-based Minecraft like game with Mineworlds.",
+    "url": "https://chrome.google.com/webstore/detail/mineworlds-map-share-impo/aelilchegodhfninjoolghfaoeikadni",
+    "rating": 2.5,
+    "ratings": 10
+  },
+  {
+    "name": "YouTube-Zusammenfassung mit Bing Chat – Alle Browser",
+    "description": "Das beste Zusammenfassungstool für YouTube. Generieren von Transkripten und Zusammenfassungen von Videos mit Bing Chat AI.",
+    "url": "https://chrome.google.com/webstore/detail/youtube-summary-with-bing/aohgbidimgkcolmkopencknhbnchfnkm",
+    "rating": 5,
+    "ratings": 28
+  },
+  {
+    "name": "Craft for Google Chrome™",
+    "description": "A simplified way to access data on companies as you browse the web",
+    "url": "https://chrome.google.com/webstore/detail/craft-for-google-chrome/mdbippokgmfmdhhjchjpakgiamkcaofd",
+    "rating": 5,
+    "ratings": 6
+  },
+  {
+    "name": "Export Emails to Google Sheets by cloudHQ",
+    "description": "Sichern, exportieren oder parsen Sie Ihre E-Mail-Nachrichten und Labels in Google Sheets",
+    "url": "https://chrome.google.com/webstore/detail/export-emails-to-google-s/ibpbagbedfnlepijbnjeanihpoohkocm",
+    "rating": 4.7,
+    "ratings": 224
+  },
+  {
+    "name": "Notepad online",
+    "description": "Notepadonline.co is a free online notepad website to create online notes, save notes, text edit, find and replace word,etc.",
+    "url": "https://chrome.google.com/webstore/detail/notepad-online/jbccljbjlpdafckpjbejjeafcbecaiha"
+  },
+  {
+    "name": "Blog2Social: Social Media Poster Extension",
+    "description": "Curate & Collect: Share content on your Facebook, Twitter & LinkedIn profiles or save & collect the links in your Blog2Social WebApp",
+    "url": "https://chrome.google.com/webstore/detail/blog2social-social-media/hobhidjecjjgknjpnclnmfgkajdjlaml",
+    "rating": 2,
+    "ratings": 2
+  },
+  {
+    "name": "Promote Route: A Better WA™ Experience",
+    "description": "powerful assistant for WA marketing & WA sales.",
+    "url": "https://chrome.google.com/webstore/detail/promote-route-a-better-wa/ajdpaecdoopokfofffnploiiogdehaec"
+  },
+  {
+    "name": "Haikyuu Anime Cursors",
+    "description": "Coole Anime Cursors mit wenigen Klicks. Haikyuu Anime Cursors für Chrome-Erweiterung herunterladen",
+    "url": "https://chrome.google.com/webstore/detail/haikyuu-anime-cursors/ipdnnmclhocahagbacmobpeimiellich"
+  },
+  {
+    "name": "AODocs - Universal File Opener",
+    "description": "Edit any of your Google Drive™ files with your local applications.",
+    "url": "https://chrome.google.com/webstore/detail/aodocs-universal-file-ope/kldfpiebhefepgbjknnlgpeichadmdib",
+    "rating": 3.6,
+    "ratings": 54
+  },
+  {
+    "name": "AirReview: Airbnb Investment & Hosting Tools",
+    "description": "AirReview makes it easier for Airbnb hosts and investors to see every Airbnb’s average income & provides easier guest screening",
+    "url": "https://chrome.google.com/webstore/detail/airreview-airbnb-investme/plkdnpjpnhhnmigmekaocdfokkmebdnm",
+    "rating": 3.9,
+    "ratings": 58
+  },
+
+  {
+    "name": "Save to Facebook",
+    "description": "Save things you want to come back to later.",
+    "url": "https://chrome.google.com/webstore/detail/save-to-facebook/jmfikkaogpplgnfjmbjdpalkhclendgd",
+    "rating": 4,
+    "ratings": 1428
+  },
+  {
+    "name": "Wayback Machine",
+    "description": "The Official Wayback Machine Extension - by the Internet Archive.",
+    "url": "https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak",
+    "rating": 4.2,
+    "ratings": 239
+  },
+  {
+    "name": "Email Signature & Email Tracker. MySignature",
+    "description": "Free email signature generator: customizable templates. Email tracking: opens & clicks. Gmail",
+    "url": "https://chrome.google.com/webstore/detail/email-signature-email-tra/mkkicnlinnjfgjkegiomemdeleniiojl",
+    "rating": 4.8,
+    "ratings": 22
+  },
+  {
+    "name": "Amazon Price History Tracker - AmzChart",
+    "description": "AmzChart - Display all historical prices of Amazon products!",
+    "url": "https://chrome.google.com/webstore/detail/amazon-price-history-trac/boljogbhdlnglpadhgaecnmecdnhnjpe",
+    "rating": 4.7,
+    "ratings": 27
+  },
+  {
+    "name": "2ConnectMe Screen Sharing",
+    "description": "Screen Sharing of 2ConnectMe",
+    "url": "https://chrome.google.com/webstore/detail/2connectme-screen-sharing/leehlkhnniaiaaophmaadjkagedefbag",
+    "rating": 3.9,
+    "ratings": 25
+  },
+  {
+    "name": "Markup - Web Markups & Highlighter",
+    "description": "Highlight, manage, and share any web page or article anytime, anywhere!",
+    "url": "https://chrome.google.com/webstore/detail/markup-web-markups-highli/cbjngbfjehiofmihfpodinolkcokdojp",
+    "rating": 3.4,
+    "ratings": 41
+  },
+  {
+    "name": "Breeze Project Management",
+    "description": "Quickly add tasks in Breeze from any web page. Increase productivity with Breeze project management tool.",
+    "url": "https://chrome.google.com/webstore/detail/breeze-project-management/nhlpodbgiakpalaobblelglaplaifjjd",
+    "rating": 2.3,
+    "ratings": 10
+  },
+  {
+    "name": "Zoho Annotator",
+    "description": "Das eleganteste und wirksamste Kommentarwerkzeug für Chrome.",
+    "url": "https://chrome.google.com/webstore/detail/zoho-annotator/dmlmcpcjndojhbflolmdgfpojnjfdlbj",
+    "rating": 4.7,
+    "ratings": 103
+  },
+  {
+    "name": "Spade: Draw on and Annotate the Web & PDFs",
+    "description": "Draw out your ideas, notes, and thoughts anywhere and save them for later with Spade.",
+    "url": "https://chrome.google.com/webstore/detail/spade-draw-on-and-annotat/kamhfnamfpipghhnbaolbgemgnafkejo",
+    "rating": 4.1,
+    "ratings": 24
+  },
+  {
+    "name": "Zoho Show",
+    "description": "Zoho Show lets you create, collaborate, present, broadcast, and publish presentations, the smarter way.",
+    "url": "https://chrome.google.com/webstore/detail/zoho-show/oohipoojgodobmpkcebmmkffpbckijoc",
+    "rating": 4.7,
+    "ratings": 15
+  },
+  {
+    "name": "Warpdrive Browser",
+    "description": "The fastest way to share workflow knowledge. Instantly level-up your team, onboard new employees, and standardize processes.",
+    "url": "https://chrome.google.com/webstore/detail/warpdrive-browser/egdcjgceamgfapabbcolhffnhdmkggah",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "iCIMS-Browsererweiterung",
+    "description": "Die iCIMS Talent Cloud ist eine globale Plattform zur Talentakquise, die Lösungen zum Aufbau, zur Bindung und Skalierung Ihrer…",
+    "url": "https://chrome.google.com/webstore/detail/icims-browser-extension/fnilfbonoiecjddikflnfncnboinphcm",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Notta 音声認識- Webページの音声を文字起こし",
+    "description": "YouTube動画などの音声コンテンツをテキスト化。文字データをWeb版やアプリに保存と編集が便利。",
+    "url": "https://chrome.google.com/webstore/detail/notta-%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98-web%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E9%9F%B3%E5%A3%B0%E3%82%92%E6%96%87%E5%AD%97%E8%B5%B7%E3%81%93/kdelkaogljjcbjffjmahedaobfjineig",
+    "rating": 4.1,
+    "ratings": 14
+  },
+  {
+    "name": "Kein Zutritt",
+    "description": "Keep Out ist ein HTML5-Actionspiel, bei dem Spieler durch Dungeons navigieren und Schätze sammeln",
+    "url": "https://chrome.google.com/webstore/detail/keep-out/ppcefaacmnngkofgjkapfkdpgnjkncae"
+  },
+  {
+    "name": "Tab Manager Plus for Chrome",
+    "description": "Quickly find open tabs, see all windows in one view, find duplicates and limit tabs per window. The best Tab Manager for Chrome.",
+    "url": "https://chrome.google.com/webstore/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff",
+    "rating": 4.7,
+    "ratings": 745
+  },
+  {
+    "name": "Emoji Keyboard 2023 - for Chrome Browser",
+    "description": "Copy and past emojies. New emoji collections such as Smileys, Activity and Sports, Symbols and etc.",
+    "url": "https://chrome.google.com/webstore/detail/emoji-keyboard-2023-for-c/clheapgdjdfjphklijefinjjdgkgipeh",
+    "rating": 4.6,
+    "ratings": 22
+  },
+  {
+    "name": "Algorithms.Exposed: PAADC",
+    "description": "De browser plugin voor onderzoek naar online politieke advertenties.",
+    "url": "https://chrome.google.com/webstore/detail/algorithmsexposed-paadc/aapfjjpenamafgaldmnfdldakcepimlg"
+  },
+  {
+    "name": "Surfe",
+    "description": "Bring your CRM to where your sales are. Access and edit your CRM from anywhere, move with ease, and build better relationships.",
+    "url": "https://chrome.google.com/webstore/detail/surfe/kojhcdejfimplnokhhhekhiapceggamn",
+    "rating": 4.8,
+    "ratings": 26
+  },
+  {
+    "name": "WebCopilot.ai: ChatGPT in Every Text Field",
+    "description": "Unleash the power of ChatGPT in any text field across the web.",
+    "url": "https://chrome.google.com/webstore/detail/webcopilotai-chatgpt-in-e/dpbbbjcogocehfjmeggcfncdmijbaimg",
+    "rating": 2.9,
+    "ratings": 10
+  },
+  {
+    "name": "Ember",
+    "description": "Save webpages to your Ember library.",
+    "url": "https://chrome.google.com/webstore/detail/ember/egpkelgmfbcppcjeefkbfemdfjljnhai",
+    "rating": 1.8,
+    "ratings": 64
+  },
+  {
+    "name": "Point",
+    "description": "Point is a quick way to share and discuss what you find online.",
+    "url": "https://chrome.google.com/webstore/detail/point/ppcfnlhgbpebbbfmcpbkajjklimomfcd",
+    "rating": 4.8,
+    "ratings": 126
+  },
+  {
+    "name": "Instashot - fastest full screenshot",
+    "description": "Fastest full page screenshot with before & after editor. Share link. Drive upload. Gallery built-in.",
+    "url": "https://chrome.google.com/webstore/detail/instashot-fastest-full-sc/damkbioifebpmpkkkoneifaljmalhpak",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Nocturnal Surfer Extension",
+    "description": "Inverted display mode for less eye strain in dark or dim lighting",
+    "url": "https://chrome.google.com/webstore/detail/nocturnal-surfer-extensio/mmjcpjcempclckbijgchmjedopfcnpea"
+  },
+  {
+    "name": "Infinity New Tab",
+    "description": "Web-Symbole frei hinzufügen, High-Definition-Cloud-Laufwerk-Tapeten genießen und schnell auf Lesezeichen, Wetterinformationen,…",
+    "url": "https://chrome.google.com/webstore/detail/infinity-new-tab/dbfmnekepjoapopniengjbcpnbljalfg",
+    "rating": 4.6,
+    "ratings": 11461
+  },
+  {
+    "name": "Web Monitor",
+    "description": "Tracking Website Updates, Instant Alerts durch Benachrichtigung, E-Mails, Webhook",
+    "url": "https://chrome.google.com/webstore/detail/web-monitor/fipadnnmmoiomfllhbbnhjnghopkgfpb",
+    "rating": 4.7,
+    "ratings": 42
+  },
+  {
+    "name": "Swash",
+    "description": "Get paid for your data as you browse the web. Gain control and help create a better, more dignified internet.",
+    "url": "https://chrome.google.com/webstore/detail/swash/cmndjbecilbocjfkibfbifhngkdmjgog",
+    "rating": 4.8,
+    "ratings": 5097
+  },
+  {
+    "name": "Text Blaze: Templates and Snippets",
+    "description": "Create smart text expansions to get more done and streamline your work. Billions of keystrokes saved!",
+    "url": "https://chrome.google.com/webstore/detail/text-blaze-templates-and/idgadaccgipmpannjkmfddolnnhmeklj",
+    "rating": 4.9,
+    "ratings": 813
+  },
+  {
+    "name": "ChatGPT-Assistent - intelligente Suche",
+    "description": "Integrieren Sie OpenAI ChatGPT in Ihre Suchmaschine! Greifen Sie auf ChatGPT auf jeder Website zu, indem Sie die Chat…",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-assistant-smart-s/opngpmnmajecahkfibkbdkfckibnpajd",
+    "rating": 4.9,
+    "ratings": 672
+  },
+  {
+    "name": "Save to Make the Dot",
+    "description": "Save selected images from any website to create your fashion moodboard",
+    "url": "https://chrome.google.com/webstore/detail/save-to-make-the-dot/ohbfndkiinellnjmhmgehifdanfniljh",
+    "rating": 4.6,
+    "ratings": 11
+  },
+  {
+    "name": "Autos Blitzgeschwindigkeit Online Games",
+    "description": "Lightning Speed, bei dem Spieler mit Autos Rennen fahren und an Hochgeschwindigkeitsrennen teilnehmen. Es ist ein Rennspiel, das…",
+    "url": "https://chrome.google.com/webstore/detail/cars-lightning-speed-car/ancfgdbaincoaikfiicjmododefmafln",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "CrosKeys by CrosExperts",
+    "description": "Unlock your Chromebook's potential with a powerful keyboard launcher!",
+    "url": "https://chrome.google.com/webstore/detail/croskeys-by-crosexperts/akiaafoeijpibmbbfaebhkhccepbdgfi",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Desktop-App für WhatsApp Web",
+    "description": "Öffnen Sie WhatsApp Web mit nur einem Klick in einem Chrome-Browser und chatten Sie mit Freunden. Desktop-App für WhatsApp",
+    "url": "https://chrome.google.com/webstore/detail/desktop-app-for-whatsapp/cdifdiegalahlifdodmmjefogmmmndpp",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "iGoo Helper - Security Privacy Unblock VPN",
+    "description": "Unblock any website and stay secure with Free VPN. One-click connect to our fast VPN. Unlimited bandwidth and completely FREE!",
+    "url": "https://chrome.google.com/webstore/detail/igoo-helper-security-priv/bkcbdcoknmfkccdhdendnbkjmhdmmnfc",
+    "rating": 4.8,
+    "ratings": 115
+  },
+  {
+    "name": "Video Downloader für Chrome",
+    "description": "Video Downloader Plus - der schnellste und einfachste Weg, jedes Video im Web zu speichern!",
+    "url": "https://chrome.google.com/webstore/detail/hd-video-downloader/hjlekdknhjogancdagnndeenmobeofgm",
+    "rating": 4.7,
+    "ratings": 1453
+  },
+  {
+    "name": "GoLinks",
+    "description": "The official GoLinks.io, go/links browser extension. Create team shortlinks \"go links\" with one click.",
+    "url": "https://chrome.google.com/webstore/detail/golinks/mdkgfdijbhbcbajcdlebbodoppgnmhab",
+    "rating": 4.7,
+    "ratings": 31
+  },
+  {
+    "name": "Magical: ChatGPT AI Writer & Text Expander",
+    "description": "Magical's kostenloser texterweiternder KI-betriebener Dienst schreibt Nachrichten für Sie, alles betrieben von ChatGPT.",
+    "url": "https://chrome.google.com/webstore/detail/magical-chatgpt-ai-writer/iibninhmiggehlcdolcilmhacighjamp",
+    "rating": 4.6,
+    "ratings": 2853
+  },
+  {
+    "name": "Font Finder",
+    "description": "Ein einfach zu bedienender Schriftinspektor, um CSS-Stile des ausgewählten Elements zu erhalten",
+    "url": "https://chrome.google.com/webstore/detail/font-finder/bhiichidigehdgphoambhjbekalahgha",
+    "rating": 4.5,
+    "ratings": 133
+  },
+  {
+    "name": "Multi Chat - Messenger for Whatsapp",
+    "description": "Einfacher Zugriff auf WhatsApp, Line, Telegram, FB Messenger und viele mehr über die Chrome-Symbolleiste.",
+    "url": "https://chrome.google.com/webstore/detail/multi-chat-messenger-for/dllplfhjknghhdneiblmkolbjappecbe",
+    "rating": 4.5,
+    "ratings": 403
+  },
+  {
+    "name": "FPL Tools",
+    "description": "Tools to help fantasy premier league manager",
+    "url": "https://chrome.google.com/webstore/detail/fpl-tools/bplgdnfjlmbnjpibjogpoabahffibepk",
+    "rating": 4.5,
+    "ratings": 67
+  },
+  {
+    "name": "Superpower for ChatGPT",
+    "description": "ChatGPT with superpowers! Sync/search history locally, create folders, export all chats, pin messages, access thousands of prompts",
+    "url": "https://chrome.google.com/webstore/detail/superpower-for-chatgpt/amhmeenmapldpjdedekalnfifgnpfnkc",
+    "rating": 4.3,
+    "ratings": 258
+  },
+  {
+    "name": "VMware Horizon-Browser-Umleitung",
+    "description": "Chrome-Erweiterung für die Aktivierung der Browser-Registerkartenumleitung innerhalb von VMware Horizon Agent.",
+    "url": "https://chrome.google.com/webstore/detail/vmware-horizon-browser-re/demgbalbngngkkgjcofhdiiipjblblob",
+    "rating": 4.2,
+    "ratings": 5
+  },
+  {
+    "name": "Roblox Mauszeiger",
+    "description": "Ändern Sie den Mauszeiger in ein Roblox-icon oder -Thema mit der Erweiterung Roblox Mauszeiger For Chrome",
+    "url": "https://chrome.google.com/webstore/detail/roblox-cursors/jolpphelkfknggikoffmidbnogahbdkb",
+    "rating": 4.2,
+    "ratings": 5
+  },
+  {
+    "name": "VPN Surf - Schnelles VPN durch Entsperren",
+    "description": "VPN Surf ist die beste kostenlose VPN-Chrome-Erweiterung. Sicherer VPN-Dienst zum Verbergen Ihrer IP, schnelles und anonymes VPN.",
+    "url": "https://chrome.google.com/webstore/detail/vpn-surf-fast-vpn-by-unbl/nhnfcgpcbfclhfafjlooihdfghaeinfc",
+    "rating": 4.1,
+    "ratings": 578
+  },
+  {
+    "name": "Malwarebytes Browser Guard",
+    "description": "Das schnellste und sicherste Surferlebnis im Internet.",
+    "url": "https://chrome.google.com/webstore/detail/malwarebytes-browser-guar/ihcjicgdanjaechkgeegckofjjedodee",
+    "rating": 4.1,
+    "ratings": 845
+  },
+  {
+    "name": "In Google Drive speichern",
+    "description": "Webinhalte oder Screenshots direkt in Google Drive speichern.",
+    "url": "https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne",
+    "rating": 4,
+    "ratings": 4760
+  },
+  {
+    "name": "Bildschirmrekorder, Webcam + Bildschirmvideorecorder",
+    "description": "Bildschirmvideorecorder, mit dem Sie Videos in wenigen Minuten erstellen, bearbeiten und freigeben können.",
+    "url": "https://chrome.google.com/webstore/detail/webcam-%2B-screen-video-rec/jfpjkgdpgdbddknpgplfkjjfncenlmkf",
+    "rating": 3.9,
+    "ratings": 288
+  },
+  {
+    "name": "Autofill",
+    "description": "The most popular autofill extension, boosting productivity since 2010.",
+    "url": "https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk",
+    "rating": 3.9,
+    "ratings": 1563
+  },
+  {
+    "name": "NetSupport Manager Client",
+    "description": "NetSupport Manager Client für Google Chrome NetSupport Manager bietet modernste Remote-PC-Unterstützungs- und…",
+    "url": "https://chrome.google.com/webstore/detail/netsupport-manager-client/dilkdnaihnkfembidikggnigimnbjcjn",
+    "rating": 3.9,
+    "ratings": 241
+  },
+  {
+    "name": "ShareThis",
+    "description": "ShareThis offers the most innovative sharing platform for today's social audience.",
+    "url": "https://chrome.google.com/webstore/detail/sharethis/lplpcpijdokpnbjcklakgabohjgneidi",
+    "rating": 3.9,
+    "ratings": 207
+  },
+  {
+    "name": "Streaming Remote",
+    "description": "Control web based video streaming services and other websites with your mobile or tablet device!",
+    "url": "https://chrome.google.com/webstore/detail/streaming-remote/phenknepgmgjafkipebllabgcjjnnkbg",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "Retro-Schüssel Retro Bowl",
+    "description": "Retro Bowl ist ein beliebtes American-Football-Spiel, das ein Spielerlebnis im Retro-Arcade-Stil bietet. Tanks World, Flappy, The…",
+    "url": "https://chrome.google.com/webstore/detail/retro-bowl-game/hmpalkfillodkdlmiemlafmegalngcjo",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "Webzapper: Browser Remote Control",
+    "description": "Remote control your browser without a mouse and keyboard.",
+    "url": "https://chrome.google.com/webstore/detail/webzapper-browser-remote/lmmeplodmojecahcndjgnonnhcbcmpdk",
+    "rating": 3.5,
+    "ratings": 37
+  },
+  {
+    "name": "Kopf-Fußballspiel Unblocked",
+    "description": "Head Soccer Games sind mehr als nur normale Fußballspiele, da nur zwei Spieler auf dem Spielfeld stehen.",
+    "url": "https://chrome.google.com/webstore/detail/head-soccer-game-html5-ga/bnlihhobnomccpgjinainmilhhealkpp",
+    "rating": 3.3,
+    "ratings": 3
+  },
+  {
+    "name": "Browser Cast - Phone remote 4 your PC browser",
+    "description": "Cast any webpage from your mobile phone to a Chrome browser on your PC. Play/Pause media ont casted webpage like youtube video page.",
+    "url": "https://chrome.google.com/webstore/detail/browser-cast-phone-remote/akbdooghbmenilbdgkpapgliaplhgjeb",
+    "rating": 3,
+    "ratings": 4
+  },
+  {
+    "name": "Chrome Remote Desktop",
+    "description": "Chrome Remote Desktop extension",
+    "url": "https://chrome.google.com/webstore/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai",
+    "rating": 3,
+    "ratings": 1933
+  },
+  {
+    "name": "Share CHAT GPT",
+    "description": "With Share-GPT, sharing your ChatGPT responses with friends has never been easier. Simply click the share button next to the…",
+    "url": "https://chrome.google.com/webstore/detail/share-chat-gpt/kcgfghnkgpfgdcaedgmabkcijebaicbo"
+  },
+  {
+    "name": "VCU - The Co-Browsing Network",
+    "description": "VCU is a social network that connects and shares in real-time where all users are on the internet.",
+    "url": "https://chrome.google.com/webstore/detail/vcu-the-co-browsing-netwo/bonnhbndeklljlliheakklnnbmoebdoh"
+  },
+  {
+    "name": "Live Screen Recorder",
+    "description": "Effortlessly Record Your Screen with the Live Screen Recorder Browser Extension",
+    "url": "https://chrome.google.com/webstore/detail/live-screen-recorder/pcjdfmihalemjjomplpfbdnicngfnopn",
+    "rating": 5,
+    "ratings": 20
+  },
+  {
+    "name": "LinkedRadar - OpenAI ChatGPT für LinkedIn",
+    "description": "Revolutionieren Sie Ihre LinkedIn-Strategie mit ChatGPT-gesteuerten Antworten und erreichen Sie eine 10-fache Interaktion.",
+    "url": "https://chrome.google.com/webstore/detail/linkedradar%C2%A0-%C2%A0openai%C2%A0chat/kgojhlllchdepinmopmlhihnipicpoah",
+    "rating": 4.6,
+    "ratings": 72
+  },
+  {
+    "name": "Moxtra Co-Browsing Extension",
+    "description": "Helper utility for WebRTC Meeting.",
+    "url": "https://chrome.google.com/webstore/detail/moxtra-co-browsing-extens/ndgcaedhafmgcjmbhgleeinpghdonlhd"
+  },
+  {
+    "name": "Browser VPN - Free and unlimited VPN proxy",
+    "description": "Free vpn proxy service to change IP address, unblock websites, safe and fast, no need to log in, one click to use.",
+    "url": "https://chrome.google.com/webstore/detail/browser-vpn-free-and-unli/kdjilbflpbbilgehjjppohpfplnapkbp",
+    "rating": 3.9,
+    "ratings": 18
+  },
+  {
+    "name": "3CX WebMeeting",
+    "description": "Share your screen and co browse with 3CX WebMeeting",
+    "url": "https://chrome.google.com/webstore/detail/3cx-webmeeting/nkgglpoeipjpofealmgjmplnoamoopjn"
+  },
+  {
+    "name": "OPS 3CX WebMeeting",
+    "description": "Share your screen and co browse with 3CX WebMeeting",
+    "url": "https://chrome.google.com/webstore/detail/ops-3cx-webmeeting/cdamogeakibpefedpkaijfegcbdnaamg"
+  },
+  {
+    "name": "3CX Webmeeting",
+    "description": "Share your screen and co browse with 3CX WebRTC Meetings",
+    "url": "https://chrome.google.com/webstore/detail/3cx-webmeeting/aninkfjcnfchknjeefijkcekidgmhola"
+  },
+  {
+    "name": "Breeze: Website Management Tool",
+    "description": "All-in-one tools for website migration project, operating website and SEO tools.",
+    "url": "https://chrome.google.com/webstore/detail/breeze-website-management/gedoaajonjaiigaefeaanpfmhnadkgkm",
+    "rating": 3.5,
+    "ratings": 6
+  },
+  {
+    "name": "Pade - Unified Communications at Home",
+    "description": "Pade is a web extension application for unified communications",
+    "url": "https://chrome.google.com/webstore/detail/pade-unified-communicatio/aeoodbenjbanpkchnjcpamplolonakpo"
+  },
+  {
+    "name": "UniVCX",
+    "description": "Inline annotation and masking tool. Annotate text, images, or anything also mask details like balance, email id, mobile number, etc.",
+    "url": "https://chrome.google.com/webstore/detail/univcx/gfjgfdkdedicihcjaillmdagjancmpej"
+  },
+  {
+    "name": "Guru",
+    "description": "Your team’s collective knowledge and process documentation, everywhere you need it.",
+    "url": "https://chrome.google.com/webstore/detail/guru/mklbhckkgddhlcdagmobdmnadpjokkkn",
+    "rating": 4.2,
+    "ratings": 39
+  },
+  {
+    "name": "Dragon Ball Z Wallpapers and New Tab",
+    "description": "Dragon Ball Z wallpapers bring your chrome a new look and useful tools",
+    "url": "https://chrome.google.com/webstore/detail/dragon-ball-z-wallpaper/cepfoomofdcijdlpinanbciebkdmmddm"
+  },
+  {
+    "name": "Geometrie Dash Unblocked",
+    "description": "Das Quadrat bewegt sich in Geometry Dash von selbst. Um bei Bedarf zu springen, klicken Sie einfach, und um ein Fahrzeug zu…",
+    "url": "https://chrome.google.com/webstore/detail/geometry-dash-strategy-ga/lgngoflnfecmgofdhciehddbjhffopha"
+  },
+  {
+    "name": "BTS BT21 Cursors",
+    "description": "Verwenden Sie niedliche Mauszeiger über BTS BT21 Custom Cursors For Chrome. Erweiterungen aus dem Chrome Web Store installieren",
+    "url": "https://chrome.google.com/webstore/detail/bts-bt21-cursors/hinommlajomicfjdlclnmljbcldgicdm"
+  },
+  {
+    "name": "WebScrapBook",
+    "description": "Capture web pages to local device or backend server for future retrieval, organization, annotation, and editing.",
+    "url": "https://chrome.google.com/webstore/detail/webscrapbook/oegnpmiddfljlloiklpkeelagaeejfai",
+    "rating": 3.6,
+    "ratings": 67
+  },
+  {
+    "name": "KeePassXC-Browser",
+    "description": "KeePassXC-Integration für moderne Webbrowser",
+    "url": "https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk",
+    "rating": 3.6,
+    "ratings": 274
+  },
+  {
+    "name": "MP3 Converter",
+    "description": "Reiner JavaScript-MP3-Konverter zum Kodieren von Mediendateien ins MP3-Format und Hinzufügen von ID3-Tags",
+    "url": "https://chrome.google.com/webstore/detail/mp3-converter/flildjghnbmjppbenicihiaaadkpkika",
+    "rating": 4.1,
+    "ratings": 41
+  },
+  {
+    "name": "Videochat Extension - IP Locator & More",
+    "description": "IP Locator & more for your favorite video chats: Chatruletka, ome.tv, Minichat & Omegle. Chatruletka Extension.",
+    "url": "https://chrome.google.com/webstore/detail/videochat-extension-ip-lo/alchldmijhnnapijdmchpkdeikibjgoi",
+    "rating": 4.8,
+    "ratings": 453
+  },
+  {
+    "name": "BrainTool - Beyond Bookmarks",
+    "description": "BrainTool is a Topic Manager for your online life.",
+    "url": "https://chrome.google.com/webstore/detail/braintool-beyond-bookmark/fialfmcgpibjgdoeodaondepigiiddio",
+    "rating": 4.8,
+    "ratings": 245
+  },
+  {
+    "name": "Screen Recorder",
+    "description": "Bildschirmaufzeichnung für aktiven Tab, App oder gesamten Bildschirm. Nehmen Sie den Bildschirm in mp4 auf und laden Sie ihn…",
+    "url": "https://chrome.google.com/webstore/detail/screen-recorder/nhmaphcpolbbanpfhamgdpjlphbcnieh",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "Nektar",
+    "description": "Nektar.ai",
+    "url": "https://chrome.google.com/webstore/detail/nektar/kkdeocbeilmnggajdbhhpkcemghcpehk"
+  },
+  {
+    "name": "Nureva Screen Share",
+    "description": "Share your desktop or applications in Nureva™ Span™ software",
+    "url": "https://chrome.google.com/webstore/detail/nureva-screen-share/nakjpadjkbgglmecflakfmapmdnlkeng"
+  },
+  {
+    "name": "Insight Web Helper",
+    "description": "Helps your teacher maintain a great learning environment.",
+    "url": "https://chrome.google.com/webstore/detail/insight-web-helper/adepkmleadimefolboaaedghfnnbfpnp",
+    "rating": 1.3,
+    "ratings": 223
+  },
+  {
+    "name": "SBX | A Collaborative Inbox for Outlook",
+    "description": "Collaborate with your team in Outlook. Easily manage your team’s emails with ticket-like assignments.",
+    "url": "https://chrome.google.com/webstore/detail/sbx-a-collaborative-inbox/okcdjhaaimeadhbgikphlllfoaljaabc"
+  },
+  {
+    "name": "Collab Language Detector",
+    "description": "In this extension you can detect any language. you just put the text and click on detect language button",
+    "url": "https://chrome.google.com/webstore/detail/collab-language-detector/nkkobdifafodohopfooigliemobjfchn"
+  },
+  {
+    "name": "Redirect URL, Modify Headers & Mock APIs",
+    "description": "Web Debugging Proxy to Intercept & Modify HTTPs Requests - Redirect URL, Modify Headers, Mock APIs, Modify Response, Insert Scripts",
+    "url": "https://chrome.google.com/webstore/detail/redirect-url-modify-heade/mdnleldcmiljblolnjhpnblkcekpdkpa",
+    "rating": 4.5,
+    "ratings": 1039
+  },
+  {
+    "name": "Neeva AI Search",
+    "description": "Neeva AI Search für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/neeva-ai-search/aookogakccicaoigoofnnmeclkignpdk",
+    "rating": 4.5,
+    "ratings": 57
+  },
+  {
+    "name": "Google Übersetzer - Schnelle Übersetzung",
+    "description": "Webseiten-Übersetzer, übersetzen Sie den Text auf jeder Webseite sofort mit der fortschrittlichen maschinellen…",
+    "url": "https://chrome.google.com/webstore/detail/translator-pro-quick-tran/bebmphofpgkhclocdbgomhnjcpelbenh",
+    "rating": 4.5,
+    "ratings": 372
+  },
+  {
+    "name": "Tolle ChatGPT Screenshot & Bildschirmaufnahme",
+    "description": "Der beste Bildschirmrekorder und Screenshot-Tool zur Bildschirmaufnahme. Erfasse ChatGPT",
+    "url": "https://chrome.google.com/webstore/detail/awesome-chatgpt-screensho/nlipoenfbbikpbjkfpfillcgkoblgpmj",
+    "rating": 4.7,
+    "ratings": 26188
+  },
+  {
+    "name": "Bildschirmaufnahme und Bildschirmrekorder scrnli - ChatGPT",
+    "description": "Kostenloses und einfach zu bedienendes Bildschirmaufnahme- und Bildschirmrekorder-Tool. Screenshot oder Bildschirmaufnahme…",
+    "url": "https://chrome.google.com/webstore/detail/scrnli-screen-recorder-sc/ijejnggjjphlenbhmjhhgcdpehhacaal",
+    "rating": 4.7,
+    "ratings": 9416
+  },
+  {
+    "name": "Lautstärke erhöhen - Lautsprecherverstärker",
+    "description": "Erhöhen Sie Ihre maximale Lautstärke! Verstärken Sie den Ton um bis zu 600%. Steuern Sie den Ton jeder Registerkarte mit dem…",
+    "url": "https://chrome.google.com/webstore/detail/volumeup-sound-booster/ogadflejmplcdhcldlloonbiekhnlopp",
+    "rating": 4.8,
+    "ratings": 326
+  },
+  {
+    "name": "Screenshot-Meister: Vollbildaufnahme",
+    "description": "Einfache, kostenlose und voll ausgestattete Screenshot-App zum Erfassen, Bearbeiten und Speichern Ihrer Screenshots mühelos.",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-master-full-pa/ggacghlcchiiejclfdajbpkbjfgjhfol",
+    "rating": 4.8,
+    "ratings": 269
+  },
+  {
+    "name": "Pade - Unified Communications",
+    "description": "Pade is a web extension application for unified communications",
+    "url": "https://chrome.google.com/webstore/detail/pade-unified-communicatio/fohfnhgabmicpkjcpjpjongpijcffaba",
+    "rating": 4.2,
+    "ratings": 40
+  },
+  {
+    "name": "Screen Sharing",
+    "description": "Chrome Extension for sharing screen in video chat",
+    "url": "https://chrome.google.com/webstore/detail/screen-sharing/onnpnbcklmahhoajlilopflaandmlooa",
+    "rating": 3.1,
+    "ratings": 9
+  },
+  {
+    "name": "Meet Extension",
+    "description": "Collaborate with anyone, anywhere using Meet Extension",
+    "url": "https://chrome.google.com/webstore/detail/meet-extension/einlemfghikkfamnllmhiomaaneefepc",
+    "rating": 3.6,
+    "ratings": 9
+  },
+  {
+    "name": "Meet Co-Browsing Extension",
+    "description": "This browser extension is a helper tool for demonstration scenarios to show how Moxtra is working in any webpage.",
+    "url": "https://chrome.google.com/webstore/detail/meet-co-browsing-extensio/lajcdabjijahgplgochhblglegapeoao"
+  },
+  {
+    "name": "Vera - Cowatching Video.",
+    "description": "Cobrowse any website with your teammates!",
+    "url": "https://chrome.google.com/webstore/detail/vera-cowatching-video/ccegbnlnelhgaefimiaklaindffpfcmh",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Meeting-Erweiterung von Mitel",
+    "description": "Teamwork und Interaktion in Echtzeit mithilfe der Meeting-Erweiterung.",
+    "url": "https://chrome.google.com/webstore/detail/meet-extension-by-mitel/egfcldmlhgaeoeihpfbjeogedcmckbkd",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Zelta - Collaborate",
+    "description": "Embed collaboration into your team's workflows",
+    "url": "https://chrome.google.com/webstore/detail/zelta-collaborate/jjmonpaokeboadmfaadcbilliohjllii",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Wildix Collaboration",
+    "description": "Add quick access to Wildix Collaboration, requires a Wildix UC System to be used, more info at http://www.wildix.com",
+    "url": "https://chrome.google.com/webstore/detail/wildix-collaboration/lobgohpoobpijgfegnlhdnppegdbomkn",
+    "rating": 4.5,
+    "ratings": 21
+  },
+  {
+    "name": "TeacherView",
+    "description": "TeacherView student app",
+    "url": "https://chrome.google.com/webstore/detail/teacherview/gjnnhhmjplppbabpoaihbdjejlpdcbhj",
+    "rating": 3,
+    "ratings": 6
+  },
+  {
+    "name": "FEV Tutor Screen Share",
+    "description": "FEV Tutor Screen Share enables students to share their screen with their tutor on the FEV Whiteboard.",
+    "url": "https://chrome.google.com/webstore/detail/fev-tutor-screen-share/aghldgpdpmfhlmlojfpeeepcjdopcmgn",
+    "rating": 3.3,
+    "ratings": 11
+  },
+  {
+    "name": "HackerRank Codepair",
+    "description": "Extension by HackerRank allowing user to create codepair interview links",
+    "url": "https://chrome.google.com/webstore/detail/hackerrank-codepair/mnkgahiafhiphkelfiignncoifadhpnd",
+    "rating": 3.7,
+    "ratings": 6
+  },
+  {
+    "name": "YouTube Party",
+    "description": "Synchronisiere deine YouTube-Videowiedergabe mit Freunden!",
+    "url": "https://chrome.google.com/webstore/detail/youtube-party/ngmncgebkdchkdokiecifpmodajbaopj",
+    "rating": 3.6,
+    "ratings": 136
+  },
+  {
+    "name": "CliqMeet Screenshare",
+    "description": "A simple extension that allows you to stream your desktop into meetings with CliqMeet.",
+    "url": "https://chrome.google.com/webstore/detail/cliqmeet-screenshare/mobodblofhlnnogfkomgijbbikbjlool",
+    "rating": 4.1,
+    "ratings": 7
+  },
+  {
+    "name": "Netflix Party is now Teleparty",
+    "description": "Watch Netflix, Youtube, Disney Plus, Hulu, HBO, and Amazon Prime Video in sync with friends",
+    "url": "https://chrome.google.com/webstore/detail/netflix-party-is-now-tele/oocalimimngaihdkbihfgmpkcpnmlaoa",
+    "rating": 4.1,
+    "ratings": 14277
+  },
+  {
+    "name": "Avaya Screen Sharing",
+    "description": "Aktivieren Sie Echtzeit-Collaborative-Screen-Sharing mit Avaya Conferencing",
+    "url": "https://chrome.google.com/webstore/detail/avaya-screen-sharing/ekmpmkmabbkjmceejhcdeckofhmbnoen",
+    "rating": 4.5,
+    "ratings": 11
+  },
+  {
+    "name": "Zoho Meeting",
+    "description": "A perfect web conferencing tool to host online meetings, share screen and join conference with video collaboration in browser.",
+    "url": "https://chrome.google.com/webstore/detail/zoho-meeting/ajnmfincdldfcodgpglmolicgglkdeof",
+    "rating": 4.2,
+    "ratings": 22
+  },
+  {
+    "name": "Beyond Meet for Google Meet",
+    "description": "Google Meet Multitasking, AI Emotion Tracking, Transcription, Notes, Recording, Live Stream, Speech Tracking, PiP Mode",
+    "url": "https://chrome.google.com/webstore/detail/beyond-meet-for-google-me/ibkpaabpalfgeiklbphhmgenfjfcijil",
+    "rating": 4.3,
+    "ratings": 35
+  },
+  {
+    "name": "WebRTC Desktop Sharing",
+    "description": "WebRTC P2P HQ/HD screen-sharing. Share camera, microphone, speakers, full-screen, or software's screens.",
+    "url": "https://chrome.google.com/webstore/detail/webrtc-desktop-sharing/nkemblooioekjnpfekmjhpgkackcajhg",
+    "rating": 4.3,
+    "ratings": 75
+  },
+  {
+    "name": "Document Editor",
+    "description": "Create, edit and share Docs, Sheets, Slides, Word, Excel, PowerPoint documents. Work with others on shared projects.",
+    "url": "https://chrome.google.com/webstore/detail/document-editor/amcohnjkplnibjnndkpmanegodllopdj",
+    "rating": 4.7,
+    "ratings": 3
+  },
+  {
+    "name": "Tilde",
+    "description": "Free, instant meeting rooms for all your collaborative needs",
+    "url": "https://chrome.google.com/webstore/detail/tilde/fdleebpnfhkglofibmclaffikndcmnjd",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Tutoreal Screen Sharing",
+    "description": "This Chrome extension is developed primarily for http://www.tutoreal.com/ to capture content of your screen during meetings.",
+    "url": "https://chrome.google.com/webstore/detail/tutoreal-screen-sharing/pkloncnghfhjdcaifkidlclimblbgani",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Whiteboard",
+    "description": "Whiteboard is a UI enhancement suite for The University of Texas at Dallas's online learning platform, eLearning. This extension…",
+    "url": "https://chrome.google.com/webstore/detail/whiteboard/hgoiijmhpdjkmecnlkpdcflgfjebpbhe",
+    "rating": 5,
+    "ratings": 12
+  },
+  {
+    "name": "Meeedly | Engaging online lectures",
+    "description": "Online lecture and exam monitoring and engagement tool for educational institutes and online instructors.",
+    "url": "https://chrome.google.com/webstore/detail/meeedly-engaging-online-l/almakfnbphlncbcbgkbdjloloinglpno",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "LeetAssist",
+    "description": "Provides hints/prerequisites for problems, can add your own & vote on others. Collaborative problem-solving for coding challenges.",
+    "url": "https://chrome.google.com/webstore/detail/leetassist/kjclbbbdjpakhdhpejecfahfolaghngm",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "VZ Meet Extension",
+    "description": "Collaborate with anyone, anywhere using VZ Meet Extension.",
+    "url": "https://chrome.google.com/webstore/detail/vz-meet-extension/filmgdbfjadnamjghihpblmgekekbcej"
+  },
+  {
+    "name": "Horizon Collaborate Guest Client",
+    "description": "The Horizon Collaborate Guest Client sharing extension to help the guest users in sharing desktop with the room attendees",
+    "url": "https://chrome.google.com/webstore/detail/horizon-collaborate-guest/cenpoaamfdlkmfhagmklphodcadlejnh"
+  },
+
+  {
+    "name": "Blocklive: Scratch Realtime Collaboration",
+    "description": "Multiple Scratchers Work together in Real Time on a Single Project",
+    "url": "https://chrome.google.com/webstore/detail/blocklive-scratch-realtim/gelkmljpoacdjkjkcfekkmgkpnmeomlk",
+    "rating": 3.3,
+    "ratings": 19
+  },
+  {
+    "name": "TeacherView - Teacher Tools",
+    "description": "TeacherView - Teacher Tools",
+    "url": "https://chrome.google.com/webstore/detail/teacherview-teacher-tools/mddbkffabnjjaihpiocjdagclghhlcmd",
+    "rating": 3.5,
+    "ratings": 2
+  },
+  {
+    "name": "Hippo Video: Video and Screen Recorder",
+    "description": "Best screen recorder for Chrome. Create, edit, and share your professional looking videos instantly.",
+    "url": "https://chrome.google.com/webstore/detail/hippo-video-video-and-scr/cijidiollmnkegoghpfobabpecdkeiah",
+    "rating": 4.2,
+    "ratings": 1639
+  },
+  {
+    "name": "Test & Feedback",
+    "description": "Now everyone on the team can own quality. Capture findings, create issues, and collaborate with the team, directly from the browser.",
+    "url": "https://chrome.google.com/webstore/detail/test-feedback/gnldpbnocfnlkkicnaplmkaphfdnlplb",
+    "rating": 4.2,
+    "ratings": 173
+  },
+  {
+    "name": "Ziteboard | virtuelle Whiteboard-Kooperation",
+    "description": "Zoombares echtzeit Whiteboard mit Freigabefunktion, Kooperation. Skizzen, Zeichnungen, Formerkennung, Nachhilfe, Unterricht.",
+    "url": "https://chrome.google.com/webstore/detail/ziteboard-zooming-collabo/nldaeoadnnnkinljmmcabkgndhamjaji",
+    "rating": 4.4,
+    "ratings": 50
+  },
+  {
+    "name": "Web-Paint-Tool",
+    "description": "Zeichnen Sie Rechtecke, Kreise, Linien und andere Formen oder fügen Sie Text auf einer beliebigen Website hinzu, und erstellen Sie…",
+    "url": "https://chrome.google.com/webstore/detail/web-paint-tool-draw-onlin/iklgljbighkgbjoecoddejooldolenbj",
+    "rating": 4.6,
+    "ratings": 1080
+  },
+  {
+    "name": "ReQorder - Screen Recording",
+    "description": "ReQorder is a screen-recording software platform that allows users to record virtually anything: Co-browsing sessions, demos,…",
+    "url": "https://chrome.google.com/webstore/detail/reqorder-screen-recording/hljpjpbjepjladnegpnkffifhjnecdce",
+    "rating": 4.8,
+    "ratings": 4
+  },
+  {
+    "name": "Ishtar MultiTool",
+    "description": "Improve your Ishtar Collective experience",
+    "url": "https://chrome.google.com/webstore/detail/ishtar-multitool/oceocpbnjheniaiippppmmliepgjnfhg",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Ryesnap",
+    "description": "A web-clipper for Ryeboard",
+    "url": "https://chrome.google.com/webstore/detail/ryesnap/bhnmdhppjgegegibfndefppcpmlkichi"
+  },
+  {
+    "name": "Board",
+    "description": "This extension allows you to make any website on the web as your writing board",
+    "url": "https://chrome.google.com/webstore/detail/board/eldlemfjelebndalbjpfbohgofaidhfl"
+  },
+  {
+    "name": "VIA3 - Video Conferencing, Messaging, Storage",
+    "description": "VIA3: Google Chrome Extension",
+    "url": "https://chrome.google.com/webstore/detail/via3-video-conferencing-m/gclkpkieokodlicfahbioofocjpljobg",
+    "rating": 2.7,
+    "ratings": 6
+  },
+  {
+    "name": "Keeeb Intelligence Platform",
+    "description": "Enables organizations to discover all their enterprise data, curate it into dynamic assets, and empower collaborative communities.",
+    "url": "https://chrome.google.com/webstore/detail/keeeb-intelligence-platfo/icalaeknaloanbbiakjfpghbjmndkaho",
+    "rating": 3.7,
+    "ratings": 3
+  },
+  {
+    "name": "Whiteboard Animation Software",
+    "description": "Best Open Source Whiteboard Animation Software",
+    "url": "https://chrome.google.com/webstore/detail/whiteboard-animation-soft/hciibklojpeiibfiknmcedlfgggoejin",
+    "rating": 4,
+    "ratings": 4
+  },
+  {
+    "name": "Elink - Bookmark Manager",
+    "description": "Best visual Bookmarker for creating content for your Gmail Newsletters, HTML Newsletters, Website/Blog and Social bio links.",
+    "url": "https://chrome.google.com/webstore/detail/elink-bookmark-manager/ancooclifmcdfafbgjmgpmcembfaknka",
+    "rating": 4.1,
+    "ratings": 47
+  },
+  {
+    "name": "TruSign",
+    "description": "The Fake News Terminator",
+    "url": "https://chrome.google.com/webstore/detail/trusign/cpmofdbobhemoodifnhffdodkkfkemai",
+    "rating": 4.2,
+    "ratings": 5
+  },
+  {
+    "name": "Sticky Notes 3.5 - Super Quick & Personal",
+    "description": "Animated Themes, Fonts, Backup. 1-Click easiest & fastest note taking app inside browser. (See demo)",
+    "url": "https://chrome.google.com/webstore/detail/sticky-notes-35-super-qui/plpdjbappofmfbgdmhoaabefbobddchk",
+    "rating": 4.5,
+    "ratings": 4162
+  },
+  {
+    "name": "Amino: Live CSS Editor",
+    "description": "Live-CSS-Editor. Schreiben Sie benutzerdefiniertes CSS für jede Website und sehen Sie Ihre Änderungen in Echtzeit.",
+    "url": "https://chrome.google.com/webstore/detail/amino-css-live-editor/pbcpfbcibpcbfbmddogfhcijfpboeaaf",
+    "rating": 4.3,
+    "ratings": 422
+  },
+  {
+    "name": "Phenom Real-time CRM",
+    "description": "The Phenom Real-time CRM Extension enables you to search, manage and edit existing leads in CRM.",
+    "url": "https://chrome.google.com/webstore/detail/phenom-real-time-crm/eekjlaadjflehfpomihbkhldphpnkbag",
+    "rating": 4.5,
+    "ratings": 6
+  },
+  {
+    "name": "Free Paint Online - Zeichnen Sie auf jeder Website",
+    "description": "Zeichnen Sie lustige Bilder direkt auf der Website, verwenden Sie einen Farbwähler oder markieren Sie Text und machen Sie…",
+    "url": "https://chrome.google.com/webstore/detail/free-paint-online-draw-on/doiiaejbgndnnnomcdhefcbfnbbjfbib",
+    "rating": 4.6,
+    "ratings": 262
+  },
+  {
+    "name": "EdPage",
+    "description": "Turn a webpage into your notebook. Add drawings/text/images/emojis & more to any webpage / PDF. Take Screenshots of your work.",
+    "url": "https://chrome.google.com/webstore/detail/edpage/mmbkacbempildiaidjlgkfjooejeinib",
+    "rating": 4.6,
+    "ratings": 7
+  },
+  {
+    "name": "Malwerkzeug von Painty",
+    "description": "Zeichnen Sie Formen, Linien und Pfeile in Echtzeit auf Webseiten, erstellen Sie einen Screenshot und laden Sie diesen Screenshot…",
+    "url": "https://chrome.google.com/webstore/detail/web-paint-tool-by-painty/obdhcplpbliifflekgclobogbdliddjd",
+    "rating": 4.7,
+    "ratings": 355
+  },
+  {
+    "name": "Glasp: Social Web Highlight & YouTube Summary",
+    "description": "Take notes and add highlights on web pages. Discover and save articles from friends. A tool for writers, avid readers, and thinkers.",
+    "url": "https://chrome.google.com/webstore/detail/glasp-social-web-highligh/blillmbchncajnhkjfdnincfndboieik",
+    "rating": 4.7,
+    "ratings": 133
+  },
+  {
+    "name": "OrganizeYou - A simple task board",
+    "description": "Keep your todos always in-front of you",
+    "url": "https://chrome.google.com/webstore/detail/organizeyou-a-simple-task/jbklehanlglahdjcjililkmdmbngffjn",
+    "rating": 5,
+    "ratings": 6
+  },
+  {
+    "name": "Tango: How-to guides and SOPs, in seconds",
+    "description": "Create beautiful how-to guides with perfectly cropped screenshots, in seconds.",
+    "url": "https://chrome.google.com/webstore/detail/tango-how-to-guides-and-s/lggdbpblkekjjbobadliahffoaobaknh",
+    "rating": 4.9,
+    "ratings": 234
+  },
+  {
+    "name": "Plok",
+    "description": "Plok Chrome Extension – quickly saves links to web-content and visualizes them in an unlimited zooming environment.",
+    "url": "https://chrome.google.com/webstore/detail/plok/bdlhbjbdpkcnlbgbkejjkepclaaaffjm",
+    "rating": 5,
+    "ratings": 10
+  },
+  {
+    "name": "Save to Gentle Reader",
+    "description": "Bookmark any article you find around the web directly to your Gentle Reader Bookmarks for reading later",
+    "url": "https://chrome.google.com/webstore/detail/save-to-gentle-reader/kghdhemhpcoiddhaokoakhpahdfbnnee"
+  },
+  {
+    "name": "Ethicly",
+    "description": "Identify companies to boycott while you shop.",
+    "url": "https://chrome.google.com/webstore/detail/ethicly/kjpimohnifmcijjnlbodmcepoglbbcaa",
+    "rating": 4.6,
+    "ratings": 7
+  },
+  {
+    "name": "#365ArtCalendar",
+    "description": "365 Artworks to start your day with creativity! Produced by Japanese design studio monopo in collaboration with 53 artists.",
+    "url": "https://chrome.google.com/webstore/detail/365artcalendar/iejoafckndcnmdpkpogpfgcmflkgcfjm"
+  },
+  {
+    "name": "Zephyr Capture for JIRA",
+    "description": "Rapid agile testing.",
+    "url": "https://chrome.google.com/webstore/detail/zephyr-capture-for-jira/meebenkoljjgogkbnlabbmdbbhpeifck",
+    "rating": 2.5,
+    "ratings": 4
+  },
+  {
+    "name": "Meet Plus for Google Meet",
+    "description": "Breakout rooms,attendance,dark mode,chat,emojis,reward points,quiz,poll,file sharing,stickies,many more features for Google Meet",
+    "url": "https://chrome.google.com/webstore/detail/meet-plus-for-google-meet/lbfjgknkjfjmnjdgdhbbmmbkoddgpdoc",
+    "rating": 3.8,
+    "ratings": 307
+  },
+  {
+    "name": "True Content",
+    "description": "TrueContent enables Internet users to vote any type of online content through browser extensions.",
+    "url": "https://chrome.google.com/webstore/detail/true-content/ipbepdiglckmhmafbfmllccjhncflofa",
+    "rating": 4.4,
+    "ratings": 7
+  },
+  {
+    "name": "Taskade - Team Tasks, Notes, Video Chat",
+    "description": "Team task lists, notes, and video chat. Get work done faster and smarter with Taskade.",
+    "url": "https://chrome.google.com/webstore/detail/taskade-team-tasks-notes/hcobdfnjjaceclfdjpmmpiknimccjpmf",
+    "rating": 4.4,
+    "ratings": 308
+  },
+  {
+    "name": "earth.fm",
+    "description": "Listen to nature sounds, and fall in love with the Earth.",
+    "url": "https://chrome.google.com/webstore/detail/earthfm/hegkfpbbpfalefjgpbedmblfoelckcmb",
+    "rating": 5,
+    "ratings": 7
+  },
+  {
+    "name": "BlockSite: Websites blockieren & Konzentriert bleiben",
+    "description": "Bleiben Sie konzentriert und steigern Sie Ihre Produktivität mit unseren Hauptfunktionen: Benutzerdefinierte Blockliste,…",
+    "url": "https://chrome.google.com/webstore/detail/blocksite-block-websites/eiimnmioipafcokbfikbljfdeojpcgbh",
+    "rating": 4.4,
+    "ratings": 26332
+  },
+  {
+    "name": "uVPN - Kostenloses und sicheres VPN für Online-Privatsphäre",
+    "description": "Anonymer, sicherer und uneingeschränkter VPN service! Entsperren Sie Webseiten und greifen Sie auf unbegrenzte Inhalte zu mit einem…",
+    "url": "https://chrome.google.com/webstore/detail/free-vpn-chrome-extension/jaoafpkngncfpfggjefnekilbkcpjdgp",
+    "rating": 4.7,
+    "ratings": 18548
+  },
+  {
+    "name": "Nimbus Screenshot & Bildschirm-Videorecorder",
+    "description": "Screen Capture VOLLER Webseiten oder beliebiger Teile. Bearbeiten Sie Bildschirmfotos. Screencasts aufnehmen - nehmen Sie Videos…",
+    "url": "https://chrome.google.com/webstore/detail/nimbus-screenshot-video-r/bpconcjcammlapcogcnnelfmaeghhagj",
+    "rating": 4.6,
+    "ratings": 16868
+  },
+  {
+    "name": "Vimeo Record – Bildschirm- und Webcamaufnahme",
+    "description": "Unbegrenzt viele kostenlose Videobotschaften aufnehmen und direkt über deinen Browser teilen",
+    "url": "https://chrome.google.com/webstore/detail/vimeo-record-screen-webca/ejfmffkmeigkphomnpabpdabfddeadcb",
+    "rating": 4.6,
+    "ratings": 1538
+  },
+  {
+    "name": "Save Emails to PDF by cloudHQ",
+    "description": "Exportieren, konvertieren und speichern Sie Gmail™-E-Mails als PDF-Dokument",
+    "url": "https://chrome.google.com/webstore/detail/save-emails-to-pdf-by-clo/dngbhajancmfmdnmhhdknhooljkddgnk",
+    "rating": 4.4,
+    "ratings": 682
+  },
+  {
+    "name": "DragApp: Gmail shared inbox",
+    "description": "Turn Gmail into a collaboration tool with shared Kanban boards and make teamwork happen faster, from your inbox.",
+    "url": "https://chrome.google.com/webstore/detail/dragapp-gmail-shared-inbo/kadokpknocdadnipihnphaaabanedjnb",
+    "rating": 4.1,
+    "ratings": 651
+  },
+  {
+    "name": "Gmelius for Gmail",
+    "description": "Turn Gmail into a collaboration tool and sync it with your favorite apps like Slack or Trello.",
+    "url": "https://chrome.google.com/webstore/detail/gmelius-for-gmail/dheionainndbbpoacpnopgmnihkcmnkl",
+    "rating": 4.6,
+    "ratings": 649
+  },
+  {
+    "name": "Screenity - Bildschirmaufnahme & Beschriftungswerkzeug",
+    "description": "Das mächtigste Bildschirmaufnahmewerkzeug für Chrome. Videos aufnehmen, beschriften, bearbeiten und mehr.",
+    "url": "https://chrome.google.com/webstore/detail/screenity-screen-recorder/kbbdabhdfibnancpjfhlkhafgdilcnji",
+    "rating": 4.5,
+    "ratings": 544
+  },
+
+  {
+    "name": "Office Online OfficeWork für XLS DOC und PPT",
+    "description": "Erstellen und Bearbeiten von DOC, XLS und PPT-Dateien mit einer Office-Suite Online",
+    "url": "https://chrome.google.com/webstore/detail/office-online-officework/aobjedggladklcfbokddfgjkfdioknak",
+    "rating": 4,
+    "ratings": 251
+  },
+  {
+    "name": "Bildschirmfoto, Screenshot, Anmerkungen",
+    "description": "Holen Sie mehr aus Ihren Bildschirmaufnahmen heraus! Der beste Bildschirmrekorder und Bildschirmaufnahme- und Screenshot-Tool, um…",
+    "url": "https://chrome.google.com/webstore/detail/screen-capture-screenshot/bmkgbgkneealfabgnjfeljaiegpginpl",
+    "rating": 4.8,
+    "ratings": 244
+  },
+  {
+    "name": "Bildschirmfoto und Bildschirmvideorecorder",
+    "description": "Bildschirmrekorder und Bildschirmaufnahme, Screenshot-Tool zum Aufzeichnen des Bildschirms. Bearbeiten, kommentieren und teilen.…",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-screen-recorde/okkffdhbfplmbjblhgapnchjinanmnij",
+    "rating": 4.6,
+    "ratings": 204
+  },
+  {
+    "name": "Paperpile Extension",
+    "description": "Collect, organize, annotate and cite your research papers in Chrome",
+    "url": "https://chrome.google.com/webstore/detail/paperpile-extension/bomfdkbfpdhijjbeoicnfhjbdhncfhig",
+    "rating": 4.8,
+    "ratings": 169
+  },
+  {
+    "name": "Airgram: Transcribe Record Google Meet & Zoom",
+    "description": "Live transcription, video recording and collaborative notes for your Google Meet and Zoom.",
+    "url": "https://chrome.google.com/webstore/detail/airgram-transcribe-record/gfcfcfbheicekekhagikabglhfgnjdek",
+    "rating": 4.9,
+    "ratings": 152
+  },
+  {
+    "name": "Vidline Bildschirmschreiber",
+    "description": "Nehmen Sie den Bildschirm schnell mit Audio und Kamera auf.Teilen Sie Videos sofort mit einem Klick.",
+    "url": "https://chrome.google.com/webstore/detail/vidline-screen-recorder/peaiabjigdmcjiigljknblkdmllgmklp",
+    "rating": 4.8,
+    "ratings": 132
+  },
+  {
+    "name": "Schnell speichern und reposten",
+    "description": "Laden Sie Geschichten von Instagram herunter, speichern Sie jedes IG-Video und Foto. Machen Sie Repost Instagram Reels in Ihrem…",
+    "url": "https://chrome.google.com/webstore/detail/fastsave-repost/pnlphjjfielecalmmjjdhjjninkbjdod",
+    "rating": 4.7,
+    "ratings": 106
+  },
+
+  {
+    "name": "Anmerkungen für YouTube™ wiederhergestellt",
+    "description": "Bringen Sie die Anmerkungsunterstützung zurück zu YouTube™!",
+    "url": "https://chrome.google.com/webstore/detail/annotations-restored-for/daabpdmgkghdbfljmeahnplkcldbeefg",
+    "rating": 4.2,
+    "ratings": 82
+  },
+  {
+    "name": "New Tab Todo List: Checklist, Notes, Outliner",
+    "description": "Beautiful and sharable checklists, notes, and to-do lists. Collaborate and outline in real-time.",
+    "url": "https://chrome.google.com/webstore/detail/new-tab-todo-list-checkli/hdkbnhcgfcokjhlfiicbphafdnipnhjf",
+    "rating": 4.3,
+    "ratings": 82
+  },
+  {
+    "name": "Chat GPT For LinkedIn: Chat GPT Whisper & OpenAI Text Generator",
+    "description": "Revolutionize your LinkedIn strategy with ChatGPT-Driven OpenAI text generator and Achieve 10x Engagement.",
+    "url": "https://chrome.google.com/webstore/detail/linkedradar%C2%A0-%C2%A0openai%C2%A0chat/kgojhlllchdepinmopmlhihnipicpoah",
+    "rating": 4.7,
+    "ratings": 65
+  },
+
+  {
+    "name": "Dunkler Modus - Dunkler Leser für Chrome",
+    "description": "Dunkles Modus ein klassisches dunkles Thema für das Web. Schalten Sie jede Website mit einem Klick in den Dunkelmodus und zurück.",
+    "url": "https://chrome.google.com/webstore/detail/night-shift-dark-reader-m/jhhjdfldilccfllhlbjdlhknlfbhpgeg",
+    "rating": 4.8,
+    "ratings": 48
+  },
+  {
+    "name": "Automatische Seitenaktualisierung",
+    "description": "Tab automatische Aktualisierung. Seiten automatisch aktualisieren. Automatische Aktualisierung und Seitenüberwachung mit festen…",
+    "url": "https://chrome.google.com/webstore/detail/auto-page-refresh/hhhlmhebgldhhkmlcobchafaefeeigji",
+    "rating": 4.8,
+    "ratings": 48
+  },
+  {
+    "name": "Annotation, Full Page Capture & Snipping Tool",
+    "description": "Instacap is a screenshot editor & annotation tool for full page screen capture, pdf annotation & more—for instant visual feedback",
+    "url": "https://chrome.google.com/webstore/detail/annotation-full-page-capt/jompclhalmbigbmjogfnfjkomponodhk",
+    "rating": 4.9,
+    "ratings": 22
+  },
+
+  {
+    "name": "ChatGPT Plus für Google",
+    "description": "Integrieren Sie OpenAI's ChatGPT in Ihre Suchmaschine! Verwenden Sie den Chat GPT Helfer auf jeder Website.",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-plus-for-google/fbbjijdngocdplimineplmdllhjkaece",
+    "rating": 4.8,
+    "ratings": 57
+  },
+  {
+    "name": "Scrolling Screenshot + Webpage Markup Tool",
+    "description": "The only single or multi-page scrolling screenshot tool. Add markup like arrows, text, callouts & more. Share links + export to PDF.",
+    "url": "https://chrome.google.com/webstore/detail/scrolling-screenshot-%2B-we/bnlghmkgojdehkigfkkblmmeldkmoccb",
+    "rating": 4.7,
+    "ratings": 46
+  },
+
+  {
+    "name": "Zoho Projects",
+    "description": "Project Management software that lets you manage projects and tasks online. Collaboration with your team is now easier than ever.",
+    "url": "https://chrome.google.com/webstore/detail/zoho-projects/peldkgicldgmbampajgepnigbpkhomoh",
+    "rating": 4,
+    "ratings": 39
+  },
+  {
+    "name": "DocsWork Herausgeber für Dokumente doc & docx",
+    "description": "Erstellen und Bearbeiten von doc & docx-Dokumenten mit einem Editor Online",
+    "url": "https://chrome.google.com/webstore/detail/docswork-editor-for-docum/gnmngcgmijhkamopfhmnkgpebgjbpbja",
+    "rating": 3.8,
+    "ratings": 30
+  },
+
+  {
+    "name": "Confluence Chrome Extension - Meetical",
+    "description": "Chrome Extension for Confluence to create Meeting Notes directly from your Google Calendar. Quick and easy meeting management.",
+    "url": "https://chrome.google.com/webstore/detail/confluence-chrome-extensi/afmodkjhmglpnomeindmmkfofgjandcl",
+    "rating": 5,
+    "ratings": 12
+  },
+  {
+    "name": "Zulu - Bookmarks Reimagined",
+    "description": "Organise your tabs and bookmarks to upgrade your browsing experience and productivity!",
+    "url": "https://chrome.google.com/webstore/detail/zulu-bookmarks-reimagined/dhilfkkijcpfdnonblmciaoljbjmfhmp",
+    "rating": 4.1,
+    "ratings": 10
+  },
+  {
+    "name": "Meeting-Erweiterung",
+    "description": "Arbeiten Sie mit jedem und überall dank der Meeting-Erweiterung zusammen.",
+    "url": "https://chrome.google.com/webstore/detail/meet-extension/gcihackglhkfinndffhemefinhlmagfe",
+    "rating": 4.7,
+    "ratings": 9
+  },
+  {
+    "name": "Boom - 视频办公协同工具",
+    "description": "一键录制屏幕与人像，比视频会议更高效的视频协作软件。",
+    "url": "https://chrome.google.com/webstore/detail/boom-%E8%A7%86%E9%A2%91%E5%8A%9E%E5%85%AC%E5%8D%8F%E5%90%8C%E5%B7%A5%E5%85%B7/iikaeeiidojdmhlmgkhndkpblahibgok",
+    "rating": 4.4,
+    "ratings": 9
+  },
+
+  {
+    "name": "Voat - Reddit Comments on YouTube & Web Pages",
+    "description": "Replace Youtube comments with Reddit comments or view the Reddit comments of any webpage.",
+    "url": "https://chrome.google.com/webstore/detail/voat-reddit-comments-on-y/amlfbbehleledmbphnielafhieceggal",
+    "rating": 4.7,
+    "ratings": 7
+  },
+
+  {
+    "name": "",
+    "description": "",
+    "url": "https://chrome.google.com/webstore/detail/trusign/cpmofdbobhemoodifnhffdodkkfkemai",
+    "rating": 4.2,
+    "ratings": 5
+  },
+
+  {
+    "name": "Explain Everything Extension",
+    "description": "Add files from Slack to your online whiteboard",
+    "url": "https://chrome.google.com/webstore/detail/explain-everything-extens/ffkjohkdmfhoojleoljhhlkonedmccjg",
+    "rating": 2.3,
+    "ratings": 3
+  },
+
+  {
+    "name": "Lingotek Workbench Extension (Beta)",
+    "description": "A powerful, in-context translation and review tool that changes the way companies distribute content to a global audience.",
+    "url": "https://chrome.google.com/webstore/detail/lingotek-workbench-extens/nlepkjdljbdlgblopipfdcebcclcjngc"
+  },
+  {
+    "name": "Dev Tools for QuickBase",
+    "description": "Edit your pages in QuickBase using the Ace IDE",
+    "url": "https://chrome.google.com/webstore/detail/dev-tools-for-quickbase/nhobcldppooaapnflmaegmoikilgfefo"
+  },
+  {
+    "name": "Google Input Tools",
+    "description": "Mit Input Tools können Sie Text in einer beliebigen Sprache eingeben.",
+    "url": "https://chrome.google.com/webstore/detail/google-input-tools/mclkkofklkfljcocdinagocijmpgbhab",
+    "rating": 4,
+    "ratings": 5229
+  },
+  {
+    "name": "PocketTube: Youtube Subscription Manager",
+    "description": "Gruppieren Sie YouTube-Abonnements im YouTube-Ordner. Videodeck für Youtube. Als angesehene Videos markieren. YouTube-Video filtern",
+    "url": "https://chrome.google.com/webstore/detail/pockettube-youtube-subscr/kdmnjgijlmjgmimahnillepgcgeemffb",
+    "rating": 4.6,
+    "ratings": 3883
+  },
+
+  {
+    "name": "Text-to-Speech-Reader",
+    "description": "Liest den Text von Webseiten, PDFs und E-Books mit natürlich klingenden Stimmen vor. Fassen Sie jeden Text und jedes Video mit…",
+    "url": "https://chrome.google.com/webstore/detail/readme-text-to-speech-rea/npdkkcjlmhcnnaoobfdjndibfkkhhdfn",
+    "rating": 4.4,
+    "ratings": 1675
+  },
+  {
+    "name": "Screenshot -Bildschirmaufnahme und Bildschirmrekorder",
+    "description": "Mit dem innovativen Bildschirmfoto können Benutzer Ihren Screenshot aufnehmen, bearbeiten und herunterladen. Screenshot-Erfassung",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-tool-screen-ca/edlifbnjlicfpckhgjhflgkeeibhhcii",
+    "rating": 4.7,
+    "ratings": 1623
+  },
+  {
+    "name": "Extension Manager",
+    "description": "Manage extensions, Quickly enable/disable, Support batching operation, Smart sorting. Fast, Simple and Secure.",
+    "url": "https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco",
+    "rating": 4.4,
+    "ratings": 939
+  },
+  {
+    "name": "Zoom Scheduler",
+    "description": "Schedule Zoom meetings directly from Google Calendar",
+    "url": "https://chrome.google.com/webstore/detail/zoom-scheduler/kgjfgplpablkjnlkjmjdecgdpfankdle",
+    "rating": 3.9,
+    "ratings": 912
+  },
+  {
+    "name": "Email Finder - GetProspect",
+    "description": "E-Mail-Adresse in Sekundenschnelle finden – kostenloser E-Mail-Finder für LinkedIn. Durchsuchen Sie E-Mails hinter jeder Website.",
+    "url": "https://chrome.google.com/webstore/detail/email-finder-getprospect/bhbcbkonalnjkflmdkdodieehnmmeknp",
+    "rating": 4.8,
+    "ratings": 786
+  },
+
+  {
+    "name": "Adblock Unlimited - Werbeblocker",
+    "description": "Werbeblocker - Blockieren Sie Anzeigen und Popups auf YouTube, Facebook, Twitch. Werbeblocker für sauberes Chrome.",
+    "url": "https://chrome.google.com/webstore/detail/adblock-unlimited-ad-bloc/jiaopkfkampgnnkckajcbdgannoipcne",
+    "rating": 4.5,
+    "ratings": 374
+  },
+
+  {
+    "name": "Kostenlose Privatsphäre Verbindung - VPN Guru",
+    "description": "Gehen Sie sicher online mit einer blitzschnellen VPN-Verbindung für sicheres und privates Surfen. Mehrere GEO-Optionen im besten…",
+    "url": "https://chrome.google.com/webstore/detail/free-privacy-connection-v/dcaffjpclkkjfacgfofgpjbmgjnjlpmh",
+    "rating": 4.7,
+    "ratings": 302
+  },
+  {
+    "name": "Local Explorer - Open File Links in Chrome",
+    "description": "Öffnen Sie lokale Dateilinks zur Festplatte, zu den freigegebenen Ordnern des Unternehmens, zum zugeordneten Netzlaufwerk direkt…",
+    "url": "https://chrome.google.com/webstore/detail/local-explorer-open-file/eokekhgpaakbkfkmjjcbffibkencdfkl",
+    "rating": 3.6,
+    "ratings": 294
+  },
+  {
+    "name": "Webcam + Bildschirmrekorder für Verkauf, Unterstützung",
+    "description": "Bildschirmvideorecorder, mit dem Sie Videos in wenigen Minuten erstellen, bearbeiten und freigeben können.",
+    "url": "https://chrome.google.com/webstore/detail/webcam-%2B-screen-recorder/jfpjkgdpgdbddknpgplfkjjfncenlmkf",
+    "rating": 3.9,
+    "ratings": 288
+  },
+  {
+    "name": "Bildschirmaufnahme und Bildschirmrekorder",
+    "description": "Das beste Screenshot-Tool und Bildschirmrekorder. Ganzseitiger Screenshot, Bildschirmvideorecorder, Bildschirmaufnahme",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-master-and-scr/djekgpcemgcnfkjldcclcpcjhemofcib",
+    "rating": 4.7,
+    "ratings": 274
+  },
+  {
+    "name": "Checker Plus for Google Drive™",
+    "description": "• Browse, open, search or delete your files and documents right from a browser button (without waiting for Google Drive's page to…",
+    "url": "https://chrome.google.com/webstore/detail/checker-plus-for-google-d/pppfmbnpgflleackdcojndfgpiboghga",
+    "rating": 4.4,
+    "ratings": 239
+  },
+  {
+    "name": "Droplr - Screenshots, Anmerkungen und Screencasts",
+    "description": "Screenshot VOLLSTÄNDIGE Webseite oder ein beliebiger Teil davon. Machen Sie Screenshots, Anmerkungen, Bildschirmaufnahmen mit…",
+    "url": "https://chrome.google.com/webstore/detail/screenshot-screen-recorde/oncaapliomaamlbopdmhmdompfemljhm",
+    "rating": 4,
+    "ratings": 227
+  },
+  {
+    "name": "Free Screen Recorder for Chrome",
+    "description": "Easy-to-use Chrome Screen Recorder app! Screen video record directly from Chrome browser",
+    "url": "https://chrome.google.com/webstore/detail/free-screen-recorder-for/imopknpgdihifjkjpmjaagcagkefddnb",
+    "rating": 4.3,
+    "ratings": 221
+  },
+
+  {
+    "name": "Tab Groups Extension",
+    "description": "Automatically group tabs, save tabs/groups, and provide shortcuts for tabs/groups.",
+    "url": "https://chrome.google.com/webstore/detail/tab-groups-extension/nplimhmoanghlebhdiboeellhgmgommi",
+    "rating": 4.5,
+    "ratings": 208
+  },
+  {
+    "name": "Jira Assistant: Worklog, Sprint report, etc",
+    "description": "Help to track & upload work done on a Jira Ticket on timely basis and generate Worklog, Sprint and other custom reports.",
+    "url": "https://chrome.google.com/webstore/detail/jira-assistant-worklog-sp/momjbjbjpbcbnepbgkkiaofkgimihbii",
+    "rating": 4.9,
+    "ratings": 184
+  },
+
+  {
+    "name": "ProctorExam Screen Sharing",
+    "description": "Lets you share your screen when taking an online exam on ProctorExam - https://www.proctorexam.com",
+    "url": "https://chrome.google.com/webstore/detail/proctorexam-screen-sharin/digojkgonhgmnohbapdfjllpnmjmdhpg",
+    "rating": 1.9,
+    "ratings": 158
+  },
+
+  {
+    "name": "WA - Download Group Phone Numbers",
+    "description": "WA - Download Group Phone Numbers",
+    "url": "https://chrome.google.com/webstore/detail/wa-download-group-phone-n/henhldbgljkagjabmpjnlphncpnfggcd",
+    "rating": 3.3,
+    "ratings": 115
+  },
+
+  {
+    "name": "ChatGPT Freund",
+    "description": "ChatGPT angetriebene Google Suche! Jetzt können Sie ChatGPTs intelligente und informative Antworten direkt auf jeder Webseite…",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-friend/mlkjjjmhjijlmafgjlpkiobpdocdbncj",
+    "rating": 4.7,
+    "ratings": 74
+  },
+  {
+    "name": "Simple Volume Booster 2023 - Lautstärkeregler",
+    "description": "Bis zu 600% Volumenschub",
+    "url": "https://chrome.google.com/webstore/detail/sound-booster-2023-its-yo/pcedhgghoalplpjcnmngmeajomcpbjif",
+    "rating": 3.6,
+    "ratings": 72
+  },
+  {
+    "name": "Heurio - UX Check & Visual Feedback Tool",
+    "description": "Perfect for UX check, design & development review, heuristic evaluation, user testing and more.",
+    "url": "https://chrome.google.com/webstore/detail/heurio-ux-check-visual-fe/pjdbofhiijhapnmpgilkeammkanglfdj",
+    "rating": 4.7,
+    "ratings": 72
+  },
+  {
+    "name": "Telegram Sender - Telegram bulk message send",
+    "description": "Scrape Telegram group members and send bulk message, invite bulk members automatically on Telegram",
+    "url": "https://chrome.google.com/webstore/detail/telegram-sender-telegram/kchbblidjcniipdkjlbjjakgdlbfnhgh",
+    "rating": 4.7,
+    "ratings": 70
+  },
+  {
+    "name": "Skyroom Screen Sharing and Recording",
+    "description": "Allows to share your entire screen or a specific window in Skyroom application. It also provides tab recording.",
+    "url": "https://chrome.google.com/webstore/detail/skyroom-screen-sharing-an/pejdnafppnpfimpnipdkiidjancinenc",
+    "rating": 3.6,
+    "ratings": 70
+  },
+  {
+    "name": "Send Bulk WhatsApp Message From Excel",
+    "description": "The most powerful WhatsApp sender, send WhatsApp bulk message without saving number.",
+    "url": "https://chrome.google.com/webstore/detail/wa-sender-free-bulk-messa/fhkimgpddcmnleeaicdjggpedegolbkb",
+    "rating": 4.5,
+    "ratings": 66
+  },
+  {
+    "name": "InsertLearning",
+    "description": "Insert instructional content on any web page",
+    "url": "https://chrome.google.com/webstore/detail/insertlearning/dehajjkfchegiinhcmoclkfbnmpgcahj",
+    "rating": 4.4,
+    "ratings": 65
+  },
+  {
+    "name": "WhatsApp Sales Management Tools",
+    "description": "Let WAPlus CRM be your most powerful assistant for WhatsApp marketing & WhatsApp sales.",
+    "url": "https://chrome.google.com/webstore/detail/waplus-crm-best-crm-for-w/jmjcgjmipjiklbnfbdclkdikplgajhgc",
+    "rating": 4.7,
+    "ratings": 65
+  },
+  {
+    "name": "Saby Plugin Extension",
+    "description": "Расширение браузера для работы со СБИС Плагин.",
+    "url": "https://chrome.google.com/webstore/detail/saby-plugin-extension/pbcgcpeifkdjijdjambaakmhhpkfgoec",
+    "rating": 3.7,
+    "ratings": 65
+  },
+  {
+    "name": "YouTube Videos Summary with ChatGPT",
+    "description": "Youtube videos transcript and summary with ChatGPT. Summary generator for YouTube videos",
+    "url": "https://chrome.google.com/webstore/detail/youtube-videos-summary-ea/baecjmoceaobpnffgnlkloccenkoibbb",
+    "rating": 4.5,
+    "ratings": 61
+  },
+  {
+    "name": "Passbolt - Open source password manager",
+    "description": "Passbolt extension for the open source password manager for teams.",
+    "url": "https://chrome.google.com/webstore/detail/passbolt-open-source-pass/didegimhafipceonhjepacocaffmoppf",
+    "rating": 4.3,
+    "ratings": 55
+  },
+  {
+    "name": "Crystal Ad block",
+    "description": "Crystal ad block - Open source and transparent ad block software.",
+    "url": "https://chrome.google.com/webstore/detail/crystal-ad-block/lklmhefoneonjalpjcnhaidnodopinib",
+    "rating": 4.1,
+    "ratings": 48
+  },
+  {
+    "name": "TikTok Video-Downloader Plus",
+    "description": "Laden Sie TikTok-Videos ohne Wasserzeichen herunter. Bester TikTok-Video-Downloader.",
+    "url": "https://chrome.google.com/webstore/detail/tikvideo-downloader-plus/jilgamolkonoalagcpgjjijaclacillb",
+    "rating": 4.7,
+    "ratings": 45
+  },
+
+  {
+    "name": "Stargazer Wallet",
+    "description": "Cross-chain compatible wallet for Constellation and Ethereum",
+    "url": "https://chrome.google.com/webstore/detail/stargazer-wallet/pgiaagfkgcbnmiiolekcfmljdagdhlcm",
+    "rating": 4.7,
+    "ratings": 27
+  },
+  {
+    "name": "PolySwarm NectarNet",
+    "description": "Earn NCT tokens browsing the internet.",
+    "url": "https://chrome.google.com/webstore/detail/polyswarm-nectarnet/kkpdgahlbagpciagghmefjdbgnjdahih",
+    "rating": 5,
+    "ratings": 5
+  },
+
+  {
+    "name": "Zusammenfassung für Google/YouTube mit ChatGPT",
+    "description": "Erhalten Sie eine Zusammenfassung der Google-Suchergebnisse und YouTube-Videos mit Chat GPT Open AI.",
+    "url": "https://chrome.google.com/webstore/detail/summary-for-googleyoutube/gfecljmddkaiphnmhgaeekgkadnooafb",
+    "rating": 4.9,
+    "ratings": 31
+  },
+  {
+    "name": "Stark Accessibility Checker",
+    "description": "Find and fix compliance issues in record time with automated checks and smart suggestions.",
+    "url": "https://chrome.google.com/webstore/detail/stark-accessibility-check/fkfaapnmfippddbeemjjbclenphooipm",
+    "rating": 4.6,
+    "ratings": 24
+  },
+
+  {
+    "name": "召乎 Zhaohu",
+    "description": "招聘不上手，呼叫不开口",
+    "url": "https://chrome.google.com/webstore/detail/%E5%8F%AC%E4%B9%8E-zhaohu/aofidegmoehjmelmpbjlmpidinmaiapj",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Kinguin Deal Hunter",
+    "description": "See the best offers while browsing Steam, EA, Epic Store, GOG and YouTube with product displays from Kinguin marketplace.",
+    "url": "https://chrome.google.com/webstore/detail/kinguin-deal-hunter/idebmghdimgjccojheiaeibngmcmeooa",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "YT Focus - Learning Made Easy",
+    "description": "YouTube without all the distractions",
+    "url": "https://chrome.google.com/webstore/detail/yt-focus-learning-made-ea/fdekaebckbnpgafknooinjcnelmlhiip",
+    "rating": 5,
+    "ratings": 4
+  },
+
+  {
+    "name": "Minecraft Cursors",
+    "description": "Change mouse cursor into Minecraft icon or theme via Minecraft Custom Cursors For Chrome extension",
+    "url": "https://chrome.google.com/webstore/detail/minecraft-cursors/klgphpkamcimchkgojijbllkolhagcik",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "KunstSurfer",
+    "description": "KUNSTSURFER recognizes the relevant advertising areas on websites and occupies these with works of art. For this purpose, artworks…",
+    "url": "https://chrome.google.com/webstore/detail/kunstsurfer/anobnmpgpkmgdacmdlchaohlcahgcpmo"
+  },
+  {
+    "name": "SalesRook for WhatsApp and Reapit",
+    "description": "A Reapit AppMarket Partner: view contact details & copy chats to Reapit, legitimising instant messaging as a winning comms channel.",
+    "url": "https://chrome.google.com/webstore/detail/salesrook-for-whatsapp-an/fgeacaodamfkbhdilpeddnnlmjcjfieg",
+    "rating": 5,
+    "ratings": 4
+  },
+
+  {
+    "name": "nXr.iNote",
+    "description": "Annotate and store text/quotes/images in a quote/image searchable library for writing accurately cited paper based on quotes/images.",
+    "url": "https://chrome.google.com/webstore/detail/nxrinote/jficpbcohialffjjplkgifdoigjhnhim",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Signal Flare",
+    "description": "Shared Annotations in All Your Analytics",
+    "url": "https://chrome.google.com/webstore/detail/signal-flare/dflichognjbaodjcjjpfkmmhmamjaeid"
+  },
+
+  {
+    "name": "TTok Automation - Tiktok Auto Comment",
+    "description": "TTok Automation is an automated smart bot that helps you get more interaction from your users on TikTok.",
+    "url": "https://chrome.google.com/webstore/detail/ttok-automation/idjppbckidodfmkpfjlimknilkklacma",
+    "rating": 4.7,
+    "ratings": 15
+  },
+
+  {
+    "name": "Active Collab Inline Timers",
+    "description": "Provides instant access to timers on any Active Collab page that lists tasks.",
+    "url": "https://chrome.google.com/webstore/detail/active-collab-inline-time/kdlddcggilfnadgpodhimkchdgcfobba",
+    "rating": 4.9,
+    "ratings": 14
+  },
+  {
+    "name": "coedit - Collab on Gmail drafts",
+    "description": "Instantly add collaborators to your email drafts in Gmail and Google Workspace. Get help writing, feedback or approval to send.",
+    "url": "https://chrome.google.com/webstore/detail/coedit-collab-on-gmail-dr/mkifhcdciolppjjgfabacafkeicijpcg",
+    "rating": 5,
+    "ratings": 10
+  },
+
+  {
+    "name": "Customer Meetings",
+    "description": "Add video meeting rooms to your Google Calendar events, record the meetings and try cobrowsing sessions.",
+    "url": "https://chrome.google.com/webstore/detail/customer-meetings/nllnakkoanoloffpgpglbkijkdmiohmi",
+    "rating": 4.5,
+    "ratings": 8
+  },
+  {
+    "name": "Reachdog",
+    "description": "Reach Dog is a free research tool that saves time with searching for influencers and hashtags.",
+    "url": "https://chrome.google.com/webstore/detail/reachdog/ledfmijmmopjmiblbhmgcologenjpfoe",
+    "rating": 5,
+    "ratings": 7
+  },
+
+  {
+    "name": "blackboard-collab-speed-control",
+    "description": "Control the speed of Blackboard Collaborate Videos",
+    "url": "https://chrome.google.com/webstore/detail/blackboard-collab-speed-c/ocacgafaaahoakloknkbaikjmcohmhda",
+    "rating": 5,
+    "ratings": 4
+  },
+
+  {
+    "name": "Collab.email",
+    "description": "Let's rethink email.",
+    "url": "https://chrome.google.com/webstore/detail/collabemail/dlokeagiggcpobbgkkidmpdjmbmddall",
+    "rating": 5,
+    "ratings": 3
+  },
+
+  {
+    "name": "Collaboration Facilitator",
+    "description": "Collaboration Facilitator Extension",
+    "url": "https://chrome.google.com/webstore/detail/collaboration-facilitator/neigflaheohfodbelpniiccaailljchg",
+    "rating": 3,
+    "ratings": 2
+  },
+
+  {
+    "name": "Collective Knowledge",
+    "description": "Annotate web pages with related research papers, code, reproducible results, scoreboards, portable workflows and reusable artifacts.",
+    "url": "https://chrome.google.com/webstore/detail/collective-knowledge/mlemchkmighdglpgfchopcjoegbnenid"
+  },
+
+  {
+    "name": "VPN Kostenlos ZenMate - Free VPN für Chrome",
+    "description": "ZenMate Free VPN - Kostenlose VPN für Chrome. Verschlüssele deine Verbindung zu und entsperre Websites ganz einfach.",
+    "url": "https://chrome.google.com/webstore/detail/free-vpn-zenmate-best-vpn/fdcgdnkidjaadafnichfpabhfomcebme",
+    "rating": 4.1,
+    "ratings": 51601
+  },
+
+  {
+    "name": "WOT Website-Sicherheit und Schutz für sicheres Surfen",
+    "description": "Überprüfen Sie jede Website auf Reputation und Sicherheitsinformationen auf der Grundlage von Nutzererfahrungen. Die offizielle Web…",
+    "url": "https://chrome.google.com/webstore/detail/wot-website-security-priv/bhmmomiinigofkjcapegjjndpbikblnp",
+    "rating": 4.5,
+    "ratings": 10484
+  },
+  {
+    "name": "Kostenloser VPN-Proxy und Werbeblocker - Planet VPN",
+    "description": "Erhalten Sie Zugriff auf jede Website und blockieren Sie Werbung mit unserer kostenlosen VPN-Proxy-Erweiterung",
+    "url": "https://chrome.google.com/webstore/detail/free-vpn-proxy-and-ad-blo/hipncndjamdcmphkgngojegjblibadbe",
+    "rating": 4.8,
+    "ratings": 7133
+  },
+  {
+    "name": "PureVPN Proxy – Bestes VPN für Chrome",
+    "description": "Eine VPN-Erweiterung, mit der Sie Ihre Informationen verbergen, auf eingeschränkte Inhalte zugreifen und mit hoher Geschwindigkeit…",
+    "url": "https://chrome.google.com/webstore/detail/purevpn-proxy-best-vpn-fo/bfidboloedlamgdmenmlbipfnccokknp",
+    "rating": 4.4,
+    "ratings": 3430
+  },
+
+  {
+    "name": "Diigo Web Collector - Capture and Annotate",
+    "description": "Bookmark, Archive, Screenshot & Markup - All-In-One Web Collector, must-have research tool",
+    "url": "https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh",
+    "rating": 4.6,
+    "ratings": 2245
+  },
+  {
+    "name": "Music Downloader Web",
+    "description": "Das Speichern von Musik von VK ist einfach geworden! Laden Sie Ihre Lieblingstitel herunter, indem Sie ihre Bitraten und Größen…",
+    "url": "https://chrome.google.com/webstore/detail/music-downloader-vksaver/dmbjkidogjmmlejdmnecpmfapdmidfjg",
+    "rating": 4.2,
+    "ratings": 1262
+  },
+
+  {
+    "name": "FreshStart - Cross Browser Session Manager",
+    "description": "Need simple session management? Several users on the same Chrome? FreshStart is a simple cross browser session manager.",
+    "url": "https://chrome.google.com/webstore/detail/freshstart-cross-browser/nmidkjogcjnnlfimjcedenagjfacpobb",
+    "rating": 4.4,
+    "ratings": 800
+  },
+  {
+    "name": "Quick Tabs",
+    "description": "A keyboard centric most recently used (MRU) ordered page list plugin with seek and switch functionality inspired by IntelliJ IDEA",
+    "url": "https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb",
+    "rating": 4.5,
+    "ratings": 526
+  },
+  {
+    "name": "Mettl Tests : Enable Screen Sharing",
+    "description": "This chrome extension enables screen sharing support on https://tests.mettl.com pages for the duration of test.",
+    "url": "https://chrome.google.com/webstore/detail/mettl-tests-enable-screen/hkjemkcbndldepdbnbdnibeppofoooio",
+    "rating": 2.7,
+    "ratings": 471
+  },
+
+  {
+    "name": "Neuer Tab mit Chatgpt für Chrome",
+    "description": "Laden Sie Neuer Tab mit ChatGPT herunter. Bester neuer Tab für Chrome mit ChatGPT, Lesezeichen, Kalender, Todo, Neues Tab-Thema,…",
+    "url": "https://chrome.google.com/webstore/detail/tabrr-dashboard-new-tab-w/ehmneimbopigfgchjglgngamiccjkijh",
+    "rating": 4.7,
+    "ratings": 257
+  },
+  {
+    "name": "WhenX - Überlick über Ihr Linkedin Netzwerk",
+    "description": "Notizen für Linkedin-Profile, die mit Google Search synchronisiert bleiben.",
+    "url": "https://chrome.google.com/webstore/detail/whenx-mark-linkedin-profi/dgafcidlgmbcehokgdeghmfnbpbfhihh",
+    "rating": 4.5,
+    "ratings": 188
+  },
+
+  {
+    "name": "Circuit by Unify",
+    "description": "Diese Erweiterung ermöglicht Benutzern des Circuit Web Client eine gemeinsame Bildschirmanzeige",
+    "url": "https://chrome.google.com/webstore/detail/circuit-by-unify/mhkbaognlahkdimlfcfhbeihldmjofgg",
+    "rating": 4.7,
+    "ratings": 121
+  },
+
+  {
+    "name": "Messenger Notifier",
+    "description": "Conveniently get messenger's notifications, Provide an easy access to messenger.com",
+    "url": "https://chrome.google.com/webstore/detail/messenger-notifier/gnanlfpgbbiojiiljkemdcampafecbmk",
+    "rating": 4.9,
+    "ratings": 63
+  },
+  {
+    "name": "Chat GPT For Gmail: Chat GPT Whisper & OpenAI Text Generator",
+    "description": "Display ChatGPT response as a suggestion to complete emails, Powered By OpenAI",
+    "url": "https://chrome.google.com/webstore/detail/open-ai-chatgpt-for-gmail/abekedpmkgndeflcidpkkddapnjnocjp",
+    "rating": 4.9,
+    "ratings": 59
+  },
+  {
+    "name": "Neeva Search + Protect für Chrome",
+    "description": "Neeva Search + Protect für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/neeva-search-%2B-protect-fo/aookogakccicaoigoofnnmeclkignpdk",
+    "rating": 4.5,
+    "ratings": 57
+  },
+  {
+    "name": "Proton VPN: a Swiss VPN you can trust",
+    "description": "Secure your internet and protect your online privacy in one click.",
+    "url": "https://chrome.google.com/webstore/detail/proton-vpn-a-swiss-vpn-yo/jplgfhpmjnbigmhklmmbgecoobifkmpa",
+    "rating": 2.4,
+    "ratings": 54
+  },
+  {
+    "name": "Tab Manager - Manage tabs & windows by tree",
+    "description": "Quickly find your tabs across all windows and tabs. Very nice tree page in one view.",
+    "url": "https://chrome.google.com/webstore/detail/tab-manager-manage-tabs-w/kmmcaankjjonnggaemhgkofiblbjaakf",
+    "rating": 4.2,
+    "ratings": 21
+  },
+  {
+    "name": "ChatGPT AI-Kommentare & Antworten für Facebook",
+    "description": "Generieren Sie ganz einfach KI-Kommentare und Antworten für Facebook-Posts mit ChatGPT und steigern Sie Ihre Interaktionen in…",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-ai-comments-repli/nfkbblgbfkmbidomjccaejkaohlppbhp",
+    "rating": 4.8,
+    "ratings": 17
+  },
+  {
+    "name": "WA Group Sender",
+    "description": "A free, safe and fast WA group messaging extension.",
+    "url": "https://chrome.google.com/webstore/detail/wa-group-sender/kilbeicibedchlamahiimkjeilnkgmeo",
+    "rating": 4.5,
+    "ratings": 16
+  },
+
+  {
+    "name": "Annotate PRO",
+    "description": "Create, share, and USE reusable comments to edit and grade faster! Use with Canvas, Google Docs/Classroom, Microsoft Teams, Bb...",
+    "url": "https://chrome.google.com/webstore/detail/annotate-pro/clpoilnjjdbfjinifhmcfddhjgneajle",
+    "rating": 4.5,
+    "ratings": 11
+  },
+
+  {
+    "name": "tabWindow - multi window vertical tabs",
+    "description": "Multi-window vertical tab manager. save and restore tabs & windows with auto-saver. Never forget why this tab left open?",
+    "url": "https://chrome.google.com/webstore/detail/tabwindow-multi-window-ve/lifdmcmbnbhaepoimjnohpnjhbpoljad",
+    "rating": 4.6,
+    "ratings": 9
+  },
+  {
+    "name": "Contact Saver for WA",
+    "description": "Export the whatsapp contact information you need according to the way you want.",
+    "url": "https://chrome.google.com/webstore/detail/contact-saver-for-wa/edklgfianniecabmndjcponckjlmoiel",
+    "rating": 5,
+    "ratings": 8
+  },
+  {
+    "name": "Naruto Anime Fluchtsignale Mauszeiger",
+    "description": "Holen Sie sich niedliche Anime Cursors über Naruto Anime Cursors für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/naruto-anime-cursors/omflgbampleamlpmegfhongjnbbhilhl",
+    "rating": 4.4,
+    "ratings": 7
+  },
+  {
+    "name": "Share Chat GPT",
+    "description": "Share full GPT Chat threads with a readonly webpage that can be copy/pasted from and has an auto-generated social share image",
+    "url": "https://chrome.google.com/webstore/detail/share-chat-gpt/dchbgannbkhdanjbjgncijknhffdcagf",
+    "rating": 2.8,
+    "ratings": 4
+  },
+  {
+    "name": "Merlin - OpenAI GPT powered assistant",
+    "description": "ChatGPT Antworten neben den Suchmaschinenergebnissen anzeigen",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-for-google-no-ads/elnanopkpogbhmgppdoapkjlfigecncf",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "Better Group Tabs",
+    "description": "Easily convert your Chrome tabs to a list, save tabs in one or more groups and restore them back to tabs in a click.",
+    "url": "https://chrome.google.com/webstore/detail/better-group-tabs/mmjaoaafcnfpgjlhkoopnnlhmkjmeglg",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Find WhatsApp Link - Group Invite Link",
+    "description": "Auto scrape tons of WhatsApp group links to get WhatsApp group member's phone numbers.",
+    "url": "https://chrome.google.com/webstore/detail/find-whatsapp-link-group/lfepbhhhpfohfckldbjoohmplpebdmnd"
+  },
+  {
+    "name": "ChatGPT for Telegram",
+    "description": "use this tool to get ChatGPT responses from any messages on Telegram.",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-for-telegram/kijmncepdjeabghcjppndcgbogkfhbje"
+  },
+  {
+    "name": "GMass: Powerful mail merge for Gmail",
+    "description": "A powerful mass email and mail merge system for Gmail.",
+    "url": "https://chrome.google.com/webstore/detail/gmass-powerful-mail-merge/ehomdgjhgmbidokdgicgmdiedadncbgf",
+    "rating": 4.8,
+    "ratings": 7250
+  },
+  {
+    "name": "Homey: Produktive und gemütliche Startseite",
+    "description": "Verwandeln Sie einen neuen Tab in einen produktiven Arbeitsbereich, organisieren Sie Lesezeichen, fügen Sie Live-Hintergründe hinzu",
+    "url": "https://chrome.google.com/webstore/detail/homey-productive-and-cozy/lllnjdmfnfjifcfpppjmcnanpokikcpl",
+    "rating": 4.8,
+    "ratings": 4359
+  },
+  {
+    "name": "Sticky Notes 3.4 - Super Quick & Personal",
+    "description": "Animated Themes, Fonts, Backup. 1-Click easiest & fastest note taking app inside browser. (See demo)",
+    "url": "https://chrome.google.com/webstore/detail/sticky-notes-34-super-qui/plpdjbappofmfbgdmhoaabefbobddchk",
+    "rating": 4.5,
+    "ratings": 4162
+  },
+
+  {
+    "name": "Planyway: Kalender & Zeiterfassung für Trello",
+    "description": "Teamkalender • Gantt-Diagramm • Projekt-Zeitleiste • Portfolio-Management • Google-Kalender synchronisieren • Zeiterfassung",
+    "url": "https://chrome.google.com/webstore/detail/planyway-calendar-for-tre/kkgaechmpjgbojahkofamdjkaklgbdkc",
+    "rating": 4.5,
+    "ratings": 529
+  },
+  {
+    "name": "Sortd for Gmail",
+    "description": "All-in-one Sales, Service, Help Desk & Task Manager for Gmail teams. Visual boards right in Gmail to share, assign and track emails.",
+    "url": "https://chrome.google.com/webstore/detail/sortd-for-gmail/aohlfneeliakfcefeffppfplagbccbni",
+    "rating": 4,
+    "ratings": 482
+  },
+  {
+    "name": "Bildschirmaufnahme - Screenshot-Tool",
+    "description": "Bildschirmaufnahme, Ganzseiten-Screenshot, Screenshot des sichtbaren Bereichs, Speichern des Schnappschusses in PNG, PDF.",
+    "url": "https://chrome.google.com/webstore/detail/screen-capture-screenshot/pmnphobdokkajkpbkajlaiooipfcpgio",
+    "rating": 4.4,
+    "ratings": 419
+  },
+  {
+    "name": "Zight Screen Recorder, Screenshot App",
+    "description": "The #1 screen recorder for Chrome. Capture your screen, webcam, and instantly share videos and screenshots in seconds.",
+    "url": "https://chrome.google.com/webstore/detail/zight-screen-recorder-scr/ojnikmlgjpfiogeijjkpeakbedjhjcch",
+    "rating": 4.5,
+    "ratings": 383
+  },
+  {
+    "name": "Screen Recorder & Editor for Chrome",
+    "description": "Ein effektives Werkzeug für qualitativ hochwertige Videoaufnahmen von aktiven Tabs, Desktops oder Webcams mit der Möglichkeit zur…",
+    "url": "https://chrome.google.com/webstore/detail/screen-recorder-editor-fo/lhannfkhjdhmibllojbbdjdbpegidojj",
+    "rating": 4.6,
+    "ratings": 360
+  },
+  {
+    "name": "Scrum for Trello",
+    "description": "Adds Scrum story points to your Trello",
+    "url": "https://chrome.google.com/webstore/detail/scrum-for-trello/jdbcdblgjdpmfninkoogcfpnkjmndgje",
+    "rating": 4.1,
+    "ratings": 329
+  },
+  {
+    "name": "Record, Transcribe & ChatGPT for Google Meet",
+    "description": "Automatically record & transcribe Google Meet for FREE. 500k+ users",
+    "url": "https://chrome.google.com/webstore/detail/record-transcribe-chatgpt/lknmjhcajhfbbglglccadlfdjbaiifig",
+    "rating": 4.9,
+    "ratings": 212
+  },
+  {
+    "name": "Miro Web Clipper",
+    "description": "Save screenshots into the library",
+    "url": "https://chrome.google.com/webstore/detail/miro-web-clipper/ecfnenchgjbicgaooadfdmcojkcmjblk",
+    "rating": 3.8,
+    "ratings": 88
+  },
+  {
+    "name": "Citable",
+    "description": "Save citable quotes and notes from the web into Google spreadsheets.",
+    "url": "https://chrome.google.com/webstore/detail/citable/jfiabcklnnhkmkcdjjpmgghiimjkaeio",
+    "rating": 4,
+    "ratings": 78
+  },
+  {
+    "name": "Projectsly for Gmail by 500apps",
+    "description": "Easy to manage all your projects and tasks from Gmail",
+    "url": "https://chrome.google.com/webstore/detail/projectsly-for-gmail-by-5/glaphdnbibhkmmijabgdoijlhhndjejc",
+    "rating": 4.9,
+    "ratings": 65
+  },
+  {
+    "name": "TMetric – Time Tracker & Productivity App",
+    "description": "Simple time tracking extension which helps you be more productive, complete projects in time and bill your clients correctly.",
+    "url": "https://chrome.google.com/webstore/detail/tmetric-%E2%80%93-time-tracker-pr/ffijoclmniipjbhecddgkfpdafpbdnen",
+    "rating": 4.2,
+    "ratings": 58
+  },
+  {
+    "name": "Writer",
+    "description": "Great writing, no matter where you write online.",
+    "url": "https://chrome.google.com/webstore/detail/writer/hngnkmianenpifegfoggnkamjnffiobn",
+    "rating": 4.4,
+    "ratings": 57
+  },
+
+  {
+    "name": "Meeting Agendas, Notes & Goals - Hypercontext",
+    "description": "Collaborative agendas, notes, next steps, goals and more with Hypercontext - All within Google Meet and Google Calendar.",
+    "url": "https://chrome.google.com/webstore/detail/meeting-agendas-notes-goa/kjidlbmlofbkhekampnlckhnhhenpfgd",
+    "rating": 4.9,
+    "ratings": 52
+  },
+  {
+    "name": "Upword: AI notes & summarization tool",
+    "description": "Get the key information from every webpage. Generate AI-powered notes and save time with Upword.",
+    "url": "https://chrome.google.com/webstore/detail/upword-ai-notes-summariza/pooaceljmehmcieneahjdlhkggheonbf",
+    "rating": 4.6,
+    "ratings": 37
+  },
+  {
+    "name": "Redbooth for Chrome",
+    "description": "Manage your projects from Chrome, create tasks and review your dashboard in real-time.",
+    "url": "https://chrome.google.com/webstore/detail/redbooth-for-chrome/blfkecebibijeelilkopkpjciolpllka",
+    "rating": 4.4,
+    "ratings": 34
+  },
+  {
+    "name": "Weje Web Clipper",
+    "description": "Use Web Clipper to save text and images to Weje",
+    "url": "https://chrome.google.com/webstore/detail/weje-web-clipper/dledbbnicnjmoclimlbnalemkpemkapf",
+    "rating": 4.9,
+    "ratings": 32
+  },
+  {
+    "name": "XlsWork Xls-Editor für Kalkulationstabellen",
+    "description": "Erstellen und Bearbeiten von XLS-Kalkulationstabellen mit einem Editor Online",
+    "url": "https://chrome.google.com/webstore/detail/xlswork-xls-editor-for-sp/nckcnmaeicmholjaolkfcodfpblenkfp",
+    "rating": 3.7,
+    "ratings": 29
+  },
+  {
+    "name": "Quire",
+    "description": "Quire is a modern collaborative project management software made to help visionary teams with big ideas. Like yours.",
+    "url": "https://chrome.google.com/webstore/detail/quire/fafnibnpfejgmleffgpnddkboddbipgm",
+    "rating": 4.8,
+    "ratings": 28
+  },
+  {
+    "name": "InCognito",
+    "description": "Browse LinkedIn Privately. Instantly view profiles anonymously with the flip of a switch in your navigation bar.",
+    "url": "https://chrome.google.com/webstore/detail/incognito/kencjkgapindpgehbgolojoocgpcepfk",
+    "rating": 4.8,
+    "ratings": 23
+  },
+  {
+    "name": "folkX",
+    "description": "folkX let's you add any LinkedIn profile, LinkedIn search result or Gmail thread participant directly to your folk account.",
+    "url": "https://chrome.google.com/webstore/detail/folkx/akeepikolhaikilagiekmegfhefcbohd",
+    "rating": 4.8,
+    "ratings": 23
+  },
+  {
+    "name": "SimplifyNote - Your note taking assistant",
+    "description": "Add text, images, and quotes to Google Docs with just one click!",
+    "url": "https://chrome.google.com/webstore/detail/simplifynote-your-note-ta/mjhigpcgpfiaadanipnacbalgaaleclc",
+    "rating": 4.9,
+    "ratings": 22
+  },
+  {
+    "name": "Volley extension",
+    "description": "Volley lets you give fast, easy feedback for your website.",
+    "url": "https://chrome.google.com/webstore/detail/volley-extension/gipdjalmbiackhnmpjlpafmiaciejfdf",
+    "rating": 3.9,
+    "ratings": 21
+  },
+  {
+    "name": "TutorMe Screen Sharing",
+    "description": "This Chrome extension enables screen sharing for the TutorMe online tutoring platform.",
+    "url": "https://chrome.google.com/webstore/detail/tutorme-screen-sharing/lhjlccminjllnogilkoagiplgcnplhom",
+    "rating": 5,
+    "ratings": 21
+  },
+  {
+    "name": "ONLYOFFICE",
+    "description": "Der weltweit fortschrittlichste Editor für Ihre Dokumente",
+    "url": "https://chrome.google.com/webstore/detail/onlyoffice/ohdlcmpahmacjddiaokoogleflddlahc",
+    "rating": 4.6,
+    "ratings": 16
+  },
+  {
+    "name": "Retable - CSV Viewer",
+    "description": "Retable CSV viewer helps you easily view, edit and collaborate on all CSV files on the web without downloading them to your device.",
+    "url": "https://chrome.google.com/webstore/detail/retable-csv-viewer/igdenijgigmjhonfjmoaioeagpkgfmfo",
+    "rating": 5,
+    "ratings": 11
+  },
+
+  {
+    "name": "JustClip Web Clipper",
+    "description": "Bookmark & annotate webpages & PDFs, capture screenshots, log time spent while browsing, block distracting sites, sync tabs",
+    "url": "https://chrome.google.com/webstore/detail/justclip-web-clipper/olejfcpiodohggkokfkaecelidkbdpal",
+    "rating": 4,
+    "ratings": 10
+  },
+  {
+    "name": "Airstack for Chrome",
+    "description": "Airstack for Chrome",
+    "url": "https://chrome.google.com/webstore/detail/airstack-for-chrome/cbaabbddlgafdkiginnbbhjjfboedgib"
+  },
+  {
+    "name": "Dive - Make meetings meaningful",
+    "description": "Dive helps you clearly define roles, goals, and tasks for each meeting so that everyone arrives feeling prepared.",
+    "url": "https://chrome.google.com/webstore/detail/dive-make-meetings-meanin/kdgkfnhgfofkidmdeeinebmglbpjdngc",
+    "rating": 5,
+    "ratings": 10
+  },
+  {
+    "name": "Projektmanagement-ProjectPlus für Agile",
+    "description": "ProjectPlus, das Projektmanagement-Tool für Agile und Kanban Ansätze basierend auf der Kanboard app.",
+    "url": "https://chrome.google.com/webstore/detail/project-management-projec/efeichfkecikoghdpldjkpjhfljckdon",
+    "rating": 3.6,
+    "ratings": 9
+  },
+  {
+    "name": "Roughbook: Quick Notes Taking & Productivity",
+    "description": "Roughbook extension, a productivity tool to take quick notes, tag notes by simple hashtags & share notes by Email, WhatsApp or Slack",
+    "url": "https://chrome.google.com/webstore/detail/roughbook-quick-notes-tak/phomkpbjipcgmfpffhkaphddmclefofh",
+    "rating": 4.8,
+    "ratings": 6
+  },
+  {
+    "name": "IdeaClouds Extension",
+    "description": "An easy-to-use tool for cross-site workshops with your team.",
+    "url": "https://chrome.google.com/webstore/detail/ideaclouds-extension/ahjoelkdcjmhoehekhdpjcjjjdigddhh",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Moqups Extension",
+    "description": "Capture screenshots, enable eyedropper, and create projects",
+    "url": "https://chrome.google.com/webstore/detail/moqups-extension/fkfehdnondfhgkechihgejkcnkhdbfna",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Readily",
+    "description": "A web highlighter and annotation tool for all kinds of visual thinkers.",
+    "url": "https://chrome.google.com/webstore/detail/readily/igjnaglbgbjjpgmokokpiepakkalegmp",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Miro for Google Calendar",
+    "description": "Attach and share Miro boards ahead of meetings and workshops",
+    "url": "https://chrome.google.com/webstore/detail/miro-for-google-calendar/ihojbjcmeipmljclncfnfibdbkbmepck",
+    "rating": 5,
+    "ratings": 3
+  },
+  {
+    "name": "BastionPass",
+    "description": "Intuitive Password Management to Simplify Your Life",
+    "url": "https://chrome.google.com/webstore/detail/bastionpass/jaiamhdbelpemdlhepidiehkmpkkahkn"
+  },
+  {
+    "name": "Todoist für Chrome",
+    "description": "Organisiere Arbeit und Leben mit Todoist für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh",
+    "rating": 4.7,
+    "ratings": 50444
+  },
+  {
+    "name": "Momentum",
+    "description": "Replace new tab page with a personal dashboard to help you get focused, stay organized, and keep motivated to achieve your goals.",
+    "url": "https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca",
+    "rating": 4.5,
+    "ratings": 13841
+  },
+  {
+    "name": "EditThisCookie",
+    "description": "EditThisCookie ist ein Cookie-Manager mit dem man Cookies hinzufügen, löschen, bearbeiten, suchen, schützen und blockieren kann.",
+    "url": "https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg",
+    "rating": 4.4,
+    "ratings": 11370
+  },
+  {
+    "name": "Live-Startseite - Living Wallpapers",
+    "description": "Neue Live-Registerseite: Individuelle Anpassung von Uhren, To-Do-Listen oder von lebendigen Postern in Ihrem Browser.",
+    "url": "https://chrome.google.com/webstore/detail/live-start-page-living-wa/ocggccaacacpienfcgmgcihoombokbbj",
+    "rating": 4.7,
+    "ratings": 8571
+  },
+  {
+    "name": "Vimium",
+    "description": "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.",
+    "url": "https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb",
+    "rating": 4.8,
+    "ratings": 4328
+  },
+  {
+    "name": "ChatGPT für Chrome – GPT durchsuchen",
+    "description": "Zeigen Sie die Antwort von ChatGPT neben den Suchmaschinenergebnissen von Google, Bing und anderen an. ChatGPT im Popup-Fenster.",
+    "url": "https://chrome.google.com/webstore/detail/chatgpt-for-chrome-search/ninecedhhpccjifamhafbdelibdjibgd",
+    "rating": 4.9,
+    "ratings": 1685
+  },
+  {
+    "name": "Video-Downloader - Video herunterladen",
+    "description": "Video Downloader Plus - ist der beste Weg, um Videos von Chrome herunterzuladen. Kostenloses Video-Downloader-Dienstprogramm für…",
+    "url": "https://chrome.google.com/webstore/detail/hd-video-downloader/hjlekdknhjogancdagnndeenmobeofgm",
+    "rating": 4.7,
+    "ratings": 1295
+  },
+  {
+    "name": "Neuer Tab-Seite von start.me",
+    "description": "Die ultimative persönliche Startseite - start.me",
+    "url": "https://chrome.google.com/webstore/detail/new-tab-page-by-startme/cfmnkhhioonhiehehedmnjibmampjiab",
+    "rating": 4.3,
+    "ratings": 1256
+  },
+  {
+    "name": "PDF Editor for Chrome:Edit, Fill, Sign, Print",
+    "description": "Edit, e-sign, print or fax PDFs directly from search engine results and webpages with the pdfFiller extension.",
+    "url": "https://chrome.google.com/webstore/detail/pdf-editor-for-chromeedit/gphandlahdpffmccakmbngmbjnjiiahp",
+    "rating": 2.4,
+    "ratings": 733
+  },
+  {
+    "name": "TickTick - Todo & Task List",
+    "description": "Your wonderful to-do & task list to make all things done and get life well organized.",
+    "url": "https://chrome.google.com/webstore/detail/ticktick-todo-task-list/diankknpkndanachmlckaikddgcehkod",
+    "rating": 4.2,
+    "ratings": 665
+  },
+  {
+    "name": "App for G Suite™ - leistungsstarker persönlicher neuer Tab",
+    "description": "Ersetzen Sie die neue Registerkarte durch ein persönliches Dashboard mit schnellem Zugriff auf installierte Anwendungen, Ihre…",
+    "url": "https://chrome.google.com/webstore/detail/new-tab-for-google-worksp/ehpgcagmhpndkmglombjndkdmggkgnge",
+    "rating": 4.5,
+    "ratings": 432
+  },
+  {
+    "name": "Join",
+    "description": "Bring your devices together",
+    "url": "https://chrome.google.com/webstore/detail/join/flejfacjooompmliegamfbpjjdlhokhj",
+    "rating": 4.5,
+    "ratings": 430
+  },
+  {
+    "name": "Gyazo - Share new screenshots. Instantly.",
+    "description": "Screenshot websites, save images, share instantly.",
+    "url": "https://chrome.google.com/webstore/detail/gyazo-share-new-screensho/ffdaeeijbbijklfcpahbghahojgfgebo",
+    "rating": 3.9,
+    "ratings": 227
+  },
+  {
+    "name": "Folio: Manage Real Estate Deals from Gmail",
+    "description": "Create and share real estate closing timelines from your Gmail inbox. Integrates seamlessly with Google Drive and Calendar.",
+    "url": "https://chrome.google.com/webstore/detail/folio-manage-real-estate/ecaieeiecbdhkcgknidmfelflleobbnp",
+    "rating": 4.7,
+    "ratings": 218
+  },
+  {
+    "name": "Superpower ChatGPT",
+    "description": "ChatGPT with superpowers! Sync/search history locally, create folders, export all chats, pin messages, access thousands of prompts",
+    "url": "https://chrome.google.com/webstore/detail/superpower-chatgpt/amhmeenmapldpjdedekalnfifgnpfnkc",
+    "rating": 4.4,
+    "ratings": 217
+  },
+  {
+    "name": "Clipt",
+    "description": "Clipboard in the cloud.",
+    "url": "https://chrome.google.com/webstore/detail/clipt/ngpicahlgepngcpigiiebnheihgbaenh",
+    "rating": 3.5,
+    "ratings": 151
+  },
+  {
+    "name": "Fluvid - Screen Video Recorder",
+    "description": "The best all-in-one online screen capture, video recording and streaming software that is available for free.",
+    "url": "https://chrome.google.com/webstore/detail/fluvid-screen-video-recor/hfadalcgppcbffdnichplalnmhjbabbm",
+    "rating": 4.3,
+    "ratings": 145
+  },
+  {
+    "name": "Mote: voice notes & feedback",
+    "description": "Mote - fast, friendly voice messaging",
+    "url": "https://chrome.google.com/webstore/detail/mote-voice-notes-feedback/ajphlblkfpppdpkgokiejbjfohfohhmk",
+    "rating": 4.7,
+    "ratings": 136
+  },
+  {
+    "name": "Suche GPT für Chrome",
+    "description": "Erhalten Sie ChatGPT-Antworten auf jeder Website. KI-Antworten funktionieren auf Google, Gmail und über 10 Millionen Websites. Es…",
+    "url": "https://chrome.google.com/webstore/detail/ai-search-gpt-for-chrome/fmncmpginchogfdnjfeopdopoiegjjjp",
+    "rating": 4.9,
+    "ratings": 125
+  },
+  {
+    "name": "Bullet Journal - Notes, Lists, Weekly Planner",
+    "description": "Beautiful bullet journal for weekly tasks, todos, agendas. Brainstorm, share, and plan your weekly list.",
+    "url": "https://chrome.google.com/webstore/detail/bullet-journal-notes-list/ofokfnlmkfghjcmppfopibknmlhadhbm",
+    "rating": 4.2,
+    "ratings": 108
+  },
+  {
+    "name": "Audioaufnahme - Soundrecorder",
+    "description": "Die Audioaufnahmeerweiterung ist ein nützliches Tool für alle, die schnell und einfach Audio von ihrem Webbrowser aufnehmen müssen.",
+    "url": "https://chrome.google.com/webstore/detail/audio-capture-sound-recor/ebdbcfomjliacpblnioignhfhjeajpch",
+    "rating": 4.6,
+    "ratings": 104
+  },
+  {
+    "name": "Free Password Manager & Authenticator & SSO",
+    "description": "The free password manager extension comes with autofill & autologin including websites that support the Authenticator format.",
+    "url": "https://chrome.google.com/webstore/detail/free-password-manager-aut/nhhldecdfagpbfggphklkaeiocfnaafm",
+    "rating": 4.2,
+    "ratings": 88
+  },
+  {
+    "name": "Tasks for Canvas™",
+    "description": "A better to-do list sidebar for Canvas.",
+    "url": "https://chrome.google.com/webstore/detail/tasks-for-canvas/kabafodfnabokkkddjbnkgbcbmipdlmb",
+    "rating": 4.7,
+    "ratings": 60
+  },
+  {
+    "name": "Collavate - Workflow/ECM & Enterprise Social",
+    "description": "Enterprise SNS App integrated with Google Drive for Document Workflow and Tags",
+    "url": "https://chrome.google.com/webstore/detail/collavate-workflowecm-ent/pbpmcajjiljgolfofjgbcfeikjeogpbo",
+    "rating": 4.7,
+    "ratings": 60
+  },
+  {
+    "name": "Vmaker - Free Webcam and Screen Recorder",
+    "description": "Asynchronous Video Messaging tool for all",
+    "url": "https://chrome.google.com/webstore/detail/vmaker-free-webcam-and-sc/bjibimlhliikdlklncdgkpdmgkpieplj",
+    "rating": 3.5,
+    "ratings": 36
+  },
+  {
+    "name": "Tabbie : easy tab viewer",
+    "description": "Tabbie helps you to view, refresh, activate, search, favourite and group all your open tabs by domains from single interface.",
+    "url": "https://chrome.google.com/webstore/detail/tabbie-easy-tab-viewer/dfklamfdbffkjofhkeeclclpcpejoaaf",
+    "rating": 4.6,
+    "ratings": 30
+  },
+  {
+    "name": "BibItNow!",
+    "description": "Instantly generates a Bibtex, RIS, Endnote, APA, MLA or (B)Arnold S. bibliography item from journal articles, books, etc. .",
+    "url": "https://chrome.google.com/webstore/detail/bibitnow/bmnfikjlonhkoojjfddnlbinkkapmldg",
+    "rating": 4.6,
+    "ratings": 30
+  },
+  {
+    "name": "AIR MATH - Homework Helper (Solver on Web)",
+    "description": "Crops out the questions from your screen to AIR MATH",
+    "url": "https://chrome.google.com/webstore/detail/air-math-homework-helper/mfdlhoackihplokjehpiiffnedbeokod",
+    "rating": 2.1,
+    "ratings": 20
+  },
+  {
+    "name": "Chat GPT For Instagram: Chat GPT Whisper & OpenAI Text Generator",
+    "description": "This is an Open-AI ChatGPT powerful tool (Chat GPT Whisper & OpenAI Text Generator) to give you the AI magic on Instagram for…",
+    "url": "https://chrome.google.com/webstore/detail/ig-tools-openai-chatgpt-f/fbnnlocgfhondbfncakgnnlmgodcbgii",
+    "rating": 4.6,
+    "ratings": 18
+  },
+  {
+    "name": "Chat GPT For TikTok: Chat GPT Whisper & OpenAI Text Generator",
+    "description": "This is an Open-AI ChatGPT powerful tool (Chat GPT Whisper & OpenAI Text Generator) to give you the AI magic on TikTok for…",
+    "url": "https://chrome.google.com/webstore/detail/openai-chatgpt-for-tt/ighcgnijpnfppnggmjcpgbphjmlomcpo",
+    "rating": 5,
+    "ratings": 14
+  },
+  {
+    "name": "Supatabs",
+    "description": "Free up to 95% of your memory with Supatabs! Searchable, lightweight and fast. Offers hotkeys to 10x your productivity.",
+    "url": "https://chrome.google.com/webstore/detail/supatabs/icbcnjlaegndjabnjbaeihnnmidbfigk",
+    "rating": 4.6,
+    "ratings": 14
+  },
+  {
+    "name": "Simplify Object Manager",
+    "description": "Simplify Object Manager is a robust tool used to capture the web elements in order to get a list of its properties.",
+    "url": "https://chrome.google.com/webstore/detail/simplify-object-manager/gabipjfdphdodaeakgofpkeecgfmepkb",
+    "rating": 5,
+    "ratings": 11
+  },
+  {
+    "name": "Free Video Downloader",
+    "description": "Ermöglicht das Herunterladen von Videodateien von Facebook, Instagram, Twitter, Vimeo, Dailymotion. kostenloser Video-Downloader",
+    "url": "https://chrome.google.com/webstore/detail/video-downloader/kghcdbkokgjghlfeojcpeoclfnljkbdk",
+    "rating": 4.3,
+    "ratings": 11
+  },
+  {
+    "name": "Merch Mastermind Toolkit",
+    "description": "Toolkit for Merch by Amazon Mastermind Group",
+    "url": "https://chrome.google.com/webstore/detail/merch-mastermind-toolkit/ooemdibhakkbnhjhfmanckjnafiklfjo",
+    "rating": 5,
+    "ratings": 8
+  },
+  {
+    "name": "Catadoo - A Free, Playful and Fun Todolist!",
+    "description": "Catadoo is a gamified fun todolist that will make you want to finish your tasks",
+    "url": "https://chrome.google.com/webstore/detail/catadoo-a-free-playful-an/flcjpiajfmneklnfoejagpalpiemgmoj",
+    "rating": 4.9,
+    "ratings": 7
+  },
+  {
+    "name": "Clear Links",
+    "description": "Makes website links more transparent and accessible, enhancing your awareness of your navigational security and privacy.",
+    "url": "https://chrome.google.com/webstore/detail/clear-links/banknjcfbmhcbebgekpcenheaghfcood",
+    "rating": 5,
+    "ratings": 5
+  },
+  {
+    "name": "Shared Clipboard",
+    "description": "Extension for the Shared Clipboard mobile app and website",
+    "url": "https://chrome.google.com/webstore/detail/shared-clipboard/nmemiplfpjallomblhoapiajlgpnjloi",
+    "rating": 3.5,
+    "ratings": 4
+  },
+  {
+    "name": "Hero: Save GPT Prompts, Links & more to lists",
+    "description": "Save & Share GPT Prompts, Links & more to unlimited lists with Hero GPT.",
+    "url": "https://chrome.google.com/webstore/detail/hero-save-gpt-prompts-lin/mdlfcfindgklmnfjjbeemlhgplfmkame",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Grab WhatsApp groups links",
+    "description": "Grab WhatsApp groups links",
+    "url": "https://chrome.google.com/webstore/detail/grab-whatsapp-groups-link/iednajabaofgiiphckijdamkjjeehbfg"
+  },
+
+  {
+    "name": "Black Jack Play Game",
+    "description": "Blackjack is the best way to perfect this timeless table game for fun, offline and completely risk free!",
+    "url": "https://chrome.google.com/webstore/detail/black-jack-play-game/akclccfjblcngnchpgekhijggnibifla",
+    "rating": 5,
+    "ratings": 2
+  },
+  {
+    "name": "Messenger Chatbot: AI-Powered by Chat GPT-4",
+    "description": "Ultimate Efficiency Tool for Facebook Messenger, Create replies 10x faster with ChatGPT！",
+    "url": "https://chrome.google.com/webstore/detail/messenger-chatbot-ai-powe/mdfadbcapjhogbppjfpgoamcbeiohdih",
+    "rating": 5,
+    "ratings": 9
+  },
+  {
+    "name": "Hola VPN - The Website Unblocker",
+    "description": "Hola VPN - Free (limited) or Premium version. VPN extension to access any website.",
+    "url": "https://chrome.google.com/webstore/detail/hola-vpn-the-website-unbl/gkojfkhlekighikafcpjkiklfbnlmeio",
+    "rating": 4.9,
+    "ratings": 358362
+  },
+  {
+    "name": "Neeva Search für Chrome",
+    "description": "Neeva Search für Chrome",
+    "url": "https://chrome.google.com/webstore/detail/neeva-search-for-chrome/bdifechcjcejkaigiikdammjjmoinode",
+    "rating": 5,
+    "ratings": 2
+  }
+]
