@@ -19,12 +19,12 @@ The extension should work on both Chrome and Firefox by using the [web extension
 
 ## Installation & Getting started
 1. Clone the repository
-2. Install the dependencies with `npm install`
+2. Install the dependencies with `npm install` or `pnpm install`
 3. Create a [Firebase](https://firebase.google.com/) project and add a web app
 4. Copy the Firebase configuration from the Firebase console and paste it into the `firebase` variable in the file `firebase.js`.
-3. Build the extension with `npm run build`
-4. Load the `dist` folder of the extension in Firefox or Chrome
-5. Open a website and let the extension initialize
+3. Build the extension with `npm run build` or `pnpm install`
+4. Load the `dist` folder of the extension in Firefox or Chrome and activate the extension
+5. Open a website and let the extension initialize (wait a second or two...)
 5. Open the extension popup and click on "Create Session"
 6. Share the session ID with your friends
 7. Your friends can join the session by clicking on "Join Session" and entering the session ID
@@ -49,4 +49,4 @@ The settings of the extension are stored and persisted using the [browser.storag
 The author of this extension is [Jakob Osterberger](https://jkoster.com). Special thanks to my supervisor [FH-Prof. DI (FH) Dr. Johannes Schönböck](https://pure.fh-ooe.at/de/persons/johannes-sch%C3%B6nb%C3%B6ck) for his support and guidance.
 
 ## Accompanying bachelor thesis
-The accompanying bachelor thesis can be found [here](). It contains a detailed description of the extension and its implementation.
+The accompanying bachelor thesis can be found [here](). It contains a detailed description of the extension and its impleme
