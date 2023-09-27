@@ -22,7 +22,7 @@ The extension should work on both Chrome and Firefox by using the [web extension
 2. Install the dependencies with `npm install` or `pnpm install`
 3. Create a [Firebase](https://firebase.google.com/) project and add a web app
 4. Copy the Firebase configuration from the Firebase console and paste it into the `firebase` variable in the file `firebase.js`.
-3. Build the extension with `npm run build` or `pnpm install`
+3. Build the extension with `npm run build` or `pnpm install` (to build the extension on file change run `npm run dev` or `pnpm run dev`)
 4. Load the `dist` folder of the extension in Firefox or Chrome and activate the extension
 5. Open a website and let the extension initialize (wait a second or two...)
 5. Open the extension popup and click on "Create Session"
